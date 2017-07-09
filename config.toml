@@ -10,9 +10,10 @@ googleAnalytics = ""
 paginate = 10
 
 [params]
+    style="candy"
     viewMorePostLink     = "/blog/"
-    author = "DevCows"
-
+    author = "DevCows" 
+    
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
     # email. Visitors can send up to a 1000 emails each month for free.
