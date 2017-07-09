@@ -1,7 +1,11 @@
 /* your styles go here */
- 
 
 .box-simple {
-  min-height: 230px;
+    min-height: 230px;
 }
 
+@media (max-width: 991px) {
+    .col-sm-6:nth-child(2n+1) {
+        clear: both;
+    }
+}
