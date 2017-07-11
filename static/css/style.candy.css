@@ -1756,8 +1756,8 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .bar.background-pentagon {
   background: url('../img/backgrounds/tiny_grid.png') center center repeat;
-  border-top: solid 1px #585858;
-  border-bottom: solid 1px #585858;
+  border-top: solid 1px #ccc;
+  border-bottom: solid 1px #ccc;
 }
 .bar.background-pentagon1 {
   background: url('../img/texture-bw.png') center center repeat;
@@ -1780,6 +1780,11 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .bar.background-image-fixed-2 {
   background: url('../img/fixed-background-2.jpg') center top no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.bar.background-image-fixed-3 {
+  background: url('../img/backgrounds/fixed-background-3.jpg') center top no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }

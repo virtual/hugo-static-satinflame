@@ -49,7 +49,11 @@
                            
                         <!-- /#post-content -->
                       
-
+     {{ if .Site.DisqusShortname }} 
+                        <div id="comments">
+                            {{ template "_internal/disqus.html" . }}
+                        </div> 
+                        {{ end }}
                     </article>
                     <!-- /#blog-post -->
 
@@ -80,16 +84,11 @@
             <!-- /.container -->
             {{ partial "widgets/tags-this.html" . }}
             
-              {{ if .Site.DisqusShortname }}
-                       <div class="container">
-                        <div id="comments">
-                            {{ template "_internal/disqus.html" . }}
-                        </div></div>
-                        {{ end }}
+         
         </div>
         <!-- /#content -->
 
-        {{ partial "footer.html" . }}
+        {{  partial "footer.html" . }}
 
     </div>
     <!-- /#all -->

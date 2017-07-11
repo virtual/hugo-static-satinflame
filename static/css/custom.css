@@ -29,7 +29,7 @@ body.custom-background {
     padding: 30px 45px;
 }*/
 
-#heading-breadcrumbs { background-color: #b54c68;
+#heading-breadcrumbs { background-color: #a71068;
     background-image: url(http://satinflame.com/wp-content/uploads/2016/01/bk.jpg);
     background-position: left top;
     background-size: auto;
@@ -37,19 +37,41 @@ body.custom-background {
     background-attachment: scroll; }
 #heading-breadcrumbs h1 { color:#fff;}
 
-code { background:lighten(#b54c68,90)}
+pre { background:#f5f7ff;border:1px solid #caccd4}
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', serif;
 }
 #footer2 { background-color: #f19d2d;}
-
+#footer, #copyright { background:#333333; padding: 20px 0;}
 #content > .tag-container .panel {
     background: transparent; margin-bottom:0; 
 }
-#content > .tag-container { background:#b54c68; padding: 10px; margin:0;}
+#content > .tag-container { background:#a71068; padding: 10px; margin:0;}
 #content > .tag-container .panel.sidebar-menu ul.tag-cloud li a { background: transparent; color:#fff; border:0;}
 #content > .tag-container .panel.sidebar-menu ul.tag-cloud li a:visited, #content > .tag-container .panel.sidebar-menu ul.tag-cloud li a:active { color:#ffdcad; }
 #content > .tag-container .panel.sidebar-menu ul.tag-cloud li a:hover{ background:rgba(0, 0, 0, 0.14);}
 .panel.sidebar-menu ul.tag-cloud { margin-bottom: 0;}
 #blog-listing-medium .container { width:100%; padding-left:0; margin-left:0;}
+
+.box-simple .icon { background:#333; border:0;}
+.box-simple .icon .fa { font-size: 2rem;}
+.bar.background-pentagon { border: 1px solid #ccc;}
+
+.home-carousel {
+    background: url('/img/backgrounds/fixed-background-3.jpg') center center repeat;
+}
+.home-carousel .dark-mask  { opacity: .8; }
+ .bar .dark-mask {    opacity: .3; background:#000;}
+.home-carousel .owl-theme .owl-controls .owl-page span {
+    background: #f3c8c8;
+}
+.heading h1, .heading h2, .heading h3, .heading h4, .heading h5 { border-bottom-color: #f19d2d}
+#content > .container { padding-bottom:50px;}
+
+#heading-breadcrumbs h1 {
+    text-transform: none;
+    letter-spacing: .02rem;
+    text-align: center;
+    font-weight: normal;
+}

@@ -29,20 +29,11 @@ paginate = 10
     #
     # Enable the contact form by entering your Formspree.io email
     email = "jeanine@satinflame.com"
-
-    about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
+ 
     copyright = "&copy; 2014-2017, satinflame design"
     date_format = "2006-01-02"
     logo = "img/logo.png"
-    address = """<p><strong>Universal Ltd.</strong>
-        <br>13/25 New Avenue
-        <br>Newtown upon River
-        <br>45Y 73J
-        <br>England
-        <br>
-        <strong>Great Britain</strong>
-      </p>
-      """
+ 
 
 [Permalinks]
     blog = "/blog/:year/:month/:filename/"
@@ -98,26 +89,26 @@ paginate = 10
     # at 'exampleSite/data/testimonials'.
     # For more informtion take a look at the README.
     title = "Testimonials"
-    subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
+    subtitle = "Nothing delights me more than happy clients! Here's what some have to say about my work."
 
 [params.see_more]
     enable = true
-    # icon = "fa fa-file-code-o"
-    icon = ""
-    title = "Do you want to see more?"
-    subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
-    link_url = "#"
-    link_text = "Check other homepages"
+   # icon = "fa fa-file-code-o"
+     title = "Let's work together."
+    subtitle = "If your website needs custom web development, updates in OmniUpdate's OUCampus CMS, or site-wide style changes, contact me—let's see if your project would be a good match."
+    link_url = "/contact"
+    link_text = "Send me a message"
 
 [params.clients]
     enable = true
     # All clients are defined in their own files. You can find example items
     # at 'exampleSite/data/clients'.
     # For more informtion take a look at the README.
-    title = "Our Clients"
+    title = "Clients"
     subtitle = ""
 
 [params.recent_posts]
-    enable = true
-    title = "From our blog"
+    enable = false
+    title = "From the blog"
     subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
+  
