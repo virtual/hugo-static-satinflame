@@ -12,7 +12,8 @@ paginate = 10
 [params]
     style="candy"
     viewMorePostLink     = "/blog/"
-    author = "DevCows" 
+    author = "Jeanine Schoessler" 
+    
     
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -27,10 +28,10 @@ paginate = 10
     # - you're done. Happy mailing!
     #
     # Enable the contact form by entering your Formspree.io email
-    email = "your@email.com"
+    email = "jeanine@satinflame.com"
 
     about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
+    copyright = "&copy; 2014-2017, satinflame design"
     date_format = "2006-01-02"
     logo = "img/logo.png"
     address = """<p><strong>Universal Ltd.</strong>
@@ -44,27 +45,34 @@ paginate = 10
       """
 
 [Permalinks]
-    blog = "/blog/:year/:month/:day/:filename/"
+    blog = "/blog/:year/:month/:filename/"
 
-[[params.menu]]
+[[params.menu.main]]
     name = "Home"
     url  = "/"
     weight = 1
 
-[[params.menu]]
-    name = "Blog"
-    url  = "/blog/"
+[[params.menu.main]]
+    name = "Portfolio"
+    url  = "/categories/portfolio/"
     weight = 2
 
-[[params.menu]]
-    name = "FAQ"
-    url  = "/faq/"
+[[params.menu.main]]
+    name = "Blog"
+    url  = "/categories/blog/"
     weight = 3
 
-[[params.menu]]
+[[params.menu.main]]
+    name = "About"
+    url  = "/about/"
+    weight = 4
+    
+[[params.menu.main]]
     name = "Contact"
     url  = "/contact/"
-    weight = 4
+    weight = 5
+    
+    SectionPagesMenu = "main"
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]
@@ -94,7 +102,8 @@ paginate = 10
 
 [params.see_more]
     enable = true
-    icon = "fa fa-file-code-o"
+    # icon = "fa fa-file-code-o"
+    icon = ""
     title = "Do you want to see more?"
     subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
     link_url = "#"

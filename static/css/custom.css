@@ -1,5 +1,5 @@
 /* your styles go here */
-
+html {font-size:1rem;}
 .box-simple {
     min-height: 230px;
 }
@@ -9,3 +9,30 @@
         clear: both;
     }
 }
+
+.blog-banner img { padding-bottom:10px;}
+/*
+body.custom-background {
+    background-color: #b54c68;
+    background-image: url(http://satinflame.com/wp-content/uploads/2016/01/bk.jpg);
+    background-position: left top;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+}
+
+.page-single #content > .container {
+    background: #fff;
+    margin: 30px auto;
+    padding: 30px 45px;
+}*/
+
+#heading-breadcrumbs { background-color: #b54c68;
+    background-image: url(http://satinflame.com/wp-content/uploads/2016/01/bk.jpg);
+    background-position: left top;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: scroll; }
+#heading-breadcrumbs h1 { color:#fff;}
+
+code { background:lighten(#b54c68,90)}

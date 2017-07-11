@@ -3,38 +3,39 @@ title: "Setting Up A Multi Website Magento Store"
 date: 2017-03-04T09:37:25-06:00
 banner: "img/banners/magento-1-1024x493.png"
 tags: ["programming", magento"]
-categories: ["programming"]
+categories: ["blog"]
 author: "Jeanine Schoessler"
-description: "read on!"
+excerpt: "Though there is a lot to learn, understanding the file structure of Magento is essential in order to migrate a store into a multi-website for an upgraded store. Here is an overview of the steps to migrate a second store into Magento."
 ---
 
 Last year I had the opportunity to learn about working in the e-commerce platform Magento–creating products, adding modules, updating security patches and more. Though there is a lot to learn, understanding the file structure of Magento was essential in order to migrate another store (running version 1.4) into a multi-website for another store that had been recently upgraded to 1.9.2\. While searching for the best process, I learned there are many ways to set up a second store on the same Magento install—but there were many things I still didn’t understand being the novice server administer of a one-person web team.
 
 Below is an overview of the steps I took to migrate a second store into Magento; please note that this is not an exhaustive list but an overview to point you in the direction of which parts you may need to learn more about.
 
-## Add second website to Magento
+Add second website to Magento
+---------------------
 
 There are many guides that cover this including [How To Setup Multiple Stores On Magento](https://www.cloudways.com/blog/how-to-setup-multiple-stores-on-magento/). Be sure to understand the difference between a website, store and language. Separate websites can reference the same products and CMS pages, but they are typically used for completely different product catalogs. Set up your categories and website from the store settings, keeping the website code in mind, as you will want to make this consistent in your settings. Try it out now and [set up your second store.](https://www.cloudways.com/blog/how-to-setup-multiple-stores-on-magento/)
 
-<div>
+
 
 ## Modify server to accommodate multiple Magento websites
 
-</div>
+
 
 To me, the most daunting part of adding a new website to an existing Magento install was the fear of making an error that would take down the current website. After testing with local web servers, here are the steps I took on our Apache server (running Debian 7×64):
 
-<div>
+
 
 ### Update DNS settings
 
-</div>
+
 
 From your second domain (or a test domain) update the CNAME/A name to point to the server address of your primary Magento website. For example, my setup looks like this:
 
 **Store2 Advanced DNS (A Records)**
 
-<table cellspacing="0" cellpadding="0">
+<table class="table" cellspacing="0" cellpadding="0">
 
 <tbody>
 
@@ -88,11 +89,11 @@ Add your second domain to sites-available on your server. Once you are satisfied
 
 **Test apache server config prior to restarting:**
 
-<tt>  /usr/sbin/apachectl configtest</tt>
+    /usr/sbin/apachectl configtest
 
 **Restart:**
 
-<tt>  sudo service apache2 restart</tt>
+    sudo service apache2 restart
 
 ## Update primary website web files
 
@@ -112,24 +113,25 @@ When typing in your primary or secondary website URL, the server must have a way
 
 **index.php:**
 
-<tt>/* Store or website code */  
-</tt><tt>$mageRunCode = isset($_SERVER['MAGE_RUN_CODE']) ? $_SERVER['MAGE_RUN_CODE'] : '';  
-</tt><tt>/* Run store or run website */  
-</tt><tt>$mageRunType = isset($_SERVER['MAGE_RUN_TYPE']) ? $_SERVER['MAGE_RUN_TYPE'] : 'website';</tt>
+    /* Store or website code */  
+    $mageRunCode = isset($_SERVER['MAGE_RUN_CODE']) ? $_SERVER['MAGE_RUN_CODE'] : '';  
+    /* Run store or run website */  
+    $mageRunType = isset($_SERVER['MAGE_RUN_TYPE']) ? $_SERVER['MAGE_RUN_TYPE'] : 'website';
 
-<tt>switch($_SERVER['HTTP_HOST']) {  
-</tt><tt>  case 'store1.com':  
-</tt><tt>  case 'www.store1.com':  
-</tt><tt>  $mageRunCode = 'store1';  
-</tt><tt>  $mageRunType = 'website';  
-</tt><tt>  break;  
-</tt><tt>  case 'store2.com':  
-</tt><tt>  case 'www.store2.com':  
-</tt><tt>  $mageRunCode = 'store2';  
-</tt><tt>  $mageRunType = 'website';  
-</tt><tt>  break;  
-</tt><tt>}  
-</tt><tt>Mage::run($mageRunCode, $mageRunType);</tt>
+    switch($_SERVER['HTTP_HOST']) {  
+      case 'store1.com':  
+      case 'www.store1.com':  
+      $mageRunCode = 'store1';  
+      $mageRunType = 'website';  
+      break;  
+      case 'store2.com':  
+      case 'www.store2.com':  
+      $mageRunCode = 'store2';  
+      $mageRunType = 'website';  
+      break;  
+    }  
+    Mage::run($mageRunCode, $mageRunType);
+ 
 
 ## Additional Magento updates
 
@@ -169,11 +171,11 @@ In order to restrict viewing of your second website to your IP only, use the <Lo
 
 **sites-available/secondstore:**
 
-<tt><Location />  
-</tt><tt>Order deny,allow  
-</tt><tt>Deny from all  
-</tt><tt>Allow from 174.45.x.x  
-</tt><tt></Location> </tt>
+    <Location />  
+    Order deny,allow  
+    Deny from all  
+    Allow from 174.45.x.x  
+    </Location> 
 
 ### Import/Export
 
