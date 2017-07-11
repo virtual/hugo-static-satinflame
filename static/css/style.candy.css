@@ -190,7 +190,7 @@ ul.list-style-none {
   margin-bottom: 20px;
 }
 .pages-listing .item .text p {
-  color: #999999;
+  color: #585858;
   font-size: 12px;
   margin-bottom: 20px;
 }
@@ -248,7 +248,7 @@ ul.list-style-none {
   text-align: right;
 }
 #top .social a {
-  color: #999999;
+  color: #585858;
   display: inline-block;
   width: 24px;
   height: 24px;
@@ -295,7 +295,7 @@ ul.list-style-none {
 }
 #top.light {
   background: #fff;
-  color: #999999;
+  color: #585858;
   border-bottom: solid 1px #eeeeee;
 }
 #top.light .login a {
@@ -357,7 +357,7 @@ ul.list-style-none {
 }
 .navbar ul.dropdown-menu li a {
   position: relative;
-  color: #999999;
+  color: #585858;
   font-size: 12px;
   display: block;
   -webkit-transition: all 0.2s ease-out;
@@ -410,7 +410,7 @@ ul.list-style-none {
 }
 .navbar .yamm-content ul li a {
   position: relative;
-  color: #999999;
+  color: #585858;
   font-size: 12px;
   display: block;
   -webkit-transition: all 0.2s ease-out;
@@ -441,7 +441,7 @@ ul.list-style-none {
 }
 .navbar .btn-default,
 .navbar .btn-default.navbar-toggle {
-  color: #999999;
+  color: #585858;
   background-color: #fff;
   margin-left: 7px;
   margin-right: 0;
@@ -925,7 +925,7 @@ fieldset[disabled] .btn-template-primary.active {
   background: yellow;
 }
 .panel.sidebar-menu .panel-body label {
-  color: #999999;
+  color: #585858;
   font-size: 12px;
 }
 .panel.sidebar-menu .panel-body label:hover {
@@ -956,7 +956,7 @@ fieldset[disabled] .btn-template-primary.active {
   padding: 10px 15px;
   padding-left: 30px;
   font-size: 12px;
-  color: #999999;
+  color: #585858;
 }
 .panel.sidebar-menu ul.nav ul li a:hover,
 .panel.sidebar-menu ul.nav ul li a:focus {
@@ -1038,7 +1038,7 @@ fieldset[disabled] .btn-template-primary.active {
 .panel.sidebar-menu ul.recent li p.date {
   float: right;
   font-size: 12px;
-  color: #999999;
+  color: #585858;
 }
 .panel.sidebar-menu ul.popular li:last-child,
 .panel.sidebar-menu ul.recent li:last-child {
@@ -1283,7 +1283,7 @@ fieldset[disabled] .btn-template-primary.active {
   clear: both;
 }
 .testimonials .item .testimonial .text {
-  color: #999999;
+  color: #585858;
   margin-bottom: 40px;
 }
 .testimonials .item .testimonial .bottom {
@@ -1314,7 +1314,7 @@ fieldset[disabled] .btn-template-primary.active {
   letter-spacing: 0.08em;
 }
 .testimonials .item .testimonial .name-picture p {
-  color: #999999;
+  color: #585858;
   margin: 0;
   font-size: 12px;
 }
@@ -1338,7 +1338,7 @@ fieldset[disabled] .btn-template-primary.active {
   color: #555555;
 }
 .team-member p.role {
-  color: #999999;
+  color: #585858;
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 0.06em;
@@ -1381,7 +1381,7 @@ fieldset[disabled] .btn-template-primary.active {
   background-color: #4a7f45;
 }
 .team-member .text p {
-  color: #999999;
+  color: #585858;
   font-size: 12px;
 }
 .team-member .social,
@@ -1453,7 +1453,7 @@ fieldset[disabled] .btn-template-primary.active {
   color: #555555;
 }
 .box-simple p {
-  color: #999999;
+  color: #585858;
 }
 .box-simple:hover .icon {
   -webkit-transform: scale(1.1, 1.1);
@@ -1469,7 +1469,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .box-simple.box-white {
   padding: 20px;
-  border: dotted 1px #999999;
+  border: dotted 1px #585858;
 }
 .box-simple.box-white .icon {
   color: #555555;
@@ -1478,7 +1478,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .box-simple.box-dark {
   padding: 20px;
-  border: dotted 1px #999999;
+  border: dotted 1px #585858;
   background: #555555;
   color: #fff;
 }
@@ -1639,7 +1639,7 @@ fieldset[disabled] .btn-template-primary.active {
   letter-spacing: 0.08em;
 }
 .box-image-text .content p {
-  color: #999999;
+  color: #585858;
 }
 .box-image-text:hover .bg {
   opacity: 0.7;
@@ -1756,13 +1756,13 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .bar.background-pentagon {
   background: url('../img/backgrounds/tiny_grid.png') center center repeat;
-  border-top: solid 1px #999999;
-  border-bottom: solid 1px #999999;
+  border-top: solid 1px #585858;
+  border-bottom: solid 1px #585858;
 }
 .bar.background-pentagon1 {
   background: url('../img/texture-bw.png') center center repeat;
-  border-top: solid 1px #999999;
-  border-bottom: solid 1px #999999;
+  border-top: solid 1px #585858;
+  border-bottom: solid 1px #585858;
 }
 .bar.background-gray {
   background: #eeeeee;
@@ -1828,7 +1828,7 @@ fieldset[disabled] .btn-template-primary.active {
   letter-spacing: 0.08em;
 }
 .portfolio-project .project-more p {
-  color: #999999;
+  color: #585858;
   padding: 10px 0;
   margin-bottom: 20px;
   text-align: left;
@@ -1846,7 +1846,7 @@ fieldset[disabled] .btn-template-primary.active {
   margin-bottom: 20px;
 }
 .portfolio-showcase p {
-  color: #999999;
+  color: #585858;
 }
 .portfolio-showcase p.buttons {
   margin-top: 40px;
@@ -1927,7 +1927,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .packages .package .price .period {
   line-height: normal;
-  color: #999999;
+  color: #585858;
 }
 .packages .package ul {
   padding: 0;
@@ -1998,7 +1998,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 #blog-listing-big .post .author-category,
 #blog-homepage .post .author-category {
-  color: #999999;
+  color: #585858;
   text-transform: uppercase;
   font-weight: 300;
   letter-spacing: 0.08em;
@@ -2009,7 +2009,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 #blog-listing-big .post .date-comments a,
 #blog-homepage .post .date-comments a {
-  color: #999999;
+  color: #585858;
   margin-right: 20px;
 }
 #blog-listing-big .post .date-comments a:hover,
@@ -2068,7 +2068,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 #blog-listing-medium .post .author-category {
   float: left;
-  color: #999999;
+  color: #585858;
   text-transform: uppercase;
   font-weight: 300;
   font-size: 12px;
@@ -2082,7 +2082,7 @@ fieldset[disabled] .btn-template-primary.active {
   font-size: 12px;
 }
 #blog-listing-medium .post .date-comments a {
-  color: #999999;
+  color: #585858;
   margin-right: 20px;
 }
 #blog-listing-medium .post .date-comments a:hover {
@@ -2145,7 +2145,7 @@ fieldset[disabled] .btn-template-primary.active {
   text-align: right;
 }
 .box-image-text.blog .author-category {
-  color: #999999;
+  color: #585858;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   font-weight: 300;
@@ -2193,7 +2193,7 @@ fieldset[disabled] .btn-template-primary.active {
   clear: both;
 }
 #blog-post .comment .posted {
-  color: #999999;
+  color: #585858;
   font-size: 12px;
 }
 #blog-post .comment .reply {
@@ -2280,7 +2280,7 @@ fieldset[disabled] .btn-template-primary.active {
   font-size: 18px;
 }
 .product .text p.price del {
-  color: #999999;
+  color: #585858;
 }
 .product .buttons {
   clear: both;
@@ -2324,7 +2324,7 @@ fieldset[disabled] .btn-template-primary.active {
   margin-bottom: 40px;
 }
 .goToDescription a {
-  color: #999999;
+  color: #585858;
   text-decoration: underline;
 }
 #productMain {
@@ -2436,7 +2436,7 @@ fieldset[disabled] .btn-template-primary.active {
   margin-top: 20px;
 }
 #order-summary table td {
-  color: #999999;
+  color: #585858;
 }
 #order-summary table tr.total td,
 #order-summary table tr.total th {
@@ -2512,7 +2512,7 @@ fieldset[disabled] .btn-template-primary.active {
 #footer {
   background: #555555;
   padding: 50px 0;
-  color: #999999;
+  color: #585858;
 }
 #footer h1,
 #footer h2,
@@ -2533,7 +2533,7 @@ fieldset[disabled] .btn-template-primary.active {
   list-style: none;
 }
 #footer ul a {
-  color: #999999;
+  color: #585858;
 }
 #footer ul a:hover {
   color: #a71068;
@@ -2669,11 +2669,11 @@ fieldset[disabled] .btn-template-primary.active {
   background-color: #eeeeee;
 }
 .nav > li.disabled > a {
-  color: #999999;
+  color: #585858;
 }
 .nav > li.disabled > a:hover,
 .nav > li.disabled > a:focus {
-  color: #999999;
+  color: #585858;
 }
 .nav .open > a,
 .nav .open > a:hover,
@@ -3197,7 +3197,7 @@ hr {
   color: #555555;
 }
 .breadcrumb > .active {
-  color: #999999;
+  color: #585858;
 }
 @media (max-width: 991px) {
   .breadcrumb {
@@ -3285,7 +3285,7 @@ label {
 .pager .disabled > a:hover,
 .pager .disabled > a:focus,
 .pager .disabled > span {
-  color: #999999;
+  color: #585858;
   background-color: #ffffff;
   border-color: #ddd;
 }
@@ -3329,7 +3329,7 @@ label {
 .pagination > .disabled > a,
 .pagination > .disabled > a:hover,
 .pagination > .disabled > a:focus {
-  color: #999999;
+  color: #585858;
   background-color: #ffffff;
   border-color: #dddddd;
 }
@@ -3417,7 +3417,7 @@ a.bg-primary:hover {
 }
 abbr[title],
 abbr[data-original-title] {
-  border-bottom: 1px dotted #999999;
+  border-bottom: 1px dotted #585858;
 }
 blockquote {
   padding: 10px 20px;
@@ -3431,7 +3431,7 @@ blockquote .small {
   display: block;
   font-size: 80%;
   line-height: 1.42857143;
-  color: #999999;
+  color: #585858;
 }
 blockquote footer:before,
 blockquote small:before,

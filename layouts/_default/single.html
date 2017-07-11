@@ -30,6 +30,7 @@
                                           <img src="{{ .Site.BaseURL}}{{ .Params.banner }}" class="img-responsive" alt="">
                                       
                                           {{ end }}
+                                      
                         <p class="text-muted text-uppercase mb-small text-right">{{ if .Params.author }}{{ i18n "authorBy" }}  <a href="{{ .Site.BaseURL }}/about">   {{ .Params.author }}    </a> | {{ end }}
                         
                         {{ if .Params.date }}
@@ -45,12 +46,9 @@
                                           
                           {{ .Content }}
                         </div>
+                           
                         <!-- /#post-content -->
-                        {{ if .Site.DisqusShortname }}
-                        <div id="comments">
-                            {{ template "_internal/disqus.html" . }}
-                        </div>
-                        {{ end }}
+                      
 
                     </article>
                     <!-- /#blog-post -->
@@ -65,6 +63,9 @@
 
                         {{ partial "sidebar.html" . }}
 
+                       
+
+
                         <!-- *** MENUS AND FILTERS END *** -->
 
                     </div>
@@ -74,9 +75,17 @@
 
                 </div>
                 <!-- /.row -->
-
+ 
             </div>
             <!-- /.container -->
+            {{ partial "widgets/tags-this.html" . }}
+            
+              {{ if .Site.DisqusShortname }}
+                       <div class="container">
+                        <div id="comments">
+                            {{ template "_internal/disqus.html" . }}
+                        </div></div>
+                        {{ end }}
         </div>
         <!-- /#content -->
 

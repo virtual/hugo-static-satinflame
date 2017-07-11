@@ -1,5 +1,7 @@
 /* your styles go here */
 html {font-size:1rem;}
+html, body {
+font-family: 'Source Sans Pro', sans-serif;}
 .box-simple {
     min-height: 230px;
 }
@@ -36,3 +38,18 @@ body.custom-background {
 #heading-breadcrumbs h1 { color:#fff;}
 
 code { background:lighten(#b54c68,90)}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', serif;
+}
+#footer2 { background-color: #f19d2d;}
+
+#content > .tag-container .panel {
+    background: transparent; margin-bottom:0; 
+}
+#content > .tag-container { background:#b54c68; padding: 10px; margin:0;}
+#content > .tag-container .panel.sidebar-menu ul.tag-cloud li a { background: transparent; color:#fff; border:0;}
+#content > .tag-container .panel.sidebar-menu ul.tag-cloud li a:visited, #content > .tag-container .panel.sidebar-menu ul.tag-cloud li a:active { color:#ffdcad; }
+#content > .tag-container .panel.sidebar-menu ul.tag-cloud li a:hover{ background:rgba(0, 0, 0, 0.14);}
+.panel.sidebar-menu ul.tag-cloud { margin-bottom: 0;}
+#blog-listing-medium .container { width:100%; padding-left:0; margin-left:0;}

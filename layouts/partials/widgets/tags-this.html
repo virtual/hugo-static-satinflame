@@ -1,0 +1,21 @@
+{{ if .Site.Params.widgets.tags }}
+{{ if isset .Site.Taxonomies "tags" }}
+{{ if not (eq (len .Site.Taxonomies.tags) 0) }}
+<div class="tag-container"><div class="container">
+ <div class="panel sidebar-menu">
+    
+    <div class="panel-body">
+       <ul class="tag-cloud" id="tags">
+  {{ range .Params.tags }}
+    <li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}"><i class="fa fa-tags"></i> {{ . }}</a> </li>
+  {{ end }}
+</ul>
+      
+   </div>
+   
+    </div>
+</div>
+</div>
+{{ end }}
+{{ end }}
+{{ end }}
