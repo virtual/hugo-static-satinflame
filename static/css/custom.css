@@ -122,3 +122,5 @@ h1, h2, h3, h4, h5, h6 {
 }
 .topnav .icons a { color:#fff; }
 .topnav .icons a:hover  { color:#f19d2d;}
+
+.page-single .sidebar-menu {padding-top:25px}

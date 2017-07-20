@@ -30,7 +30,10 @@
                                           <img src="{{ .Site.BaseURL}}{{ .Params.banner }}" class="img-responsive" alt="">
                                       
                                           {{ end }}
-                                      
+                                         {{ if .Params.banner }}
+                <h1>{{ .Title }}</h1>
+                       {{end}}
+                                    
                         <p class="text-muted text-uppercase mb-small text-right">{{ if .Params.author }}{{ i18n "authorBy" }}  <a href="{{ .Site.BaseURL }}/about">   {{ .Params.author }}    </a> | {{ end }}
                         
                         {{ if .Params.date }}
