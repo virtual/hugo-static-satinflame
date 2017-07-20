@@ -6,6 +6,18 @@ font-family: 'Source Sans Pro', sans-serif;}
     min-height: 230px;
 }
 
+.cf:before,
+.cf:after {
+  content: "";
+  display: table;
+} 
+.cf:after {
+  clear: both;
+}
+.cf {
+  zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
 @media (max-width: 991px) {
     .col-sm-6:nth-child(2n+1) {
         clear: both;
@@ -75,3 +87,38 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     font-weight: normal;
 }
+
+
+@media (min-width: 992px) {
+    div#navigation {
+
+        /* position: static; */
+        float: right;
+        position: relative;
+        bottom: 0;
+        position: absolute;
+        right: 0;
+        display:inline-block;
+        left: auto  ;
+        float: right;
+    
+    }   
+}
+
+.topnav {
+    background:#333;
+    color:#ccc;
+    width:100%; display:block; padding: 8px 16px;
+    font-size:.9em;
+}
+.topnav p { float:left; }
+.topnav p, .topnav ul { margin:0; padding:0; line-height: 1;}
+.topnav p.tagline { 
+    display:inline-block; padding-top:1px; 
+    text-transform: uppercase; font-size: .7rem; color:#ccc; font-family: Arial, Helvetica, sans-serif;}
+
+.topnav .icons {
+    float:right;
+}
+.topnav .icons a { color:#fff; }
+.topnav .icons a:hover  { color:#f19d2d;}
