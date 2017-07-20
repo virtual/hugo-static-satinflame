@@ -83,9 +83,11 @@ h1, h2, h3, h4, h5, h6 {
 
 #heading-breadcrumbs h1 {
     text-transform: none;
-    letter-spacing: .02rem;
-    text-align: center;
+    letter-spacing: 0.08em;
+    text-align: left;
     font-weight: normal;
+text-transform: uppercase; margin:0;
+font-size: 1.5em;
 }
 
 
@@ -111,6 +113,7 @@ h1, h2, h3, h4, h5, h6 {
     width:100%; display:block; padding: 8px 16px;
     font-size:.9em;
 }
+
 .topnav p { float:left; }
 .topnav p, .topnav ul { margin:0; padding:0; line-height: 1;}
 .topnav p.tagline { 
@@ -123,4 +126,10 @@ h1, h2, h3, h4, h5, h6 {
 .topnav .icons a { color:#fff; }
 .topnav .icons a:hover  { color:#f19d2d;}
 
-.page-single .sidebar-menu {padding-top:25px}
+#all > .topnav { background:#f19d2d;}
+#all > .topnav .icons { float:none; text-align: center; font-size: 1.2rem;}
+#all > .topnav .icons a { color:#975600; }
+#all > .topnav .icons a:hover  { color:#a71068;}
+
+
+.page-single .col-md-3 > .sidebar-menu {padding-top:25px}
