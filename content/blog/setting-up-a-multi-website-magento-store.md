@@ -8,6 +8,8 @@ author: "Jeanine Schoessler"
 excerpt: "Though there is a lot to learn, understanding the file structure of Magento is essential in order to migrate a store into a multi-website for an upgraded store. Here is an overview of the steps to migrate a second store into Magento."
 ---
 
+
+
 Last year I had the opportunity to learn about working in the e-commerce platform Magento–creating products, adding modules, updating security patches and more. Though there is a lot to learn, understanding the file structure of Magento was essential in order to migrate another store (running version 1.4) into a multi-website for another store that had been recently upgraded to 1.9.2\. While searching for the best process, I learned there are many ways to set up a second store on the same Magento install—but there were many things I still didn’t understand being the novice server administer of a one-person web team.
 
 Below is an overview of the steps I took to migrate a second store into Magento; please note that this is not an exhaustive list but an overview to point you in the direction of which parts you may need to learn more about.

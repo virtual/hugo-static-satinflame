@@ -9,4 +9,12 @@ author: "Jeanine Schoessler"
 excerpt: "Need a responsive interactive and customized map? This project uses SVG and Fancybox to create a useful resource for students trying to find their way around campus."
 ---
 
-Working on a redesign for your website? HGTC’s revamped webpages needed additional TLC after running through OmniUpdate’s migration script. For this project, I created new snippets, added updates for accessibility and SEO improvements, corrected broken links and fixed legacy content to look great on mobile. 
+When looking into how best to create an image with interactive elements, I had to go beyond using outdated image maps and get creative with implementing maps using SVG (Scalable Vector Graphics) and creating a responsive, interactive information pop-ups!
+
+This map looks great on desktop and mobile**—**[test it out yourself](http://www.montana.edu/reslife/map/)! The functionality enables a user to click either the name or the building itself to learn more about it.
+
+Within Illustrator, we grouped paths and then was able to edit the exported .svg file and assign IDs. Later, I targeted these groups to hide and display the building indicators as necessary.
+
+If you’ve designed a map on Adobe Illustrator, let me help create a responsive and interactive element that your users will love!
+
+_This great tool was a collaborative project with Alison Gauthier, Graphic Designer for Montana State University. Please note, illustrative work is very time consuming!_

@@ -306,13 +306,19 @@ ul.list-style-none {
 }
 .navbar ul.nav > li > a {
   text-transform: uppercase;
-  text-decoration: underline;
+  
   font-weight: bold;
   letter-spacing: 0.08em;
-  border-top: solid 5px transparent;
+    padding:12px 10px 4px 10px;
+    margin: 0 10px;
+    margin-bottom: 10px;
+    
+ border-bottom: 2px solid #fff
+    
 }
 .navbar ul.nav > li > a:hover {
-  border-top: solid 5px #a71068;
+ border-bottom: 2px solid #a71068;
+    color:#a71068;
 }
 .navbar ul.nav > li.active > a,
 .navbar ul.nav > li.open > a {
@@ -931,23 +937,23 @@ fieldset[disabled] .btn-template-primary.active {
 .panel.sidebar-menu .panel-body label:hover {
   color: #555555;
 }
-.panel.sidebar-menu ul.nav.category-menu {
+ul.nav.category-menu {
   margin-bottom: 20px;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 0.08em;
 }
-.panel.sidebar-menu ul.nav.category-menu li a {
+ul.nav.category-menu li a {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
-.panel.sidebar-menu ul.nav ul {
+ul.nav ul {
   list-style: none;
   padding-left: 0;
 }
-.panel.sidebar-menu ul.nav ul li {
+ul.nav ul li {
   display: block;
 }
-.panel.sidebar-menu ul.nav ul li a {
+ul.nav ul li a {
   position: relative;
   font-family: "Times New Roman", Times, serif;
   font-weight: normal;
@@ -958,19 +964,19 @@ fieldset[disabled] .btn-template-primary.active {
   font-size: 12px;
   color: #585858;
 }
-.panel.sidebar-menu ul.nav ul li a:hover,
-.panel.sidebar-menu ul.nav ul li a:focus {
+ul.nav ul li a:hover,
+ul.nav ul li a:focus {
   text-decoration: none;
   background-color: #eeeeee;
 }
-.panel.sidebar-menu ul.tag-cloud {
+ul.tag-cloud {
   list-style: none;
   padding-left: 0;
 }
-.panel.sidebar-menu ul.tag-cloud li {
+ul.tag-cloud li {
   display: inline-block;
 }
-.panel.sidebar-menu ul.tag-cloud li a {
+ul.tag-cloud li a {
   display: inline-block;
   padding: 5px;
   border: solid 1px #eeeeee;
@@ -982,66 +988,66 @@ fieldset[disabled] .btn-template-primary.active {
   font-weight: 700;
   font-size: 12px;
 }
-.panel.sidebar-menu ul.tag-cloud li a:hover {
+ul.tag-cloud li a:hover {
   color: #a71068;
   text-decoration: none;
   border-color: #a71068;
 }
-.panel.sidebar-menu ul.popular,
-.panel.sidebar-menu ul.recent {
+ul.popular,
+ul.recent {
   list-style: none;
   padding-left: 0;
   padding: 20px 0;
 }
-.panel.sidebar-menu ul.popular li,
-.panel.sidebar-menu ul.recent li {
+ul.popular li,
+ul.recent li {
   margin-bottom: 10px;
   padding: 5px 0;
   border-bottom: dotted 1px #eeeeee;
 }
-.panel.sidebar-menu ul.popular li:before,
-.panel.sidebar-menu ul.recent li:before,
-.panel.sidebar-menu ul.popular li:after,
-.panel.sidebar-menu ul.recent li:after {
+ul.popular li:before,
+ul.recent li:before,
+ul.popular li:after,
+ul.recent li:after {
   content: " ";
   display: table;
 }
-.panel.sidebar-menu ul.popular li:after,
-.panel.sidebar-menu ul.recent li:after {
+ul.popular li:after,
+ul.recent li:after {
   clear: both;
 }
-.panel.sidebar-menu ul.popular li:before,
-.panel.sidebar-menu ul.recent li:before,
-.panel.sidebar-menu ul.popular li:after,
-.panel.sidebar-menu ul.recent li:after {
+ul.popular li:before,
+ul.recent li:before,
+ul.popular li:after,
+ul.recent li:after {
   content: " ";
   display: table;
 }
-.panel.sidebar-menu ul.popular li:after,
-.panel.sidebar-menu ul.recent li:after {
+ul.popular li:after,
+ul.recent li:after {
   clear: both;
 }
-.panel.sidebar-menu ul.popular li img,
-.panel.sidebar-menu ul.recent li img {
+ul.popular li img,
+ul.recent li img {
   width: 50px;
   margin-right: 10px;
 }
-.panel.sidebar-menu ul.popular li h5,
-.panel.sidebar-menu ul.recent li h5 {
+ul.popular li h5,
+ul.recent li h5 {
   margin: 0 0 10px;
 }
-.panel.sidebar-menu ul.popular li h5 a,
-.panel.sidebar-menu ul.recent li h5 a {
+ul.popular li h5 a,
+ul.recent li h5 a {
   font-weight: normal;
 }
-.panel.sidebar-menu ul.popular li p.date,
-.panel.sidebar-menu ul.recent li p.date {
+ul.popular li p.date,
+ul.recent li p.date {
   float: right;
   font-size: 12px;
   color: #585858;
 }
-.panel.sidebar-menu ul.popular li:last-child,
-.panel.sidebar-menu ul.recent li:last-child {
+ul.popular li:last-child,
+ul.recent li:last-child {
   border-bottom: none;
 }
 .panel.sidebar-menu .text-widget {
@@ -3082,8 +3088,8 @@ fieldset[disabled] .btn-template-primary.active {
 .navbar-default .navbar-nav > li > a {
   color: #555555;
 }
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
+.2navbar-default .navbar-nav > li > a:hover,
+.2navbar-default .navbar-nav > li > a:focus {
   color: #555555;
   background-color: #e2c1d7;
 }

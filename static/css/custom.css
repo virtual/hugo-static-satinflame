@@ -22,26 +22,12 @@ font-family: 'Source Sans Pro', sans-serif;}
     .col-sm-6:nth-child(2n+1) {
         clear: both;
     }
+    #blog-post #post-content { padding-bottom:20px;}
 }
 
-.blog-banner img { padding-bottom:10px;}
-/*
-body.custom-background {
-    background-color: #b54c68;
-    background-image: url(http://satinflame.com/wp-content/uploads/2016/01/bk.jpg);
-    background-position: left top;
-    background-size: auto;
-    background-repeat: repeat;
-    background-attachment: scroll;
-}
+.blog-banner img { padding-bottom:10px;} 
 
-.page-single #content > .container {
-    background: #fff;
-    margin: 30px auto;
-    padding: 30px 45px;
-}*/
-
-#heading-breadcrumbs { background-color: #a71068;
+#heading-breadcrumbs { background-color: #a1045d;
     background-image: url(http://satinflame.com/wp-content/uploads/2016/01/bk.jpg);
     background-position: left top;
     background-size: auto;
@@ -52,18 +38,14 @@ body.custom-background {
 pre { background:#f5f7ff;border:1px solid #caccd4}
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto', serif;
+    font-family:  'Roboto', 'Helvetica Neue', 'Arial Narrow', serif;
 }
 #footer2 { background-color: #f19d2d;}
 #footer, #copyright { background:#333333; padding: 20px 0;}
 #content > .tag-container .panel {
-    background: transparent; margin-bottom:0; 
+    background: transparent; margin-bottom:0;   
 }
-#content > .tag-container { background:#a71068; padding: 10px; margin:0;}
-#content > .tag-container .panel.sidebar-menu ul.tag-cloud li a { background: transparent; color:#fff; border:0;}
-#content > .tag-container .panel.sidebar-menu ul.tag-cloud li a:visited, #content > .tag-container .panel.sidebar-menu ul.tag-cloud li a:active { color:#ffdcad; }
-#content > .tag-container .panel.sidebar-menu ul.tag-cloud li a:hover{ background:rgba(0, 0, 0, 0.14);}
-.panel.sidebar-menu ul.tag-cloud { margin-bottom: 0;}
+ 
 #blog-listing-medium .container { width:100%; padding-left:0; margin-left:0;}
 
 .box-simple .icon { background:#333; border:0;}
@@ -90,6 +72,10 @@ text-transform: uppercase; margin:0;
 font-size: 1.5em;
 }
 
+#blog-post .tag-container { position: absolute;  padding:10px; margin:0; width:100%; background:transparent;  bottom:0;} 
+#blog-post .tag-container .panel, #blog-post .tag-container .panel-body { padding:0; margin:0; background:transparent;}
+#blog-post .tag-container a { background-color: #fff; border: 1px solid rgba(172, 25, 108, 0.53);}
+#blog-post .topbanner { position: relative;}
 
 @media (min-width: 992px) {
     div#navigation {
@@ -129,7 +115,60 @@ font-size: 1.5em;
 #all > .topnav { background:#f19d2d;}
 #all > .topnav .icons { float:none; text-align: center; font-size: 1.2rem;}
 #all > .topnav .icons a { color:#975600; }
-#all > .topnav .icons a:hover  { color:#a71068;}
+#all > .topnav .icons a:hover  { color:#a1045d;}
 
 
 .page-single .col-md-3 > .sidebar-menu {padding-top:25px}
+figure h4 { font-weight: 400; font-size: .8rem; color:#333; margin-bottom: 0; padding:0px 0 15px 0;} 
+.figstack { 
+background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    border: 1px solid rgba(167, 16, 104, 0.16); padding: 16px 8px 0 8px; margin-bottom:10px;}
+.figstack > a { float:left; width:25%; padding:0 8px;}
+.figstack:after { content: ''; display:block; width:100%; clear:both;}
+figure img {
+    padding: 2px; border: 1px solid #eee;
+    max-width: 100%;
+    width: 100%;
+}
+@media (max-width: 767px) {
+    .figstack > a { width:50%;}
+}
+
+
+/* underline */
+ .post-content {
+  text-shadow:
+    -1px -1px white,
+    -1px 1px white,
+    1px -1px white,
+    1px 1px white;
+}
+
+.post-content p a {
+  background-size: 2px 2em;
+  box-shadow:
+    inset 0 -0.06em white,
+    inset 0 -0.08em #a1045d;
+  display: inline;
+}
+.post-content p a:hover { 
+    text-decoration: none;
+ 
+  box-shadow:
+    inset 0 -0.06em white,
+    inset 0 -0.15em #f19d2d;
+}
+
+blockquote {
+    text-align: center;
+    font-style: italic;
+    color: #a5a4a4;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 30px;
+    margin: 30px;
+    font-style: italic;
+    margin: 30px;
+    padding: 30px;
+    border-left:0;
+}
