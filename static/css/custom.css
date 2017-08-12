@@ -180,4 +180,4 @@ blockquote {
     font-size: 1.1rem;
 }
 .alert.alert-info a { color: #f19d2d}
-.contact-form { display: none;}
+#contact .heading, .contact-form { display: none;}
