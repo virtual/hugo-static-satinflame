@@ -172,3 +172,12 @@ blockquote {
     padding: 30px;
     border-left:0;
 }
+
+.alert.alert-info {
+  background-color:#a30e62;
+    color: #fff;border-color: rgba(164, 10, 98, 0.17);
+    margin-top:20px;
+    font-size: 1.1rem;
+}
+.alert.alert-info a { color: #f19d2d}
+.contact-form { display: none;}
