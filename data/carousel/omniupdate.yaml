@@ -1,10 +1,10 @@
 weight: 2
-title: "OmniUpdate Implementation"
+title: "OU Campus customization"
 description: >
   <ul class="list-style-none">
-    <li>Web implementation into OUCampus</li>
+    <li>Development implementation for OmniUpdate's&nbsp;OU&nbsp;Campus&nbsp;CMS</li>
     <li>New Snippets and XSLT modifications</li>
     <li>Style updates and print layouts</li>
     <li>Migration and content reorganization</li>
   </ul>
-image: "img/carousel/template-easy-code.png"
+image: "img/carousel/omniupdate-oucampus-trans.png"

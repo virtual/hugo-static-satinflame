@@ -1,9 +1,8 @@
 ---
 title: "Northeastern University’s College of Professional Students"
 date: 2016-01-03T15:02:57-06:00
-draft: false
 banner: "img/banners/cps-neu-1024x576.jpg"
-tags: ["programming", "development", "responsive", "omniupdate"]
+tags: ["programming", "rwd", "omniupdate"]
 categories: ["portfolio"]
 author: "Jeanine Schoessler"
 excerpt: "Crafting a better responsive experience for higher education."
@@ -17,6 +16,14 @@ Using only 200 lines of CSS, I was able to take this page from its previous desi
 
 As this was one of the first pages I implemented responsive web design in, it was an interesting and rewarding challenge. If you have a project which needs a quick update to make it mobile friendly, [let’s chat](http://satinflame.com/contact/)!
 
-![http://www.cps.neu.edu/](http://satinflame.com/wp-content/uploads/2016/01/neu-300x168.png)
+ 
+
+ <div class="figstack">
+<a data-fancybox="gallery" href="/img/posts/neu-300x168.png">
+    {{< figure src="/img/posts/neu-300x168.png" title="CPS NEU Redesign" >}}
+</a> 
+</div>
+ 
+ 
 
 Visit the updated homepage at [http://www.cps.neu.edu/](http://www.cps.neu.edu/).

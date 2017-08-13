@@ -1,9 +1,8 @@
 ---
 title: "Elizabeth City State University Web Redesign"
 date: 2016-01-10T15:02:57-06:00
-draft: true
 banner: "img/banners/ecsu-wp.jpg"
-tags: ["programming", "omniupdate"]
+tags: ["bootstrap3", "programming", "rwd", "Sass", "omniupdate"]
 categories: ["portfolio"]
 author: "Jeanine Schoessler"
 excerpt: "ECSU’s redesign included many creative design pieces that presented fun challenges for implementing in a responsive environment."

@@ -3,8 +3,37 @@
     <div class="profile">
     <a href="/contact"><img src="/img/jeanine-helo-300x300.jpg" alt="Jeanine Schoessler front-end developer" /></a>
             </div>
-           <p class="alert alert-info">In fall 2017, I'll be studying full-stack development with Montana Code School.</p>        
-                       {{ partial "widgets/search.html" . }}
+         
+           <h2>Recent projects</h2>
+           <p>Creating new page properties (PCF &amp; XSL), implementing accessibility updates, and providing support for content migration.  </p>
+                 
+            <h2>Learning</h2>
+           <p >Working to fulfill my certificate in Business Administration. In fall 2017, I'll be studying full-stack development.</p>       
+   
+           <!--  {{ partial "widgets/search.html" . }} -->
+ <h2>Follow me</h2>
+<a class="twitter-follow-button"
+  href="https://twitter.com/graphical"
+  data-size="large">
+Follow @graphical</a>
 
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
 
-</div>
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+<h2>Tags</h2>
+ {{ partial "widgets/tags.html" . }}  
+
+ </div>

@@ -2,7 +2,7 @@
 title: "3 Steps to Improving your Amazon Business Catalog [List]"
 date: 2016-03-12T19:57:25-06:00
 banner: "/img/posts/amazon.png"
-tags: ["programming", "amazon"]
+tags: ["seo", "amazon"]
 categories: ["blog"]
 author: "Jeanine Schoessler"
 excerpt: "After a redesign website, Google Analytics showed a huge drop in bounce rate. The cause? Duplicating GA tags within my website’s code!"

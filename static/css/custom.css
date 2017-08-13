@@ -56,7 +56,7 @@ h1, h2, h3, h4, h5, h6 {
     background: url('/img/backgrounds/fixed-background-3.jpg') center center repeat;
 }
 .home-carousel .dark-mask  { opacity: .8; }
- .bar .dark-mask {    opacity: .3; background:#000;}
+ .bar .dark-mask {    opacity: .3; background:#000; background:#3e152d;}
 .home-carousel .owl-theme .owl-controls .owl-page span {
     background: #f3c8c8;
 }
@@ -181,12 +181,16 @@ blockquote {
     font-size: 1.1rem;
 }
 .alert.alert-info a { color: #f19d2d}
-#contact .heading, .contact-form { display: none;}
+#contact .heading, .contact-form, .panel.sidebar-menu .panel-heading h3.panel-title { display: none;}
 
 .sidebar { margin-top:30px; }
 .sidebar .profile img { width:50%; height: auto; padding:0; border-radius:50%;} 
 .sidebar .profile { text-align:center;}
-
+.sidebar p { padding-top:15px;}
+.sidebar h2:first-of-type { border-top:0;} 
+.sidebar h2 + p { padding-top:0;}
+.sidebar h2 { border-top:1px solid #ccc; padding-top:15px;font-size: 1em; 
+  font-weight: 600; text-transform: uppercase; padding-bottom:8px; margin-top:15px; margin-bottom:0;}
 
 /* bar */
 
@@ -292,3 +296,9 @@ background: linear-gradient(to right,  #f1b463 0%,#b54c68 100%); /* W3C, IE10+, 
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1b463', endColorstr='#b54c68',GradientType=1 ); /* IE6-9 */
 }
 /* end bar */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    ul.nav.navbar-nav li {
+      margin-top: 20px;
+  }
+}

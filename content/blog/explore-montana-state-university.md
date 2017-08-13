@@ -1,9 +1,8 @@
 ---
 title: "Explore Montana State University"
 date: 2016-04-27T15:02:57-06:00
-draft: true
 banner: "img/banners/Monitor_flat.jpg"
-tags: ["programming", "omniupdate"]
+tags: ["bootstrap3", "programming", "rwd", "Sass"]
 categories: ["portfolio"]
 author: "Jeanine Schoessler"
 excerpt: "Creating a lead generation page for your university or institution? Here are a few thoughts after implementing the “Explore” page for Montana State University."

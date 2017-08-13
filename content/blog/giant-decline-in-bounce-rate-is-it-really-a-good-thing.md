@@ -2,7 +2,7 @@
 title: "Giant Decline in Bounce Rate: Is it Really a Good Thing?"
 date: 2016-06-12T19:57:25-06:00
 banner: "/img/posts/bounce.png"
-tags: ["programming", "magento"]
+tags: ["analytics"]
 categories: ["blog"]
 author: "Jeanine Schoessler"
 excerpt: "After a redesign website, Google Analytics showed a huge drop in bounce rate. The cause? Duplicating GA tags within my website’s code!"
@@ -10,7 +10,7 @@ excerpt: "After a redesign website, Google Analytics showed a huge drop in bounc
 
 Is it Really a Good Thing? 
 
-**No, probably not. 🙁**
+**No, probably not.**
 
 In April 2016, I updated a website with a fresh, responsive Magento design in collaboration with Social Ruckus in Bozeman, Montana. There was a noticeable slowing of the websites as most features used AJAX and dynamic loading. Even so, I noticed a huge drop (~50% to 3%) in bounce rate.
 <blockquote class="twitter-tweet" data-lang="en">
