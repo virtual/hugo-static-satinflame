@@ -3,27 +3,19 @@
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ .Title }}</title>
-  <meta name="author" content="{{ .Site.Author.name }}" />
-
-  {{ if .Keywords }}
-  <meta name="keywords" content="{{ delimit .Keywords ", " }}">
-  {{ else if .Site.Params.DefaultKeywords }}
-  <meta name="keywords" content="{{ delimit .Site.Params.DefaultKeywords ", " }}">	
-  {{ end }}
-
-  {{ if .Description }}
-  <meta name="description" content="{{ .Description }}">
-  {{ else if .Site.Params.DefaultDescription }}
-  <meta name="description" content="{{ .Site.Params.DefaultDescription }}">	
-  {{ end }}
-
+  <title>{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}</title>
+  <meta name="author" content="{{ .Site.Author.display_name }}" />
+  <meta content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}" property="og:title">
+  {{ if .Keywords }}<meta name="keywords" content="{{ delimit .Keywords ", " }}">{{ else if .Site.Params.DefaultKeywords }}<meta name="keywords" content="{{ delimit .Site.Params.DefaultKeywords ", " }}">{{ end }}
+  {{ if .Description }}<meta name="description" content="{{ .Description }}">{{ else if .Params.excerpt }}<meta name="description" content="{{ .Params.excerpt }}">{{ else if .Site.Params.DefaultDescription }}
+  <meta name="description" content="{{ .Site.Params.DefaultDescription }}">{{ end }}
   {{ .Hugo.Generator }}
-    
-  
 
-
-
+  <!-- Facebook OpenGraph tags -->
+  <meta property="og:title" content="{{ .Title }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ .Site.BaseURL }}{{ .URL }}" />
+  {{ if .Params.banner }}<meta property="og:image" content="{{ .Site.BaseURL}}{{ .Params.banner }}" />{{ else}}<meta property="og:image" content="{{ .Site.Params.logo }}" />{{ end}}
 
   <!-- Bootstrap and Font Awesome css -->
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -33,18 +25,12 @@
   <link href="{{ .Site.BaseURL }}css/animate.css" rel="stylesheet">
 
   <!-- Theme stylesheet, if possible do not edit this stylesheet -->
-  {{ if and (isset .Site.Params "style") .Site.Params.style }}
-    <link href="{{ .Site.BaseURL }}css/style.{{ .Site.Params.style }}.css" rel="stylesheet" id="theme-stylesheet">
-  {{ else }}
-    <link href="{{ .Site.BaseURL }}css/style.default.css" rel="stylesheet" id="theme-stylesheet">
-  {{ end }}
-
+  {{ if and (isset .Site.Params "style") .Site.Params.style }}<link href="{{ .Site.BaseURL }}css/style.{{ .Site.Params.style }}.css" rel="stylesheet" id="theme-stylesheet">
+  {{ else }}<link href="{{ .Site.BaseURL }}css/style.default.css" rel="stylesheet" id="theme-stylesheet">{{ end }}
 
   <!-- Custom stylesheet - for your changes -->
   <link href="{{ .Site.BaseURL }}css/custom.css" rel="stylesheet">
   <link href="{{ .Site.BaseURL }}css/modernscale.css" rel="stylesheet">
-  
-  
 
   <!-- Responsivity for older IE -->
   {{ `
@@ -63,19 +49,15 @@
     <link rel="apple-touch-icon-precomposed" href="{{ .Site.BaseURL }}img/icons/cropped-logo2014_03-180x180.png" />
     <meta name="msapplication-TileImage" content="{{ .Site.BaseURL }}img/icons/cropped-logo2014_03-270x270.png" />
   
-  <!-- owl carousel css -->
 
+
+
+ 
+
+  <!-- owl carousel css -->
   <link href="{{ .Site.BaseURL }}css/owl.carousel.css" rel="stylesheet">
   <link href="{{ .Site.BaseURL }}css/owl.theme.css" rel="stylesheet">
-
   <link rel="alternate" href="{{ "/index.xml" | absURL }}" type="application/rss+xml" title="{{ .Site.Title }}">
-
-  <!-- Facebook OpenGraph tags -->
-  <meta property="og:title" content="{{ .Title }}" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="{{ .URL }}/" />
-  <meta property="og:image" content="{{ .Site.Params.logo }}" />
-
 {{ if .Params.banner }}
 <style>
   #heading-breadcrumbs  h1 { 
@@ -87,16 +69,12 @@
  
 
     #heading-breadcrumbs.mine { 
-      padding:100px 0 300px 0; 
+      
       background: linear-gradient(
 rgba(224, 171, 111, 0.96), 
     rgba(167, 16, 104, 0.51)
     ), url("{{ .Site.BaseURL}}{{ .Params.banner }}");
-    margin-bottom:0; 
-        background-size: cover;
-        background-position: center; 
-        background-attachment: fixed;
-        border-top:8px solid #a71068;
+    
     }
  
   #content #blog-post {

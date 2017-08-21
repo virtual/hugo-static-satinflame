@@ -1,7 +1,7 @@
 baseURL = "http://www.satinflame.com/"
 languageCode = "en-us"
 theme = "hugo-universal-theme"
-title = "satinflame design & web services"
+title = "satinflame design - Web Services for Higher Education"
 
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
@@ -12,7 +12,7 @@ paginate = 10
 [params]
     style="candy"
     viewMorePostLink     = "/blog/"
-    author = "Jeanine Schoessler" 
+    author = "jeanine" 
     
     
     # Since this template is static, the contact form uses www.formspree.io as a
@@ -110,5 +110,5 @@ paginate = 10
 [params.recent_posts]
     enable = false
     title = "From the blog"
-    subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
+    subtitle = "Recent posts from my blog"
   

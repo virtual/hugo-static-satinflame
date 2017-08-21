@@ -1198,7 +1198,7 @@ ul.recent li:last-child {
 .home-carousel h1 {
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 46px;
+  font-size: 2em;
   letter-spacing: 0.08em;
 }
 @media (max-width: 991px) {
@@ -1209,15 +1209,14 @@ ul.recent li:last-child {
 .home-carousel h2 {
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 40px;
+  font-size: 2em;
   letter-spacing: 0.08em;
 }
 .home-carousel ul,
 .home-carousel p {
   font-size: 18px;
   font-weight: 700;
-  padding: 0;
-  text-transform: uppercase;
+  padding: 0; 
   letter-spacing: 0.10em;
 }
 @media (max-width: 991px) {

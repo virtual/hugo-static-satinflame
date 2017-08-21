@@ -4,8 +4,12 @@ date: 2016-03-12T19:57:25-06:00
 banner: "/img/posts/amazon.png"
 tags: ["seo", "amazon"]
 categories: ["blog"]
-author: "Jeanine Schoessler"
+author: "jeanine"
 excerpt: "After a redesign website, Google Analytics showed a huge drop in bounce rate. The cause? Duplicating GA tags within my website’s code!"
+keywords:
+- amazon
+- seo
+- keywords
 ---
 
 Regardless if you’ve been handed an inventory of products you know nothing about, or if you’ve been maintaining your catalog for years, there may be a few things you haven’t considered when managing your products.
