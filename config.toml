@@ -3,8 +3,7 @@ languageCode = "en-us"
 theme = "hugo-universal-theme"
 title = "satinflame design - Web Services for Higher Education"
 
-# Enable Google Analytics by entering your tracking code
-googleAnalytics = ""
+
 
 # Define the number of posts per page
 paginate = 10
@@ -33,6 +32,9 @@ paginate = 10
     copyright = "&copy; 2014-2017, satinflame design"
     date_format = "2006-01-02"
     logo = "img/logo.png"
+
+    # Enable Google Analytics by entering your tracking code
+    googleAnalytics2 = "UA-7598678-1"
  
 
 [Permalinks]
