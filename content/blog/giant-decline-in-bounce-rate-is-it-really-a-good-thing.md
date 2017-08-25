@@ -4,7 +4,8 @@ date: 2016-06-12T19:57:25-06:00
 banner: "/img/posts/bounce.png"
 tags: ["analytics"]
 categories: ["blog"]
-author: "Jeanine Schoessler"
+authors:
+  - jeanine
 excerpt: "After a redesign website, Google Analytics showed a huge drop in bounce rate. The cause? Duplicating GA tags within my website’s code!"
 ---
 

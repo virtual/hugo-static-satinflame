@@ -36,7 +36,19 @@
                 <h1>{{ .Title }}</h1>
                        {{end}}
                                     
-                        <p class="text-muted text-uppercase mb-small text-right">{{ if .Params.author }}{{ i18n "authorBy" }}  <a href="{{ .Site.BaseURL }}/about">   {{ .Params.author }}    </a> | {{ end }}
+                        <p class="text-muted text-uppercase mb-small text-right">
+                           {{ $baseurl := .Site.BaseURL }}
+{{ with .Params.authors }}
+   {{ i18n "authorBy" }}
+    {{ range  $i, $kw := . }}{{ if $i }}&bullet;{{ end }}
+        {{ if isset $.Site.Data.names . }}
+        {{ $dtitle := (index $.Site.Data.names .) }}
+        <a href="{{ $baseurl }}authors/{{ . | urlize }}/" rel="author">{{ index $dtitle.shortname }}</a>
+        {{ else }}
+        <a href="{{ $baseurl }}authors/{{ . | urlize }}/" rel="author">{{ . }}</a>
+        {{ end }}
+    {{ end }} |
+{{ end }}
                         
                         {{ if .Params.date }}
                         {{ .Date.Format .Site.Params.date_format }} {{end}}</p>

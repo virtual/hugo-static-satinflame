@@ -4,7 +4,8 @@ date: 2016-03-15T15:02:57-06:00
 banner: "img/banners/reslife-map-1024x585.png"
 tags: ["bootstrap3", "programming", "svg"]
 categories: ["portfolio"]
-author: "Jeanine Schoessler"
+authors:
+  - jeanine
 excerpt: "Need a responsive interactive and customized map? This project uses SVG and Fancybox to create a useful resource for students trying to find their way around campus."
 ---
 

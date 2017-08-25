@@ -4,7 +4,8 @@ date: 2016-04-27T15:02:57-06:00
 banner: "img/banners/Monitor_flat.jpg"
 tags: ["bootstrap3", "programming", "rwd", "Sass"]
 categories: ["portfolio"]
-author: "Jeanine Schoessler"
+authors:
+  - jeanine
 excerpt: "Creating a lead generation page for your university or institution? Here are a few thoughts after implementing the “Explore” page for Montana State University."
 ---
 

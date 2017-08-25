@@ -4,7 +4,8 @@ date: 2017-03-04T09:37:25-06:00
 banner: "img/banners/magento-1-1024x493.png"
 tags: ["programming", "magento"]
 categories: ["blog"]
-author: "Jeanine Schoessler"
+authors:
+  - jeanine
 excerpt: "Though there is a lot to learn, understanding the file structure of Magento is essential in order to migrate a store into a multi-website for an upgraded store. Here is an overview of the steps to migrate a second store into Magento."
 ---
 

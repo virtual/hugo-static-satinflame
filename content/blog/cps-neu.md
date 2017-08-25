@@ -4,7 +4,8 @@ date: 2016-01-03T15:02:57-06:00
 banner: "img/banners/cps-neu-1024x576.jpg"
 tags: ["programming", "rwd", "omniupdate"]
 categories: ["portfolio"]
-author: "Jeanine Schoessler"
+authors:
+  - jeanine
 excerpt: "Crafting a better responsive experience for higher education."
 ---
 
