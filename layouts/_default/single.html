@@ -45,7 +45,7 @@
         {{ $dtitle := (index $.Site.Data.names .) }}
         <a href="{{ $baseurl }}authors/{{ . | urlize }}/" rel="author">{{ index $dtitle.shortname }}</a>
         {{ else }}
-        <a href="{{ $baseurl }}authors/{{ . | urlize }}/" rel="author">{{ . }}</a>
+        <a href="{{ $baseurl }}authors/{{ . | urlize }}/" rel="author" class="non">{{ . }}</a>
         {{ end }}
     {{ end }} |
 {{ end }}

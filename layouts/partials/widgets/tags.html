@@ -2,9 +2,7 @@
 {{ if isset .Site.Taxonomies "tags" }}
 {{ if not (eq (len .Site.Taxonomies.tags) 0) }}
 <div class="panel sidebar-menu">
-    <div class="panel-heading">
-      <h3 class="panel-title">{{ i18n "tagsTitle" }}</h3>
-    </div>
+   
 
     <div class="panel-body">
         <ul class="tag-cloud">

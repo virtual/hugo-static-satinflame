@@ -5,12 +5,11 @@
         <div class="container">
             <div class="navbar-header">
                 
-                {{ if .IsHome }} <h1 class="logo-home">{{ end }}
-                    <a class="navbar-brand home" href="{{ .Site.BaseURL }}">
-                    <img src="{{ .Site.BaseURL }}img/logo.png" alt="{{ .Site.Title }}  - {{ i18n "navHome" }}" class="hidden-xs hidden-sm">
-                    <img src="{{ .Site.BaseURL }}img/logo-small.png" alt="{{ .Site.Title }}  - {{ i18n "navHome" }}" class="visible-xs visible-sm">
-                </a>
-                {{ if .IsHome }} </h1>{{ end }}
+                {{ if .IsHome }} <h1 class="logo-home"><span class="sr-only">{{ .Site.Title }}</span></h1>{{ end }}
+                <a class="navbar-brand home" href="{{ .Site.BaseURL }}">
+                <img src="{{ .Site.BaseURL }}img/logo.png" alt="{{ .Site.Title }}  - {{ i18n "navHome" }}" class="hidden-xs hidden-sm">
+                <img src="{{ .Site.BaseURL }}img/logo-small.png" alt="{{ .Site.Title }}  - {{ i18n "navHome" }}" class="visible-xs visible-sm">
+            </a>
 
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
@@ -41,20 +40,7 @@
             </div>
             <!--/.nav-collapse -->
 
-            <div class="collapse clearfix" id="search">
-
-                <form class="navbar-form" role="search">
-                    <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Search">
-                        <span class="input-group-btn">
-
-                    <button type="submit" class="btn btn-template-main"><i class="fa fa-search"></i></button>
-
-                </span>
-                    </div>
-                </form>
-
-            </div>
+           
             <!--/.nav-collapse -->
 
         </div>

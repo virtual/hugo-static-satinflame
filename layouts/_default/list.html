@@ -30,9 +30,9 @@
                                   <div class="image">
                                       <a href="{{ .Permalink }}">
                                           {{ if .Params.banner }}
-                                          <img src="{{ .Site.BaseURL}}{{ .Params.banner }}" class="img-responsive" alt="">
+                                          <img src="{{ .Site.BaseURL}}{{ .Params.banner }}" class="img-responsive" alt="{{ .Title }}">
                                           {{ else }}
-                                          <img src="{{ .Site.BaseURL}}img/placeholder.png" class="img-responsive" alt="">
+                                          <img src="{{ .Site.BaseURL}}img/placeholder.png" class="img-responsive" alt="{{ .Title }}">
                                           {{ end }}
                                       </a>
                                          
@@ -52,7 +52,7 @@
         {{ $dtitle := (index $.Site.Data.names .) }}
         <a href="{{ $baseurl }}authors/{{ . | urlize }}/" rel="author">{{ index $dtitle.shortname }}</a>
         {{ else }}
-        <a href="{{ $baseurl }}authors/{{ . | urlize }}/" rel="author">{{ . }}</a>
+        <a href="{{ $baseurl }}authors/{{ . | urlize }}/" rel="author" class="non">{{ . }}</a>
         {{ end }}
     {{ end }} 
 {{ end }}
@@ -78,7 +78,7 @@
                                           {{ else }}
                                         {{ .Summary }}
                                      {{ end }}</p>
-                                    <p class="read-more"><a href="{{ .Permalink }}" class="btn btn-template-main">{{ i18n "continueReading" }}</a>
+                                    <p class="read-more"><a href="{{ .Permalink }}" class="btn btn-template-main">{{ i18n "continueReading" }} <span class="sr-only">{{ .Title }}</span></a>
                                     </p>
                                 </div>
                             </div>

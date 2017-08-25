@@ -2064,7 +2064,7 @@ ul.recent li:last-child {
 #blog-listing-medium .post {
   margin-bottom: 60px;
 }
-#blog-listing-medium .post h2 {
+#blog-listing-medium .post h2, h3 {
   text-transform: uppercase;
   margin: 0 0 10px;
   font-size: 24px;

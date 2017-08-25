@@ -29,7 +29,7 @@ paginate = 10
     # Enable the contact form by entering your Formspree.io email
     email = "jeanine@satinflame.com"
  
-    copyright = "&copy; 2014-2017, satinflame design"
+    copyright = "<a href='https://www.omniupdate.com/services/'>&copy;</a> 2014-2017 satinflame design"
     date_format = "2006-01-02"
     logo = "img/logo.png"
 
@@ -71,7 +71,7 @@ paginate = 10
 [params.widgets]
     categories = true
     tags = true
-    search = true
+    search = false
 
 [params.carousel]
     enable = true
@@ -106,7 +106,7 @@ paginate = 10
     # All clients are defined in their own files. You can find example items
     # at 'exampleSite/data/clients'.
     # For more informtion take a look at the README.
-    title = "Customers"
+    title = "Clients"
     subtitle = ""
 
 [params.recent_posts]
@@ -117,7 +117,7 @@ paginate = 10
 [params.authors]
 [params.authors.jeanine]
     name = "Jeanine Schoessler" 
-
+    shortname = "jeanine"
     bio = "Jeanine enjoys crafting web experiences for higher education and non-profits. Her passions include listening to pop punk music, sharing Chinese language and culture with those around her, and visiting every aircraft museum she and her husband can find. She is a 2015 graduate of the Leadership MSU program and currently studies Business Administration – Management at Great Falls College-MSU."
 
     location = "Montana, USA"
