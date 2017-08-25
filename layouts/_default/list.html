@@ -43,9 +43,24 @@
                                     <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
                                     <div class="clearfix">
                                         <p class="author-category">
-                                          {{ if isset .Params "author" }}
-                                          {{ i18n "authorBy" }} <a href="#">{{ .Params.author }}</a>
-                                          {{ end }}
+
+{{ $baseurl := .Site.BaseURL }}
+{{ with .Params.authors }}
+   {{ i18n "authorBy" }}
+    {{ range  $i, $kw := . }}{{ if $i }}&bullet;{{ end }}
+        {{ if isset $.Site.Data.names . }}
+        {{ $dtitle := (index $.Site.Data.names .) }}
+        <a href="{{ $baseurl }}authors/{{ . | urlize }}/" rel="author">{{ index $dtitle.shortname }}</a>
+        {{ else }}
+        <a href="{{ $baseurl }}authors/{{ . | urlize }}/" rel="author">{{ . }}</a>
+        {{ end }}
+    {{ end }} 
+{{ end }}
+
+
+
+
+ 
                                           {{ if isset .Params "categories" }}
                                           {{ if gt (len .Params.categories) 0 }}
                                           in <a href="{{ $.Site.BaseURL }}categories/{{ index .Params.categories 0 | urlize | lower }}">{{ index .Params.categories 0 }}</a>

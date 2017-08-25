@@ -12,3 +12,5 @@ id = "contact"
 <div class="alert alert-info">I will be open to new projects in January 2018. Until then, view <a href="https://omniupdate.com/partners/partners-list.html">OmniUpdate's Partners</a>.</div>
 
 <!--Send me a quick message to learn more about updating your site, or visit <a href="/categories/portfolio/">my portfolio</a> to see my completed projects!-->
+
+<script type="text/javascript" src="https://form.jotform.us/jsform/21795797055165"></script>

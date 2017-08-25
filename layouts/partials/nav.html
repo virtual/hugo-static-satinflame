@@ -4,11 +4,14 @@
 
         <div class="container">
             <div class="navbar-header">
-                <a class="navbar-brand home" href="{{ .Site.BaseURL }}">
-                    <img src="{{ .Site.BaseURL }}img/logo.png" alt="{{ .Title }} logo" class="hidden-xs hidden-sm">
-                    <img src="{{ .Site.BaseURL }}img/logo-small.png" alt="{{ .Title }} logo" class="visible-xs visible-sm">
-                    <span class="sr-only">{{ .Title }} - {{ i18n "navHome" }}</span>
+                
+                {{ if .IsHome }} <h1 class="logo-home">{{ end }}
+                    <a class="navbar-brand home" href="{{ .Site.BaseURL }}">
+                    <img src="{{ .Site.BaseURL }}img/logo.png" alt="{{ .Site.Title }}  - {{ i18n "navHome" }}" class="hidden-xs hidden-sm">
+                    <img src="{{ .Site.BaseURL }}img/logo-small.png" alt="{{ .Site.Title }}  - {{ i18n "navHome" }}" class="visible-xs visible-sm">
                 </a>
+                {{ if .IsHome }} </h1>{{ end }}
+
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
                       <span class="sr-only">{{ i18n "navToggle" }}</span>
