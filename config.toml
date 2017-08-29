@@ -1,4 +1,4 @@
-baseURL = "http://www.satinflame.com/"
+baseURL = "https://www.satinflame.com/"
 languageCode = "en-us"
 theme = "hugo-universal-theme"
 title = "satinflame design - Web Services for Higher Education"
