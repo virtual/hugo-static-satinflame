@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}</title>
   <meta name="author" content="{{ .Site.Author.display_name }}" />
+  <meta name="theme-color" content="#333333" />
   <meta content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}" property="og:title">
   {{ if .Keywords }}<meta name="keywords" content="{{ delimit .Keywords ", " }}">{{ else if .Site.Params.DefaultKeywords }}<meta name="keywords" content="{{ delimit .Site.Params.DefaultKeywords ", " }}">{{ end }}
   {{ if .Description }}<meta name="description" content="{{ .Description }}">{{ else if .Params.excerpt }}<meta name="description" content="{{ .Params.excerpt }}">{{ else if .Site.Params.DefaultDescription }}
