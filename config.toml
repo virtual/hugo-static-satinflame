@@ -3,7 +3,7 @@ languageCode = "en-us"
 theme = "hugo-universal-theme"
 title = "satinflame design - Web Services for Higher Education"
 
-
+publishDir = "docs"
 
 # Define the number of posts per page
 paginate = 10
