@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Magento on satinflame design - Web Services for Higher Education</title>
+    <link>https://www.satinflame.com/tags/magento/</link>
+    <description>Recent content in Magento on satinflame design - Web Services for Higher Education</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#39;https://www.omniupdate.com/services/&#39;&gt;&amp;copy;&lt;/a&gt; 2014-2017 satinflame design</copyright>
+    <lastBuildDate>Sat, 04 Mar 2017 09:37:25 -0600</lastBuildDate>
+    
+	<atom:link href="https://www.satinflame.com/tags/magento/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Setting Up A Multi Website Magento Store</title>
+      <link>https://www.satinflame.com/blog/2017/03/setting-up-a-multi-website-magento-store/</link>
+      <pubDate>Sat, 04 Mar 2017 09:37:25 -0600</pubDate>
+      
+      <guid>https://www.satinflame.com/blog/2017/03/setting-up-a-multi-website-magento-store/</guid>
+      <description>Last year I had the opportunity to learn about working in the e-commerce platform Magento–creating products, adding modules, updating security patches and more. Though there is a lot to learn, understanding the file structure of Magento was essential in order to migrate another store (running version 1.4) into a multi-website for another store that had been recently upgraded to 1.9.2. While searching for the best process, I learned there are many ways to set up a second store on the same Magento install—but there were many things I still didn’t understand being the novice server administer of a one-person web team.</description>
+    </item>
+    
+    <item>
+      <title>Speeding Up Load Times on Magento CE 1.9x</title>
+      <link>https://www.satinflame.com/blog/2016/07/speeding-up-load-times-on-magento-ce-1-9x2/</link>
+      <pubDate>Thu, 21 Jul 2016 19:37:25 -0600</pubDate>
+      
+      <guid>https://www.satinflame.com/blog/2016/07/speeding-up-load-times-on-magento-ce-1-9x2/</guid>
+      <description>While this entry could also be aptly named OMG How Do I Make Pages Load Faster in Magento?, I’ve finally found a solution to speeding up my Magento website that makes me so much less bitter, I can now even think semi-straight. If you’re searching for answers as well–and perhaps not finding adequate solutions–I hope this post will be of value for learning all the different ways to increase your Magento website’s performance!</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolio on satinflame design - Web Services for Higher Education</title>
+    <link>https://www.satinflame.com/categories/portfolio/</link>
+    <description>Recent content in Portfolio on satinflame design - Web Services for Higher Education</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#39;https://www.omniupdate.com/services/&#39;&gt;&amp;copy;&lt;/a&gt; 2014-2017 satinflame design</copyright>
+    <lastBuildDate>Mon, 11 Jul 2016 15:02:57 -0600</lastBuildDate>
+    
+	<atom:link href="https://www.satinflame.com/categories/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Content Migration Refinement For Horry Georgetown Technical College</title>
+      <link>https://www.satinflame.com/blog/2016/07/content-migration-refinement-for-horry-georgetown-technical-college/</link>
+      <pubDate>Mon, 11 Jul 2016 15:02:57 -0600</pubDate>
+      
+      <guid>https://www.satinflame.com/blog/2016/07/content-migration-refinement-for-horry-georgetown-technical-college/</guid>
+      <description>Sometimes redesigns need to happen fast! If your web team is small or needs a helping hand in preparing your website ready for its big unveil, consider contacting me for information on how I can help!
+For this project, I worked with Missy at Horry Georgetown Technical College to help her quickly release the migration of her new beautiful redesign out into the “wild!”
+I contributed in the following ways:</description>
+    </item>
+    
+    <item>
+      <title>Explore Montana State University</title>
+      <link>https://www.satinflame.com/blog/2016/04/explore-montana-state-university/</link>
+      <pubDate>Wed, 27 Apr 2016 15:02:57 -0600</pubDate>
+      
+      <guid>https://www.satinflame.com/blog/2016/04/explore-montana-state-university/</guid>
+      <description>In 2015, I had the pleasure of implementing a university lead generation form designed by Graphic Designer Ron Lambert and the Montana State University marketing team!
+Overall this design was challenging due to a few of our special page requirements:
+Keep the users on the lead page In order to get the contact information we hoped for, we had to include enough content to remain informative without linking to other pages.</description>
+    </item>
+    
+    <item>
+      <title>Residence Life Interactive Map</title>
+      <link>https://www.satinflame.com/blog/2016/03/residence-life-interactive-map/</link>
+      <pubDate>Tue, 15 Mar 2016 15:02:57 -0600</pubDate>
+      
+      <guid>https://www.satinflame.com/blog/2016/03/residence-life-interactive-map/</guid>
+      <description>When looking into how best to create an image with interactive elements, I had to go beyond using outdated image maps and get creative with implementing maps using SVG (Scalable Vector Graphics) and creating a responsive, interactive information pop-ups!
+This map looks great on desktop and mobile—test it out yourself! The functionality enables a user to click either the name or the building itself to learn more about it.
+Within Illustrator, we grouped paths and then was able to edit the exported .</description>
+    </item>
+    
+    <item>
+      <title>Naropa University</title>
+      <link>https://www.satinflame.com/blog/2016/01/naropa-university/</link>
+      <pubDate>Sun, 24 Jan 2016 15:02:57 -0600</pubDate>
+      
+      <guid>https://www.satinflame.com/blog/2016/01/naropa-university/</guid>
+      <description>Working with the team from OmniUpdate along with Mary Haste from Naropa University, we implemented a redesign for the entire university website.
+Unlike other designs I’ve implemented, Naropa University’s wasn’t quite ready to move all pages into the responsive view. We worked through the challenges and created non-responsive and responsive versions using the same Sass-based CSS. As they work through updating each page’s outdated elements—removing fixed width content, updating low-quality images with higher-resolution versions and revisiting text—they can then easily switch their page to the responsive version using a page setting in the OmniUpdate CMS!</description>
+    </item>
+    
+    <item>
+      <title>Elizabeth City State University Web Redesign</title>
+      <link>https://www.satinflame.com/blog/2016/01/elizabeth-city-state-university-web-redesign/</link>
+      <pubDate>Sun, 10 Jan 2016 15:02:57 -0600</pubDate>
+      
+      <guid>https://www.satinflame.com/blog/2016/01/elizabeth-city-state-university-web-redesign/</guid>
+      <description>ECSU Secondary Page     ECSU Homepage     ECSU Admissions     ECSU History Page     In 2015, I worked with Vayakone Sphabmixay from SAX, Inc. implementing their redesign for Elizabeth City State University in North Carolina. There were many creative design pieces that presented fun challenges for implementing in a responsive environment.
+Historical Year Timeline The timeline is both collapsible and adapts to mobile devices.</description>
+    </item>
+    
+    <item>
+      <title>Northeastern University’s College of Professional Students</title>
+      <link>https://www.satinflame.com/blog/2016/01/cps-neu/</link>
+      <pubDate>Sun, 03 Jan 2016 15:02:57 -0600</pubDate>
+      
+      <guid>https://www.satinflame.com/blog/2016/01/cps-neu/</guid>
+      <description>In the summer of 2014, I had the opportunity to develop the code for a design created by the team at I-SITE, INC. for the College of Professional Students in Boston, MA. Unlike new development work, this redesign required an update to the base code using only minimal CSS.
+Before updating, this Web page had used mobile queries to (unfortunately) simply hide the “unnecessary” mobile elements to make the content disappear on smaller devices.</description>
+    </item>
+    
+  </channel>
+</rss>

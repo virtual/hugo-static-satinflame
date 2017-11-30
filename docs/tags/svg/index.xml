@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Svg on satinflame design - Web Services for Higher Education</title>
+    <link>https://www.satinflame.com/tags/svg/</link>
+    <description>Recent content in Svg on satinflame design - Web Services for Higher Education</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#39;https://www.omniupdate.com/services/&#39;&gt;&amp;copy;&lt;/a&gt; 2014-2017 satinflame design</copyright>
+    <lastBuildDate>Tue, 15 Mar 2016 15:02:57 -0600</lastBuildDate>
+    
+	<atom:link href="https://www.satinflame.com/tags/svg/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Residence Life Interactive Map</title>
+      <link>https://www.satinflame.com/blog/2016/03/residence-life-interactive-map/</link>
+      <pubDate>Tue, 15 Mar 2016 15:02:57 -0600</pubDate>
+      
+      <guid>https://www.satinflame.com/blog/2016/03/residence-life-interactive-map/</guid>
+      <description>When looking into how best to create an image with interactive elements, I had to go beyond using outdated image maps and get creative with implementing maps using SVG (Scalable Vector Graphics) and creating a responsive, interactive information pop-ups!
+This map looks great on desktop and mobile—test it out yourself! The functionality enables a user to click either the name or the building itself to learn more about it.
+Within Illustrator, we grouped paths and then was able to edit the exported .</description>
+    </item>
+    
+  </channel>
+</rss>
