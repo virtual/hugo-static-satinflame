@@ -11,3 +11,5 @@ Rebuilt portfolio using gohugo.io
 
 ## Build site
 - [Hugo command](https://gohugo.io/commands/hugo/): `hugo`
+- Add remote: `git remote add githubio https://github.com/virtual/virtual.github.io.git`
+- Push to [github page](https://github.com/virtual/virtual.github.io): `git subtree push --prefix docs githubio master`
