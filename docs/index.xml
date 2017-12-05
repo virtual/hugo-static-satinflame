@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#39;https://www.omniupdate.com/services/&#39;&gt;&amp;copy;&lt;/a&gt; 2014-2017 satinflame design</copyright>
-    <lastBuildDate>Sat, 04 Mar 2017 09:37:25 -0600</lastBuildDate>
+    <lastBuildDate>Tue, 05 Dec 2017 11:12:28 -0700</lastBuildDate>
     
 	<atom:link href="https://www.satinflame.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>No Turning Back: A Journey through Montana Code School</title>
+      <link>https://www.satinflame.com/blog/2017/12/no-turning-back-montana-code-school/</link>
+      <pubDate>Tue, 05 Dec 2017 11:12:28 -0700</pubDate>
+      
+      <guid>https://www.satinflame.com/blog/2017/12/no-turning-back-montana-code-school/</guid>
+      <description>My previous history included years of working as a front-end developer in higher education. It was hard to know what I&amp;rsquo;d get out of a 12-week bootcamp, but with a large amount of experience and self-study under my belt, I was ready to commit to finally getting the full exposure of modern web development. With 11 weeks behind me and only one week left, I wanted to share the journey so far.</description>
+    </item>
     
     <item>
       <title>Setting Up A Multi Website Magento Store</title>

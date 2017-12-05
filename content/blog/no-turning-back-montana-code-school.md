@@ -7,7 +7,6 @@ tags: ["javascript", "learning", "programming", "react"]
 authors:
   - jeanine
 excerpt: "With a large amount of experience and self-study under my belt, I was ready to commit to finally getting the full exposure of modern web development with Montana Code School. Discover what I learned and view the projects my teams created."
-draft: true
 ---
 
 My previous history included years of working as a front-end developer in higher education. It was hard to know what I'd get out of a 12-week bootcamp, but with a large amount of experience and self-study under my belt, I was ready to commit to finally getting the full exposure of modern web development. With 11 weeks behind me and only one week left, I wanted to share the journey so far.
