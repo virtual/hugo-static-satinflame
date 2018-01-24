@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#39;https://www.omniupdate.com/services/&#39;&gt;&amp;copy;&lt;/a&gt; 2014-2018 satinflame design</copyright>
-    <lastBuildDate>Tue, 05 Dec 2017 11:12:28 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jan 2018 14:03:21 -0700</lastBuildDate>
     
 	<atom:link href="https://www.satinflame.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Create a Progress Bar in OU Campus</title>
+      <link>https://www.satinflame.com/blog/2018/01/progress-bar-in-omniupdate/</link>
+      <pubDate>Wed, 24 Jan 2018 14:03:21 -0700</pubDate>
+      
+      <guid>https://www.satinflame.com/blog/2018/01/progress-bar-in-omniupdate/</guid>
+      <description>Overview This code demo available on GitHub allows you to create a loading progress bar that is managed from a table transformation within OmniUpdate&amp;rsquo;s OU Campus. The CSS and JavaScript must be added into your page either by including it into your global files or making a separate call to each. The jQuery library must be loaded prior to calling the JavaScript code. Developers: If you add on any helpful additions, please make a Pull Request!</description>
+    </item>
     
     <item>
       <title>No Turning Back: A Journey through Montana Code School</title>

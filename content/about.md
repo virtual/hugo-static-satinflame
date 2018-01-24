@@ -14,7 +14,7 @@ Jeanine enjoys crafting web experiences for higher education and non-profits. He
 
 Jeanine previously developed websites for [Montana State University and MontanaPBS (2009-2015)](https://www.linkedin.com/in/satinflame). She enjoys implementing new designs into responsive HTML/CSS and specializes in working with OmniUpdate and clients in [#heweb](https://twitter.com/search?q=%23heweb)!
 
-<h3>Abilities (What I love to work on!)</h3>
+<h3>Abilities (What I love to work on)</h3>
 <div class="progress progress-danger">
 <div class="bar" style="width: 98%;">PSD to HTML <span class="sr-only">(98%)</span></div>
 </div>
