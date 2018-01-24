@@ -11,7 +11,7 @@ excerpt: "Working on a redesign for your website? HGTC’s revamped webpages nee
 
 Sometimes redesigns need to happen _fast_! If your web team is small or needs a helping hand in preparing your website ready for its big unveil, consider contacting me for information on how I can help!
 
-For this project, I worked with Missy at [Horry Georgetown Technical College](http://www.hgtc.edu) to help her quickly release the [migration](http://support.omniupdate.com/oucampus10/site-development/migration/index.pdf) of her new beautiful redesign out into the “wild!”
+For this project, I worked with Missy at [Horry Georgetown Technical College](http://www.hgtc.edu) to help her quickly release the [migration](http://support.omniupdate.com/OU Campus10/site-development/migration/index.pdf) of her new beautiful redesign out into the “wild!”
 
 I contributed in the following ways:
 

@@ -38,14 +38,11 @@ Jeanine previously developed websites for [Montana State University and Montana
 <div class="bar" style="width: 85%;">jQuery <span class="sr-only">(85%)</span></div>
 </div>
 <div class="progress progress-danger">
-<div class="bar" style="width: 85%;">OmniUpdate OUCampus CMS <span class="sr-only">(85%)</span></div>
+<div class="bar" style="width: 85%;">OmniUpdate's OU Campus CMS <span class="sr-only">(85%)</span></div>
 </div>
 <div class="progress progress-danger">
 <div class="bar" style="width: 80%;">SVG <span class="sr-only">(80%)</span></div>
 </div>
 <div class="progress progress-danger">
 <div class="bar" style="width: 80%;">MySQL/PHP <span class="sr-only">(80%)</span></div>
-</div>
-<div class="progress progress-success">
-<div class="bar" style="width: 70%;">WordPress <span class="sr-only">(70%)</span></div>
 </div>
