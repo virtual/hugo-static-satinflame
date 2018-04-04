@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.satinflame.com/blog/2018/03/omniupdate-2018/</loc>
+    <lastmod>2018-03-28T12:21:34-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.satinflame.com/blog/2018/01/progress-bar-in-omniupdate/</loc>
     <lastmod>2018-01-24T14:03:21-07:00</lastmod>
   </url>
@@ -80,13 +85,13 @@
   
   <url>
     <loc>https://www.satinflame.com/categories/blog/</loc>
-    <lastmod>2017-12-05T11:12:28-07:00</lastmod>
+    <lastmod>2018-03-28T12:21:34-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.satinflame.com/blog/</loc>
-    <lastmod>2018-01-24T14:03:21-07:00</lastmod>
+    <lastmod>2018-03-28T12:21:34-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -98,7 +103,7 @@
   
   <url>
     <loc>https://www.satinflame.com/categories/</loc>
-    <lastmod>2017-12-05T11:12:28-07:00</lastmod>
+    <lastmod>2018-03-28T12:21:34-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -118,7 +123,7 @@
   
   <url>
     <loc>https://www.satinflame.com/tags/learning/</loc>
-    <lastmod>2017-12-05T11:12:28-07:00</lastmod>
+    <lastmod>2018-03-28T12:21:34-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -136,7 +141,7 @@
   
   <url>
     <loc>https://www.satinflame.com/tags/omniupdate/</loc>
-    <lastmod>2018-01-24T14:03:21-07:00</lastmod>
+    <lastmod>2018-03-28T12:21:34-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -148,7 +153,7 @@
   
   <url>
     <loc>https://www.satinflame.com/tags/programming/</loc>
-    <lastmod>2017-12-05T11:12:28-07:00</lastmod>
+    <lastmod>2018-03-28T12:21:34-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -194,7 +199,7 @@
   
   <url>
     <loc>https://www.satinflame.com/</loc>
-    <lastmod>2018-01-24T14:03:21-07:00</lastmod>
+    <lastmod>2018-03-28T12:21:34-06:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -17,7 +17,7 @@ $(function () {
   productDetailSizes()
   utils()
   animations()
-  // counters()
+ // counters()
   demo()
   contactForm()
 })
@@ -207,7 +207,9 @@ function counters () {
 function pictureZoom () {
   $('.product .image, .post .image, .photostream div').each(function () {
     var imgHeight = $(this).find('img').height()
-    $(this).height(imgHeight)
+    if (imgHeight) {
+      $(this).height(imgHeight)
+    }
   })
 }
 
