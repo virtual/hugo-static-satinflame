@@ -17,7 +17,7 @@ $(function () {
   productDetailSizes()
   utils()
   animations()
-  // counters()
+  counters()
   demo()
   contactForm()
 })
@@ -162,6 +162,20 @@ function menuSliding () {
 function animations () {
   var delayTime = 0
   $('[data-animate]').css({opacity: '0'})
+  $('[data-animate]').waypoint(function () {
+    delayTime += 150
+    $(this).delay(delayTime).queue(function (next) {
+      $(this).toggleClass('animated')
+      $(this).toggleClass($(this).data('animate'))
+      delayTime = 0
+      next()
+      // $(this).removeClass('animated')
+      // $(this).toggleClass($(this).data('animate'))
+    })
+  }, {
+    offset: '90%',
+    triggerOnce: true
+  })
 
   $('[data-animate-hover]').hover(function () {
     $(this).css({opacity: 1})
@@ -207,7 +221,9 @@ function counters () {
 function pictureZoom () {
   $('.product .image, .post .image, .photostream div').each(function () {
     var imgHeight = $(this).find('img').height()
-    $(this).height(imgHeight)
+    if (imgHeight) {
+      $(this).height(imgHeight)
+    }
   })
 }
 
@@ -366,4 +382,3 @@ $(window).resize(function () {
     windowWidth = newWindowWidth
   }
 })
-console.log("Hi there. :) Looking for web development, assistance or consulting for websites in higher education? You've come to the right place.")
