@@ -7,10 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#39;https://www.omniupdate.com/services/&#39;&gt;&amp;copy;&lt;/a&gt; 2014-2018 satinflame design</copyright>
-    <lastBuildDate>Wed, 28 Mar 2018 12:21:34 -0600</lastBuildDate>
+    <lastBuildDate>Fri, 13 Apr 2018 15:13:50 -0600</lastBuildDate>
     
 	<atom:link href="https://www.satinflame.com/tags/programming/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Apps and Tiny Tools</title>
+      <link>https://www.satinflame.com/blog/2018/04/apps-and-tiny-tools/</link>
+      <pubDate>Fri, 13 Apr 2018 15:13:50 -0600</pubDate>
+      
+      <guid>https://www.satinflame.com/blog/2018/04/apps-and-tiny-tools/</guid>
+      <description>Game of Life The &#34;Game of Life&#34; is a small game based on a formula that determines whether a square is &#34;alive&#34; or &#34;dead&#34; based on its number of neighbors. React
+    Recipe Collector A collection of delicous recipes--browse or add your own. The first five recipes are protected so they can&#39;t be deleted or modified.
+ReactMongoDb
+    Escape from Toy Factory A lot of fun putting together this JavaScript challenge--and it still has a little way to go!</description>
+    </item>
     
     <item>
       <title>OmniUpdate 2018 Training Conference</title>

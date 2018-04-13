@@ -16,7 +16,7 @@ excerpt: "In 2016, I set myself on a mission to better understand modern framewo
   </div>
   <div class="card-content">
   <h3><a href="https://virtual.github.io/fcc-game-of-life/">Game of Life</a></h3>
-  <p>The "Game of Life" is a small game based on a formula that determines whether a square is "alive" or "dead" based on it's number of neighbors. </p>
+  <p>The "Game of Life" is a small game based on a formula that determines whether a square is "alive" or "dead" based on its number of neighbors. </p>
   <p class="tags"><span>React</span></p>
   </div>
 </div>
