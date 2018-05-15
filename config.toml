@@ -32,6 +32,8 @@ paginate = 10
     copyright = "<a href='https://www.omniupdate.com/services/'>&copy;</a> 2014-2018 satinflame design"
     date_format = "2006-01-02"
     logo = "img/logo.png"
+    ogimg = "img/ogimg.png"
+    DefaultDescription = "satinflame design provides web services for higher ed including responsive Web development and implemention of snippets, assets and page layouts into OU Campus."
 
     # Enable Google Analytics by entering your tracking code
     googleAnalytics = "UA-7598678-1"

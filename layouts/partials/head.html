@@ -16,7 +16,7 @@
   <meta property="og:title" content="{{ .Title }}" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{{ .Site.BaseURL }}{{ .URL }}" />
-  {{ if .Params.banner }}<meta property="og:image" content="{{ .Site.BaseURL}}{{ .Params.banner }}" />{{ else}}<meta property="og:image" content="{{ .Site.BaseURL}}{{ .Site.Params.logo }}" />{{ end}}
+  {{ if .Params.banner }}<meta property="og:image" content="{{ .Site.BaseURL}}{{ .Params.banner }}" />{{ else}}<meta property="og:image" content="{{ .Site.BaseURL}}{{ .Site.Params.ogimg }}" />{{ end}}
 
   <!-- Bootstrap and Font Awesome css -->
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
