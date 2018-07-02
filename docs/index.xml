@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>satinflame design - Web Services for Higher Education</title>
+    <title>satinflame design</title>
     <link>https://www.satinflame.com/</link>
-    <description>Recent content on satinflame design - Web Services for Higher Education</description>
+    <description>Recent content on satinflame design</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&lt;a href=&#39;https://www.omniupdate.com/services/&#39;&gt;&amp;copy;&lt;/a&gt; 2014-2018 satinflame design</copyright>
     <lastBuildDate>Fri, 13 Apr 2018 15:13:50 -0600</lastBuildDate>
     
 	<atom:link href="https://www.satinflame.com/index.xml" rel="self" type="application/rss+xml" />
@@ -141,7 +140,7 @@ Unlike other designs I’ve implemented, Naropa University’s wasn’t quite r
       <pubDate>Sun, 10 Jan 2016 15:02:57 -0600</pubDate>
       
       <guid>https://www.satinflame.com/blog/2016/01/elizabeth-city-state-university-web-redesign/</guid>
-      <description>ECSU Secondary Page     ECSU Homepage     ECSU Admissions     ECSU History Page     In 2015, I worked with Vayakone Sphabmixay from SAX, Inc. implementing their redesign for Elizabeth City State University in North Carolina. There were many creative design pieces that presented fun challenges for implementing in a responsive environment.
+      <description>ECSU Secondary Page      ECSU Homepage      ECSU Admissions      ECSU History Page     In 2015, I worked with Vayakone Sphabmixay from SAX, Inc. implementing their redesign for Elizabeth City State University in North Carolina. There were many creative design pieces that presented fun challenges for implementing in a responsive environment.
 Historical Year Timeline The timeline is both collapsible and adapts to mobile devices.</description>
     </item>
     
@@ -161,7 +160,7 @@ Before updating, this Web page had used mobile queries to (unfortunately) simply
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.satinflame.com/about/</guid>
-      <description>Jeanine Schoessler, Front-End Web Developer Jeanine enjoys crafting web experiences for higher education and non-profits. Her passions include listening to pop punk music, sharing Chinese language and culture with those around her, and visiting every aircraft museum she and her husband can find. She is a 2015 graduate of the Leadership MSU program and currently studies Business Administration – Management at Great Falls College-MSU.
+      <description>Jeanine Schoessler, Front-End Web Developer Jeanine enjoys crafting web experiences for higher education. Her passions include listening to music, sharing Chinese language and culture with those around her, and visiting every aircraft museum she and her husband can find. She is a 2015 graduate of the Leadership MSU program and nominee for MSU Employee of the Year. In 2018, she was named one of freeCodeCamp&amp;rsquo;s top 200 contributors.
 Jeanine previously developed websites for Montana State University and MontanaPBS (2009-2015).</description>
     </item>
     
@@ -171,7 +170,8 @@ Jeanine previously developed websites for Montana State University and MontanaP
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.satinflame.com/contact/</guid>
-      <description> Contact Me  Follow me on TwitterTwitter and send a quick hello on View my experience at LinkedinLinkedin Browse through my current GithubGithub or CodepenCodepen projects  Send me a quick message to learn more about updating your site, or visit my portfolio to see my completed projects!
+      <description> Contact Me  Follow me on Twitter and send a quick hello
+ View my experience at Linkedin Browse through my current Github or Codepen projects  Send me a quick message to learn more about updating your site, or visit my portfolio to see my completed projects!
  </description>
     </item>
     
@@ -192,7 +192,7 @@ Jeanine previously developed websites for Montana State University and MontanaP
       
       <guid>https://www.satinflame.com/stock-photos/</guid>
       <description>Stock Photos Photos I’ve taken that can be used freely in any lawful use:
- in digital format on websites, blog posts, social media, advertisements, film and television productions, web and mobile applications in printed materials such as magazines, newspapers, books, brochures, flyers, product packaging for decorative use in your home, office or any public place personal use or commercial use   mountains in Montana     Sikorksy UH-60     chocolate cake     Glacier National Park sun shining through treetops     patio set in Cancun     hummingbird at a feeder</description>
+ in digital format on websites, blog posts, social media, advertisements, film and television productions, web and mobile applications in printed materials such as magazines, newspapers, books, brochures, flyers, product packaging for decorative use in your home, office or any public place personal use or commercial use    mountains in Montana      Sikorksy UH-60      chocolate cake      Glacier National Park sun shining through treetops      patio set in Cancun      hummingbird at a feeder</description>
     </item>
     
   </channel>
