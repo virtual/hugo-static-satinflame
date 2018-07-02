@@ -1,7 +1,7 @@
 baseURL = "https://www.satinflame.com/"
 languageCode = "en-us"
 theme = "hugo-universal-theme"
-title = "satinflame design - Web Services for Higher Education"
+title = "satinflame design"
 
 publishDir = "docs"
 
@@ -29,7 +29,7 @@ paginate = 10
     # Enable the contact form by entering your Formspree.io email
     email = "jeanine@satinflame.com"
  
-    copyright = "<a href='https://www.omniupdate.com/services/'>&copy;</a> 2014-2018 satinflame design"
+    copyright = "&copy; 2014-2018 satinflame design"
     date_format = "2006-01-02"
     logo = "img/logo.png"
     ogimg = "img/ogimg.png"
@@ -42,27 +42,27 @@ paginate = 10
 [Permalinks]
     blog = "/blog/:year/:month/:filename/"
 
-[[params.menu.main]]
+[[menu.main]]
     name = "Home"
     url  = "/"
     weight = 1
 
-[[params.menu.main]]
+[[menu.main]]
     name = "Portfolio"
     url  = "/categories/portfolio/"
     weight = 2
 
-[[params.menu.main]]
+[[menu.main]]
     name = "Blog"
     url  = "/categories/blog/"
     weight = 3
 
-[[params.menu.main]]
+[[menu.main]]
     name = "About"
     url  = "/about/"
     weight = 4
     
-[[params.menu.main]]
+[[menu.main]]
     name = "Contact"
     url  = "/contact/"
     weight = 5

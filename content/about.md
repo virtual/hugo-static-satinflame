@@ -10,39 +10,55 @@ aliases = [
 Jeanine Schoessler, Front-End Web Developer
 -----------
 
-Jeanine enjoys crafting web experiences for higher education and non-profits. Her passions include listening to pop punk music, sharing Chinese language and culture with those around her, and visiting every aircraft museum she and her husband can find. She is a 2015 graduate of the Leadership MSU program and currently studies Business Administration – Management at Great Falls College-MSU.
+Jeanine enjoys crafting web experiences for higher education. Her passions include [listening to music](https://open.spotify.com/user/satinflame), sharing Chinese language and culture with those around her, and visiting every aircraft museum she and her husband can find. She is a 2015 graduate of the [Leadership MSU program](https://www.montana.edu/leadershipmsu/) and nominee for MSU Employee of the Year. In 2018, she was named one of [freeCodeCamp's top 200 contributors](https://medium.freecodecamp.org/announcing-our-freecodecamp-2018-top-contributor-award-winners-861da08a77e1). 
 
-Jeanine previously developed websites for [Montana State University and MontanaPBS (2009-2015)](https://www.linkedin.com/in/satinflame). She enjoys implementing new designs into responsive HTML/CSS and specializes in working with OmniUpdate and clients in [#heweb](https://twitter.com/search?q=%23heweb)!
+Jeanine previously developed websites for [Montana State University and MontanaPBS (2009-2015)](https://www.linkedin.com/in/satinflame). She enjoys implementing new designs into responsive HTML/CSS and specializes in working with OmniUpdate and clients in [#heweb](https://twitter.com/search?q=%23heweb)! You might even remember meeting her at [OmniUpdate's 2018 User Training Conference](/blog/2018/03/omniupdate-2018/).
 
-<h3>Abilities (What I love to work on)</h3>
-<div class="progress progress-danger">
-<div class="bar" style="width: 98%;">PSD to HTML <span class="sr-only">(98%)</span></div>
-</div>
-<div class="progress progress-danger">
-<div class="bar" style="width: 95%;">Responsive Design <span class="sr-only">(95%)</span></div>
-</div>
-<div class="progress progress-danger">
-<div class="bar" style="width: 90%;">Accessibility <span class="sr-only">(90%)</span></div>
-</div>
-<div class="progress progress-danger">
-<div class="bar" style="width: 60%;">Server &amp; Hosting Setup <span class="sr-only">(60%)</span></div>
-</div>
-<h3>Technologies</h3>
-<div class="progress progress-danger">
-<div class="bar" style="width: 95%;">CSS3 <span class="sr-only">(95%)</span></div>
-</div>
-<div class="progress progress-danger">
-<div class="bar" style="width: 95%;">HTML5 <span class="sr-only">(95%)</span></div>
-</div>
-<div class="progress progress-danger">
-<div class="bar" style="width: 85%;">jQuery <span class="sr-only">(85%)</span></div>
-</div>
-<div class="progress progress-danger">
-<div class="bar" style="width: 85%;">OmniUpdate's OU Campus CMS <span class="sr-only">(85%)</span></div>
-</div>
-<div class="progress progress-danger">
-<div class="bar" style="width: 80%;">SVG <span class="sr-only">(80%)</span></div>
-</div>
-<div class="progress progress-danger">
-<div class="bar" style="width: 80%;">MySQL/PHP <span class="sr-only">(80%)</span></div>
-</div>
+## Abilities & Technologies
+
+### Front-end Development:  
+-	Responsive web development based on single- or multi-layout designs 
+  - Example 1: https://satinflame.com/ou/southplains/
+  - Example 2: https://satinflame.com/ou/alvin/ 
+-	Create flexible deliverables:
+  - HTML/CSS/JavaScript code
+  - Git repository including file structure
+  - Code optimized for implementation into OmniUpdate's OU Campus or a static website
+-	Restructure non-responsive websites for responsive use
+-	Update or debug layout, style, or script errors
+- Implement print styles
+
+### OmniUpdate OU Campus:
+- Create new snippets to extend CMS functionality
+- Modify assets, forms, carousels and photo galleries
+- Add new classes for additional WYSIWYG styling
+- Recommend paths for new work or site migrations based on experience
+- Assist with content migration 
+- Develop and implement template modifications (.tmpl, .tcf, .xsl) 
+
+### Support:
+- Provide general webmaster assistance, web content maintenance and editing
+- Semantic formatting (HTML)
+- Consult / provide recommendations for:
+  - OU Campus template setup or modifications
+  - Social media meta tags
+  - Rich snippets and Search Engine Optimization (SEO) 
+- Accessibility updates (colors, screen-reader content, images, sematic markup) to WCAG 2.0 AA standards
+- Web development / updates for a secure HTTPS website
+
+### Tools:
+- Git version control (Bitbucket and Github)
+- Sass (.scss) and SVG
+- Bootstrap versions 3 and 4, Foundation, Semantic UI
+- JavaScript, jQuery, React 
+
+-----
+
+## Resources
+
+Many of these are affiliate links to services I use *daily*. I'm grateful to these companies and would recommend you give them a try! Please tweet @graphical if you have any questions. 
+
+- <a href="https://www.teamwork.com/partner/5c1s2ilctg">Teamwork (Project Management)</a> 
+- <a href="https://m.do.co/c/37313c752e08">DigitalOcean (Web Hosting)</a>
+- <a href="http://namecheap.com">Namecheap (Web Domains)</a>
+- <a href="https://accounting.waveapps.com">Wave Apps (Small Business Accounting)</a>

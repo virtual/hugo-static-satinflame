@@ -604,3 +604,27 @@ table tr:first-child {
   .card-content { width: 50%; float:left; }
   .card { padding-bottom: 0;}
 }
+
+#skiptocontent a {
+  padding: 8px;
+  position: absolute;
+  top: -50px;
+  left: 0px;
+  color: white;
+  background-color:#a40a60;
+  -webkit-transition: top .1s ease-in-out, background .1s linear;
+  transition: top .1s ease-in-out, background .1s linear;
+  z-index: 100;
+  outline: 1;
+  font-size: 1rem;
+  text-decoration: none;  
+}
+
+#skiptocontent a:focus {
+  top: 0px;
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .container {
+    width: 730px;
+  }
+}
