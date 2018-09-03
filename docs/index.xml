@@ -6,10 +6,21 @@
     <description>Recent content on satinflame design</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Apr 2018 15:13:50 -0600</lastBuildDate>
+    <lastBuildDate>Sun, 02 Sep 2018 18:47:58 -0600</lastBuildDate>
     
 	<atom:link href="https://www.satinflame.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Adding Bar Graphs using Highcharts in OU Campus</title>
+      <link>https://www.satinflame.com/blog/2018/09/bar-graph-highcharts-ou-campus/</link>
+      <pubDate>Sun, 02 Sep 2018 18:47:58 -0600</pubDate>
+      
+      <guid>https://www.satinflame.com/blog/2018/09/bar-graph-highcharts-ou-campus/</guid>
+      <description>In this example, the HTML table is transformed using the Highcharts library—it is free for non-profits, so go grab a Highcharts Non-commercial license.
+On your page, include the Highcharts library file as well as your customized JS—specific to this type of bar graph setup. In your file at /_resources/ou/editor/wysiwyg.css or similar, add the following CSS to show the table in edit mode only:
+#datatable.sr-only { display: block !important; position: relative; height: auto; width: auto; overflow: auto; clip: auto; }  Here&amp;rsquo;s an example of how the Highcharts table looks using page edit view within OU Campus:</description>
+    </item>
     
     <item>
       <title>Apps and Tiny Tools</title>
