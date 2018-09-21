@@ -628,3 +628,11 @@ table tr:first-child {
     width: 730px;
   }
 }
+
+.padded-logos { padding-top: 30px; padding-bottom: 0; background:rgb(51, 51, 51);  }
+.padded-logos .row {display:flex; justify-content: center; }
+.padded-logos .row >* { border: 1px solid rgba(241, 157, 45, .5); border-left:0; padding: 15px; color:#f1b463; text-align: center; flex:0 1 auto; display:flex; align-items: center; }
+.padded-logos .row >* p { flex: 1; margin-bottom:0; font-size: 1.1rem; }
+.padded-logos .row >* p a { color: inherit; }
+.padded-logos .row >*:last-child { border-right:0;}
+footer#copyright { text-align:center;color:#f1b463;}
