@@ -38,53 +38,11 @@ From your second domain (or a test domain) update the CNAME/A name to point to t
 
 **Store2 Advanced DNS (A Records)**
 
-<table class="table" cellspacing="0" cellpadding="0">
-
-<tbody>
-
-<tr>
-
-<th>Host</th>
-
-<th>TTL</th>
-
-<th>Numeric IP</th>
-
-</tr>
-
-<tr>
-
-<td>www</td>
-
-<td>7200</td>
-
-<td>192.168.x.x</td>
-
-</tr>
-
-<tr>
-
-<td>@ (None)</td>
-
-<td>7200</td>
-
-<td>192.168.x.x</td>
-
-</tr>
-
-<tr>
-
-<td>* (All Others)</td>
-
-<td>7200</td>
-
-<td>192.168.x.x</td>
-
-</tr>
-
-</tbody>
-
-</table>
+Host |	TTL	Numeric | IP
+--------|----|-----
+www	| 7200	| 192.168.x.x
+@ (None)	| 7200	| 192.168.x.x
+* (All Others)	| 7200	| 192.168.x.x
 
 ### Add to your virtual hosts
 
@@ -92,11 +50,11 @@ Add your second domain to sites-available on your server. Once you are satisfied
 
 **Test apache server config prior to restarting:**
 
-    /usr/sbin/apachectl configtest
+`/usr/sbin/apachectl configtest`
 
 **Restart:**
 
-    sudo service apache2 restart
+`sudo service apache2 restart`
 
 ## Update primary website web files
 
@@ -116,25 +74,27 @@ When typing in your primary or secondary website URL, the server must have a way
 
 **index.php:**
 
-    /* Store or website code */  
-    $mageRunCode = isset($_SERVER['MAGE_RUN_CODE']) ? $_SERVER['MAGE_RUN_CODE'] : '';  
-    /* Run store or run website */  
-    $mageRunType = isset($_SERVER['MAGE_RUN_TYPE']) ? $_SERVER['MAGE_RUN_TYPE'] : 'website';
+```php
+<?php 
+/* Store or website code */  
+$mageRunCode = isset($_SERVER['MAGE_RUN_CODE']) ? $_SERVER['MAGE_RUN_CODE'] : '';  
+/* Run store or run website */  
+$mageRunType = isset($_SERVER['MAGE_RUN_TYPE']) ? $_SERVER['MAGE_RUN_TYPE'] : 'website';
 
-    switch($_SERVER['HTTP_HOST']) {  
-      case 'store1.com':  
-      case 'www.store1.com':  
-      $mageRunCode = 'store1';  
-      $mageRunType = 'website';  
-      break;  
-      case 'store2.com':  
-      case 'www.store2.com':  
-      $mageRunCode = 'store2';  
-      $mageRunType = 'website';  
-      break;  
-    }  
-    Mage::run($mageRunCode, $mageRunType);
- 
+switch($_SERVER['HTTP_HOST']) {  
+  case 'store1.com':  
+  case 'www.store1.com':  
+  $mageRunCode = 'store1';  
+  $mageRunType = 'website';  
+  break;  
+  case 'store2.com':  
+  case 'www.store2.com':  
+  $mageRunCode = 'store2';  
+  $mageRunType = 'website';  
+  break;  
+}  
+Mage::run($mageRunCode, $mageRunType);
+``` 
 
 ## Additional Magento updates
 
@@ -166,20 +126,20 @@ If you find that your pages are very similar aside from the occasional store nam
 
 ### SSL
 
-If you are already using an SSL certificate, simply copy this code into a new sites-available similar to how you added the second website previously. However the code for the SSL should be within the <:443> module.
+If you are already using an SSL certificate, simply copy this code into a new sites-available similar to how you added the second website previously. However the code for the SSL should be within the `<:443>` module.
 
 ### Restricting your second website for testing
 
-In order to restrict viewing of your second website to your IP only, use the <Location /> within the sites-available. (The [developer IPs in the Magento admin settings are NOT for restricting access](http://magento.stackexchange.com/questions/4564/setting-up-magento-staging-environment-with-restricted-access)!) Here is an example of my full sites-enabled code including the <Location /> tag. When you are ready for the world to see your second website, remove the entire <Location /> block. Restart your server after testing and making changes.
+In order to restrict viewing of your second website to your IP only, use the <Location /> within the sites-available. (The [developer IPs in the Magento admin settings are NOT for restricting access](http://magento.stackexchange.com/questions/4564/setting-up-magento-staging-environment-with-restricted-access)!) Here is an example of my full sites-enabled code including the `<Location />` tag. When you are ready for the world to see your second website, remove the entire `<Location />` block. Restart your server after testing and making changes.
 
 **sites-available/secondstore:**
-
-    <Location />  
-    Order deny,allow  
-    Deny from all  
-    Allow from 174.45.x.x  
-    </Location> 
-
+```.htaccess
+<Location />  
+Order deny,allow  
+Deny from all  
+Allow from 174.45.x.x  
+</Location> 
+```
 ### Import/Export
 
 Although I did a lot of development testing using MAGMI, I ended up recreating the products from scratch on my second website. The easiest way to do this is to create your configurable product and then create the Associated Products using the Quick-Create. You can then go back and fill in all product information on the parent product as necessary.

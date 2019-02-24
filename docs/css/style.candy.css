@@ -1991,8 +1991,8 @@ ul.recent li:last-child {
 #blog-homepage .post h2,
 #blog-listing-big .post h4,
 #blog-homepage .post h4 {
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
+
+  letter-spacing: 0.02em;
 }
 #blog-listing-big .post h2 a,
 #blog-homepage .post h2 a,
@@ -2065,10 +2065,8 @@ ul.recent li:last-child {
   margin-bottom: 60px;
 }
 #blog-listing-medium .post h2, h3 {
-  text-transform: uppercase;
-  margin: 0 0 10px;
-  font-size: 24px;
-  letter-spacing: 0.08em;
+  margin: 0 0 10px; 
+  letter-spacing: 0.02em;
 }
 #blog-listing-medium .post h2 a {
   color: #555555;
@@ -3165,10 +3163,10 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #cccccc;
 }
 /* scaffolding */
-body {
+html, body {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.42857143;
+  font-size: 18px;
+  line-height: 1.5;
   color: #555555;
 }
 a {

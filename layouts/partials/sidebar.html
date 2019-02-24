@@ -1,41 +1,42 @@
+<div class="sidebar">
+  <div class="profile">
+    <a href="/contact"><img src="/img/jeanine-helo-300x300.jpg" alt="Jeanine Schoessler front-end developer"
+      height="300" width="300" /></a>
+  </div>
 
-<div class="sidebar"> 
-    <div class="profile">
-    <a href="/contact"><img src="/img/jeanine-helo-300x300.jpg" alt="Jeanine Schoessler front-end developer" /></a>
-            </div>
-         
-           <h2>Recent projects</h2>
-           <p>Developing out web page designs into HTML/CSS/JavaScript, implementing Sketch design systems into code, and managing university websites.  </p>
-                 
-            <h2>Learning</h2>
-           <p >
-            Fall: UX / UI<br/>
-             Summer: <a href="https://classroom.udacity.com/courses/ud891">Web Accessibility</a><br/>
-             Spring: Bootstrap 4 </p>       
-   
- <h2>Follow me</h2>
-<a class="twitter-follow-button"
-  href="https://twitter.com/graphical"
-  data-size="large">
-Follow @graphical</a>
+  <h2>Recent projects</h2>
+  <p>Developing out web page designs into HTML/CSS/JavaScript, implementing Sketch design systems into code, and
+    managing university websites. </p>
 
-<script>window.twttr = (function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0],
-    t = window.twttr || {};
-  if (d.getElementById(id)) return t;
-  js = d.createElement(s);
-  js.id = id;
-  js.src = "https://platform.twitter.com/widgets.js";
-  fjs.parentNode.insertBefore(js, fjs);
+  <h2>Learning</h2>
+  <p>
+    Spring: <a href="https://www.lynda.com/learning-paths/Design/become-a-graphic-designer">Graphic Design</a><br />
+    Fall: <a href="https://lambdaschool.com/courses/ux/intro/">UX / UI</a><br />
+    Summer: <a href="https://classroom.udacity.com/courses/ud891">Web Accessibility</a></p>
 
-  t._e = [];
-  t.ready = function(f) {
-    t._e.push(f);
-  };
+  <h2>Follow me</h2>
+  <a class="twitter-follow-button" href="https://twitter.com/graphical" data-size="large">
+    Follow @graphical</a>
 
-  return t;
-}(document, "script", "twitter-wjs"));</script>
-<h2>Tags</h2>
- {{ partial "widgets/tags.html" . }}  
+  <script>
+    window.twttr = (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0],
+        t = window.twttr || {};
+      if (d.getElementById(id)) return t;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "https://platform.twitter.com/widgets.js";
+      fjs.parentNode.insertBefore(js, fjs);
 
- </div>
+      t._e = [];
+      t.ready = function (f) {
+        t._e.push(f);
+      };
+
+      return t;
+    }(document, "script", "twitter-wjs"));
+  </script>
+  <h2>Tags</h2>
+  {{ partial "widgets/tags.html" . }}
+
+</div>

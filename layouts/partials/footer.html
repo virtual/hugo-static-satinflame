@@ -18,7 +18,7 @@ _________________________________________________________ -->
     <div class="container">
         <div class="col-md-12">
             {{ if isset .Site.Params "copyright" }}
-            <p>{{ .Site.Params.copyright | safeHTML }}</p>
+            <p>{{ .Site.Params.copyright | safeHTML }} ~ <a href="{{ .Site.Params.footerLink | safeHTML }}">{{ .Site.Params.footerLinkText | safeHTML }}</a></p>
             {{ end }}
              
         </div>

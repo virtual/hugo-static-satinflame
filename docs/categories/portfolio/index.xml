@@ -19,7 +19,7 @@
       <guid>https://www.satinflame.com/blog/2018/09/bar-graph-highcharts-ou-campus/</guid>
       <description>In this example, the HTML table is transformed using the Highcharts library—it is free for non-profits, so go grab a Highcharts Non-commercial license.
 On your page, include the Highcharts library file as well as your customized JS—specific to this type of bar graph setup. In your file at /_resources/ou/editor/wysiwyg.css or similar, add the following CSS to show the table in edit mode only:
-#datatable.sr-only { display: block !important; position: relative; height: auto; width: auto; overflow: auto; clip: auto; }  Here&amp;rsquo;s an example of how the Highcharts table looks using page edit view within OU Campus:</description>
+1 2 3 4 5 6 7 8  #datatable.</description>
     </item>
     
     <item>
@@ -92,7 +92,8 @@ Unlike other designs I’ve implemented, Naropa University’s wasn’t quite r
       <pubDate>Sun, 10 Jan 2016 15:02:57 -0600</pubDate>
       
       <guid>https://www.satinflame.com/blog/2016/01/elizabeth-city-state-university-web-redesign/</guid>
-      <description>ECSU Secondary Page      ECSU Homepage      ECSU Admissions      ECSU History Page     In 2015, I worked with Vayakone Sphabmixay from SAX, Inc. implementing their redesign for Elizabeth City State University in North Carolina. There were many creative design pieces that presented fun challenges for implementing in a responsive environment.
+      <description>ECSU Secondary Page      ECSU Homepage      ECSU Admissions      ECSU History Page    
+In 2015, I worked with Vayakone Sphabmixay from SAX, Inc. implementing their redesign for Elizabeth City State University in North Carolina. There were many creative design pieces that presented fun challenges for implementing in a responsive environment.
 Historical Year Timeline The timeline is both collapsible and adapts to mobile devices.</description>
     </item>
     

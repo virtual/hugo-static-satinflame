@@ -8,6 +8,14 @@ publishDir = "docs"
 # Define the number of posts per page
 paginate = 10
 
+
+pygmentsOptions = "linenos=table"  
+# enables syntax guessing for code fences without specified language
+pygmentsCodeFencesGuessSyntax = true
+pygmentsCodeFences = true
+# color-codes for highlighting derived from this style
+pygmentsStyle =  "monokailight" 
+
 [params]
     style="candy"
     viewMorePostLink     = "/blog/"
@@ -29,11 +37,13 @@ paginate = 10
     # Enable the contact form by entering your Formspree.io email
     email = "jeanine@satinflame.com"
  
-    copyright = "&copy; 2014-2018 satinflame design"
+    copyright = "&copy; 2014-2019 satinflame design"
+    footerLink = "/blog"
+    footerLinkText = "blog"
     date_format = "2006-01-02"
     logo = "img/logo.png"
     ogimg = "img/ogimg.png"
-    DefaultDescription = "satinflame design provides web services for higher ed including responsive Web development and implementation of snippets, assets and page layouts into OU Campus."
+    DefaultDescription = "satinflame design provides web services for higher ed including responsive web development and implementation of snippets, assets and page layouts into OU Campus."
 
     # Enable Google Analytics by entering your tracking code
     googleAnalytics = "UA-7598678-1"
@@ -48,14 +58,9 @@ paginate = 10
     weight = 1
 
 [[menu.main]]
-    name = "Portfolio"
+    name = "Projects"
     url  = "/categories/portfolio/"
     weight = 2
-
-[[menu.main]]
-    name = "Blog"
-    url  = "/categories/blog/"
-    weight = 3
 
 [[menu.main]]
     name = "About"

@@ -13,7 +13,7 @@ In this example, the HTML table is transformed using the [Highcharts library](ht
 
 On your page, include the Highcharts library file as well as your customized JS—specific to this type of bar graph setup. In your file at `/_resources/ou/editor/wysiwyg.css` or similar, add the following CSS to show the table in edit mode only:
 
-```
+```css
 #datatable.sr-only {
     display: block !important;
     position: relative;
@@ -26,7 +26,12 @@ On your page, include the Highcharts library file as well as your customized JS�
 
 Here's an example of how the Highcharts table looks using page edit view within OU Campus:
 
-<img src="/img/posts/highcharts/edit-table.jpg" alt="Edit table, column 1 Level and column 2 Salary">
+Level    | Salary
+--------|------
+PGY—1     | 58109
+PGY—2     | 61344
+PGY—3     | 63319
+PGY—4     | 65873 
 
 A working sample of Highcharts using an HTML table and JS:
 

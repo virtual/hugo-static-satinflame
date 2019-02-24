@@ -18,8 +18,9 @@ Jeanine previously developed websites for [Montana State University and Montana
 
 ### Front-end Development:  
 -	Responsive web development based on single- or multi-layout designs 
-  - Example 1: https://satinflame.com/ou/southplains/
-  - Example 2: https://satinflame.com/ou/alvin/ 
+  - Example 1: <a href="https://virtual.github.io/shoreline/" rel="nofollow">Shoreline Community College Redesign</a>
+  - Example 2: <a href="https://satinflame.com/ou/alvin/" rel="nofollow">Alvin Community College Redesign</a>
+  - Example 3: <a href="https://satinflame.com/ou/southplains/" rel="nofollow">South Plains College Redesign</a>
 -	Create flexible deliverables:
   - HTML/CSS/JavaScript code
   - Git repository including file structure
