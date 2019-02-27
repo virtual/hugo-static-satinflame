@@ -678,3 +678,6 @@ code { font-size: .8em; }
   width: 220px;
 }
 }
+
+.btn-primary { background-color: #a71068; border: 1px solid #880d55; text-decoration: none !important; text-transform: none; padding: 1rem 1.5rem; font-size: 1rem; }
+.btn-primary:hover { background-color: #880d55; }
