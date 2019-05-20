@@ -23,6 +23,7 @@ body {
   font-weight: 400;
   font-style: normal;
 }
+
 /* your styles go here */
 
 html {
@@ -57,6 +58,7 @@ body {
   .col-sm-6:nth-child(2n+1) {
     clear: both;
   }
+
   #blog-post #post-content {
     padding-bottom: 20px;
   }
@@ -141,8 +143,14 @@ h6 {
 }
 
 @media (max-width: 479px) {
-  #blog-listing-medium .post h2, .home-carousel h2 { font-size: 1.5em; text-transform:none; letter-spacing:0; }
-  
+
+  #blog-listing-medium .post h2,
+  .home-carousel h2 {
+    font-size: 1.5em;
+    text-transform: none;
+    letter-spacing: 0;
+  }
+
 }
 
 .heading h1,
@@ -318,22 +326,28 @@ figure img {
   .figstack>a {
     width: 50%;
   }
- 
+
 }
 
 
 @media (max-width: 479px) {
- 
+
   .topnav p.tagline {
     display: block;
     float: none;
     text-align: center;
-    padding: 5px 0 5px 0; 
+    padding: 5px 0 5px 0;
   }
-  .topnav .icons { float:none; text-align:center; padding: 4px 0; }
- 
+
+  .topnav .icons {
+    float: none;
+    text-align: center;
+    padding: 4px 0;
+  }
+
 
 }
+
 /* underline */
 
 .post-content {
@@ -420,12 +434,14 @@ blockquote {
   margin-top: 15px;
   margin-bottom: 0;
 }
+
 /* bar */
 
 @-webkit-keyframes progress-bar-stripes {
   from {
     background-position: 40px 0;
   }
+
   to {
     background-position: 0 0;
   }
@@ -435,6 +451,7 @@ blockquote {
   from {
     background-position: 40px 0;
   }
+
   to {
     background-position: 0 0;
   }
@@ -444,6 +461,7 @@ blockquote {
   from {
     background-position: 40px 0;
   }
+
   to {
     background-position: 0 0;
   }
@@ -453,6 +471,7 @@ blockquote {
   from {
     background-position: 0 0;
   }
+
   to {
     background-position: 40px 0;
   }
@@ -462,6 +481,7 @@ blockquote {
   from {
     background-position: 40px 0;
   }
+
   to {
     background-position: 0 0;
   }
@@ -527,9 +547,10 @@ blockquote {
   /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to right, #f1b463 0%, #b54c68 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1b463', endColorstr='#b54c68', GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f1b463', endColorstr='#b54c68', GradientType=1);
   /* IE6-9 */
 }
+
 /* end bar */
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -552,13 +573,19 @@ h1.logo-home {
   margin-bottom: 0;
 }
 
-footer a { color:inherit;}
-#all {
-  display:flex; 
-  flex-direction:column;
-  min-height:100vh;
+footer a {
+  color: inherit;
 }
-#content { flex: 1} 
+
+#all {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#content {
+  flex: 1
+}
 
 
 table tbody tr:first-child {
@@ -584,22 +611,78 @@ table tr:first-child {
   border: inherit;
 }
 
-.card { display:block; clear: both; border: 1px solid rgba(167, 16, 104, .15); margin-bottom: 1rem; 
-  background-color:rgba(167, 16, 104, .05);  
-  position:relative; padding-bottom: 15px;}
-.card:after { content:""; display:block; clear:both;}
-.card img, .card-image { max-width: 100%; height: auto;}
-.card-image {  width: 100%; margin: 5px; background:#fff; padding: 1rem; border: 1px solid #a71068 }
-.card-content { width:100%; padding: 10px;}
-.card-content h3 { color: #a71068; margin: .5rem 0; text-transform: none; }  
+.card {
+  display: block;
+  clear: both;
+  border: 1px solid rgba(167, 16, 104, .15);
+  margin-bottom: 1rem;
+  background-color: rgba(167, 16, 104, .05);
+  position: relative;
+  padding-bottom: 15px;
+}
 
-.card .tags span { border: 1px solid #888; color:#555; font-weight:600;     text-transform: uppercase; font-size: .7rem;padding: 2px 4px; display:inline-block;margin-right:3px;}
-.card .tags { position:absolute;right:5px; bottom:0; }
+.card:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.card img,
+.card-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.card-image {
+  width: 100%;
+  margin: 5px;
+  background: #fff;
+  padding: 1rem;
+  border: 1px solid #a71068
+}
+
+.card-content {
+  width: 100%;
+  padding: 10px;
+}
+
+.card-content h3 {
+  color: #a71068;
+  margin: .5rem 0;
+  text-transform: none;
+}
+
+.card .tags span {
+  border: 1px solid #888;
+  color: #555;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: .7rem;
+  padding: 2px 4px;
+  display: inline-block;
+  margin-right: 3px;
+}
+
+.card .tags {
+  position: absolute;
+  right: 5px;
+  bottom: 0;
+}
 
 @media (min-width: 480px) {
-  .card-image { float:left; width: 47%; }
-  .card-content { width: 50%; float:left; }
-  .card { padding-bottom: 0;}
+  .card-image {
+    float: left;
+    width: 47%;
+  }
+
+  .card-content {
+    width: 50%;
+    float: left;
+  }
+
+  .card {
+    padding-bottom: 0;
+  }
 }
 
 #skiptocontent a {
@@ -608,43 +691,91 @@ table tr:first-child {
   top: -50px;
   left: 0px;
   color: white;
-  background-color:#a40a60;
+  background-color: #a40a60;
   -webkit-transition: top .1s ease-in-out, background .1s linear;
   transition: top .1s ease-in-out, background .1s linear;
   z-index: 100;
   outline: 1;
   font-size: 1rem;
-  text-decoration: none;  
+  text-decoration: none;
 }
 
 #skiptocontent a:focus {
   top: 0px;
 }
+
 @media (max-width: 991px) and (min-width: 768px) {
   .container {
     width: 730px;
   }
 }
 
-.padded-logos { padding-top: 30px; padding-bottom: 0; background:rgb(51, 51, 51);  }
-.padded-logos .row {display:flex; justify-content: center; }
-.padded-logos .row >* { border: 1px solid rgba(241, 157, 45, .5); border-left:0; padding: 15px; color:#f1b463; text-align: center; flex:0 1 auto; display:flex; align-items: center; }
-.padded-logos .row >* p { flex: 1; margin-bottom:0; font-size: 1.1rem; }
-.padded-logos .row >* p a { color: inherit; }
-.padded-logos .row >*:last-child { border-right:0;}
-footer#copyright { text-align:center;color:#f1b463;}
+.padded-logos {
+  padding-top: 30px;
+  padding-bottom: 0;
+  background: rgb(51, 51, 51);
+}
+
+.padded-logos .row {
+  display: flex;
+  justify-content: center;
+}
+
+.padded-logos .row>* {
+  border: 1px solid rgba(241, 157, 45, .5);
+  border-left: 0;
+  padding: 15px;
+  color: #f1b463;
+  text-align: center;
+  flex: 0 1 auto;
+  display: flex;
+  align-items: center;
+}
+
+.padded-logos .row>* p {
+  flex: 1;
+  margin-bottom: 0;
+  font-size: 1.1rem;
+}
+
+.padded-logos .row>* p a {
+  color: inherit;
+}
+
+.padded-logos .row>*:last-child {
+  border-right: 0;
+}
+
+footer#copyright {
+  text-align: center;
+  color: #f1b463;
+}
 
 
 
 .highlight table tbody tr:first-child {
   border: 0;
 }
-pre { border-radius: 0;}
-table { margin: 1rem 0;}
 
-#blog-post ul li + li { margin-top: 1rem; }
-#blog-post strong { color: #000; }
-#blog-post a { text-decoration: underline; }
+pre {
+  border-radius: 0;
+}
+
+table {
+  margin: 1rem 0;
+}
+
+#blog-post ul li+li {
+  margin-top: 1rem;
+}
+
+#blog-post strong {
+  color: #000;
+}
+
+#blog-post a {
+  text-decoration: underline;
+}
 
 #blog-post p.lead {
   background-color: rgba(241, 180, 99, 0.10196078431372549);
@@ -654,6 +785,7 @@ table { margin: 1rem 0;}
   color: #a71068;
   border-left: 10px solid #ff9800;
 }
+
 #blog-post h2 {
   color: #a71068;
 }
@@ -671,10 +803,58 @@ blockquote small {
   margin-top: .25rem;
   font-size: 1rem;
 }
-code { font-size: .8em; } 
-@media (min-width: 893px) {
-.sidebar .profile img {
-  border: 10px solid #fff;
-  width: 220px;
+
+code {
+  font-size: .8em;
 }
+
+@media (min-width: 893px) {
+  .sidebar .profile img {
+    border: 10px solid #fff;
+    width: 220px;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .icon-section .row {
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+  }
+}
+
+.icon-section .row>* {
+  flex-grow: 1;
+  display: flex;
+  justify-content: stretch;
+  align-items: stretch;
+
+}
+
+.icon-section .row .box-simple {
+  text-align: left;
+  background-color: rgba(241, 180, 99, 0.25);
+  border-left: 5px solid rgb(241, 157, 45);
+  position: relative;
+  z-index: 1;
+  padding-left: 15px;
+  overflow: hidden;
+}
+
+.icon-section .box-simple .icon {
+  background-color: transparent;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.icon-section .icon .fa {
+  color: rgba(241, 180, 99, 0.44);
+  position: relative;
+  bottom: 0;
+  right: 0;
+  font-size: 50px;
+  float: right;
+  z-index: 0;
 }
