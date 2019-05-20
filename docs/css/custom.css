@@ -886,3 +886,5 @@ code {
   margin-top: -3px;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
+
+img { max-width: 100%; height: auto;}
