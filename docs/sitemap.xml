@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.satinflame.com/blog/2019/05/regain-access-google-analytics/</loc>
+    <lastmod>2019-05-20T08:41:36-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.satinflame.com/blog/2019/02/shoreline-redesign/</loc>
     <lastmod>2019-02-27T10:23:38-07:00</lastmod>
   </url>
@@ -100,13 +105,13 @@
   
   <url>
     <loc>https://www.satinflame.com/categories/blog/</loc>
-    <lastmod>2018-03-28T12:21:34-06:00</lastmod>
+    <lastmod>2019-05-20T08:41:36-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.satinflame.com/blog/</loc>
-    <lastmod>2019-02-27T10:23:38-07:00</lastmod>
+    <lastmod>2019-05-20T08:41:36-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -118,13 +123,13 @@
   
   <url>
     <loc>https://www.satinflame.com/tags/bootstrap4/</loc>
-    <lastmod>2019-02-27T10:23:38-07:00</lastmod>
+    <lastmod>2019-05-20T08:41:36-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.satinflame.com/categories/</loc>
-    <lastmod>2018-03-28T12:21:34-06:00</lastmod>
+    <lastmod>2019-05-20T08:41:36-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -162,19 +167,19 @@
   
   <url>
     <loc>https://www.satinflame.com/tags/omniupdate/</loc>
-    <lastmod>2019-02-27T10:23:38-07:00</lastmod>
+    <lastmod>2019-05-20T08:41:36-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.satinflame.com/categories/portfolio/</loc>
-    <lastmod>2019-02-27T10:23:38-07:00</lastmod>
+    <lastmod>2019-05-20T08:41:36-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.satinflame.com/tags/programming/</loc>
-    <lastmod>2019-02-27T10:23:38-07:00</lastmod>
+    <lastmod>2019-05-20T08:41:36-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -186,7 +191,7 @@
   
   <url>
     <loc>https://www.satinflame.com/tags/rwd/</loc>
-    <lastmod>2019-02-27T10:23:38-07:00</lastmod>
+    <lastmod>2019-05-20T08:41:36-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -220,7 +225,7 @@
   
   <url>
     <loc>https://www.satinflame.com/</loc>
-    <lastmod>2019-02-27T10:23:38-07:00</lastmod>
+    <lastmod>2019-05-20T08:41:36-06:00</lastmod>
     <priority>0</priority>
   </url>
   

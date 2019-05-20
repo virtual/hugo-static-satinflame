@@ -6,18 +6,27 @@
     <description>Recent content in Rwd on satinflame design</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Feb 2019 10:23:38 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 20 May 2019 08:41:36 -0600</lastBuildDate>
     
 	<atom:link href="https://www.satinflame.com/tags/rwd/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Shoreline Redesign</title>
+      <title>Take the Reins: Retrieving Access to your Google Analytics Account</title>
+      <link>https://www.satinflame.com/blog/2019/05/regain-access-google-analytics/</link>
+      <pubDate>Mon, 20 May 2019 08:41:36 -0600</pubDate>
+      
+      <guid>https://www.satinflame.com/blog/2019/05/regain-access-google-analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shoreline Community College Redesign</title>
       <link>https://www.satinflame.com/blog/2019/02/shoreline-redesign/</link>
       <pubDate>Wed, 27 Feb 2019 10:23:38 -0700</pubDate>
       
       <guid>https://www.satinflame.com/blog/2019/02/shoreline-redesign/</guid>
-      <description>In January 2018, Shoreline unveiled an updated Identity Guideline which I implemented from the original PDF into an interactive Identity Guidelines webpage. In addition to structuring the content to be responsive regardless of device, I added hex codes to each color block and made them clickable so a user could easily copy the color codes to their clipboard. An interesting challenge developed in implementing similar functionality for the Outlook signature block.</description>
+      <description>In January 2018, Shoreline unveiled an updated Identity Guideline which I implemented from the original PDF into an interactive Identity Guidelines webpage. (As an reminder, it is a best practice—as noted by Jakob Nielsen—to use HTML instead of PDF for online presentations.) In addition to structuring the content to be responsive regardless of device, I added hex codes to each color block and made them clickable so a user could easily copy the color codes to their clipboard.</description>
     </item>
     
     <item>

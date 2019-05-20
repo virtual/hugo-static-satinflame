@@ -783,7 +783,7 @@ table {
   padding: 15px;
   line-height: 1.6;
   color: #a71068;
-  border-left: 10px solid #ff9800;
+  border-left: 5px solid #ff9800;
 }
 
 #blog-post h2 {
@@ -815,6 +815,18 @@ code {
   }
 }
 
+.btn-primary {
+  background-color: #a71068;
+  border: 1px solid #880d55;
+  text-decoration: none !important;
+  text-transform: none;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+}
+
+.btn-primary:hover {
+  background-color: #880d55;
+}
 
 @media (min-width: 768px) {
   .icon-section .row {
@@ -825,7 +837,7 @@ code {
 }
 
 .icon-section .row>* {
-  flex-grow: 1;
+  flex-basis: 33%;
   display: flex;
   justify-content: stretch;
   align-items: stretch;
@@ -835,10 +847,11 @@ code {
 .icon-section .row .box-simple {
   text-align: left;
   background-color: rgba(241, 180, 99, 0.25);
-  border-left: 5px solid rgb(241, 157, 45);
+  border-top: 5px solid rgb(241, 157, 45);
   position: relative;
   z-index: 1;
   padding-left: 15px;
+  padding-right: 15px;
   overflow: hidden;
 }
 
@@ -849,7 +862,7 @@ code {
   right: 0;
 }
 
-.icon-section .icon .fa {
+.icon-section .icon > * {
   color: rgba(241, 180, 99, 0.44);
   position: relative;
   bottom: 0;
@@ -857,4 +870,19 @@ code {
   font-size: 50px;
   float: right;
   z-index: 0;
+}
+
+.box-simple h3 {
+  margin-top: 1rem;
+  color: #333333;
+}
+
+.testimonial2 .text p:first-child:first-letter {
+  color: #a71068;
+  float: left;
+  font-size: 4rem;
+  line-height: 3.5rem; 
+  padding-right: 5px;
+  margin-top: -3px;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
