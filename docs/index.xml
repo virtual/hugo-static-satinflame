@@ -6,10 +6,19 @@
     <description>Recent content on satinflame design</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Feb 2019 10:23:38 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 20 May 2019 08:41:36 -0600</lastBuildDate>
     
 	<atom:link href="https://www.satinflame.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Retrieving Access to your Google Analytics Account</title>
+      <link>https://www.satinflame.com/blog/2019/05/regain-access-google-analytics/</link>
+      <pubDate>Mon, 20 May 2019 08:41:36 -0600</pubDate>
+      
+      <guid>https://www.satinflame.com/blog/2019/05/regain-access-google-analytics/</guid>
+      <description>If your site has a mysterious secondary Google Analytics number added to your website&amp;rsquo;s source code or you can&amp;rsquo;t find anyone at your school who seems to know the information for your Google Analytics setup, you may think that the existing information is now lost forever. However, there is one last measure you can try before giving up hope and creating a new Google Analytics account. First, be sure you can login to Google Analytics with the email you choose before requesting your email be added to the account in the following steps.</description>
+    </item>
     
     <item>
       <title>Shoreline Community College Redesign</title>
