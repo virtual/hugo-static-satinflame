@@ -9,6 +9,8 @@ publishDir = "docs"
 paginate = 10
 
 
+DisqusShortname = "satinflame-com"
+
 pygmentsOptions = "linenos=table"  
 # enables syntax guessing for code fences without specified language
 pygmentsCodeFencesGuessSyntax = true
@@ -61,6 +63,11 @@ pygmentsStyle =  "monokailight"
     name = "Projects"
     url  = "/categories/portfolio/"
     weight = 2
+
+[[menu.main]]
+    name = "Blog"
+    url  = "/categories/blog/"
+    weight = 3
 
 [[menu.main]]
     name = "About"

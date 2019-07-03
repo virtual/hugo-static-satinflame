@@ -15,3 +15,7 @@ Rebuilt portfolio using gohugo.io
 - commit to git repo
 - Add remote: `git remote add githubio https://github.com/virtual/virtual.github.io.git`
 - Push to [github page](https://github.com/virtual/virtual.github.io): `git subtree push --prefix docs githubio master`
+
+## New Post
+- `hugo new blog/my-post-name.md`
+- `hugo server -D` (show drafts)
