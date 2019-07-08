@@ -3,7 +3,7 @@ title: "OmniUpdate 2018 Training Conference"
 date: 2018-03-28T12:21:34-06:00
 banner: "img/banners/outc18.jpg"
 categories: ["blog"]
-tags: ["omniupdate", "learning", "programming"]
+tags: ["oucampus", "learning", "programming"]
 authors:
   - jeanine
 excerpt: "Last week I had the pleasure of attending four days of OmniUpdate's annual Training Conference (OUTC)! I'd like to share a special thank you to Shoreline Community College for helping pave my way to #OUTC18. Although it's not a comprehensive overview, here are some of my favorite bits from the week."

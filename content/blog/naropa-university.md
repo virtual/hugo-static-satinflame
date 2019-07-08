@@ -2,7 +2,7 @@
 title: "Naropa University"
 date: 2016-01-24T15:02:57-06:00
 banner: "img/banners/naropa-1024x585.jpg"
-tags: ["bootstrap3", "omniupdate", "programming", "rwd", "Sass"]
+tags: ["bootstrap3", "oucampus", "programming", "rwd", "Sass"]
 categories: ["portfolio"]
 authors:
   - jeanine

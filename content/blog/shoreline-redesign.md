@@ -2,7 +2,7 @@
 title: "Shoreline Community College Redesign"
 date: 2019-02-27T10:23:38-07:00
 banner: "img/posts/shoreline/shoreline.png"
-tags: ["bootstrap4", "omniupdate", "programming", "rwd", "Sass"]
+tags: ["bootstrap4", "oucampus", "programming", "rwd", "Sass"]
 categories: ["portfolio"]
 authors:
   - jeanine

@@ -2,7 +2,7 @@
 title: "Content Migration Refinement For Horry Georgetown Technical College"
 date: 2016-07-11T15:02:57-06:00
 banner: "img/banners/hgtc-1-1024x585.jpg"
-tags: ["migration", "omniupdate"]
+tags: ["migration", "oucampus"]
 categories: ["portfolio"]
 authors:
   - jeanine

@@ -2,7 +2,7 @@
 title: "Create a Progress Bar in OU Campus"
 date: 2018-01-24T14:03:21-07:00
 banner: "/img/banners/progress-bar.png"
-tags: ["omniupdate"]
+tags: ["oucampus"]
 categories: ["portfolio"]
 authors:
   - jeanine

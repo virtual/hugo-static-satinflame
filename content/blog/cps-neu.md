@@ -2,7 +2,7 @@
 title: "Northeastern University’s College of Professional Students"
 date: 2016-01-03T15:02:57-06:00
 banner: "img/banners/cps-neu-1024x576.jpg"
-tags: ["programming", "rwd", "omniupdate"]
+tags: ["programming", "rwd", "oucampus"]
 categories: ["portfolio"]
 authors:
   - jeanine

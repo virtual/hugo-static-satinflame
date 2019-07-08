@@ -2,8 +2,8 @@
 title: "OU Campus Components vs. Snippets"
 date: 2019-07-03T11:20:06-06:00 
 banner: "img/posts/component-snippet/blog-components-snippets.jpg"
-tags: ["bootstrap4", "omniupdate", "programming", "rwd"]
-categories: ["portfolio", "blog"]
+tags: ["bootstrap4", "oucampus", "programming", "rwd"]
+categories: ["blog"]
 authors:
   - jeanine
 excerpt: "Components and snippets can often be used interchangeably for the same purpose, however there are number of difference between the two. When should you choose a component over a snippet, or vice versa? Where can each be used and how are they managed?" 
@@ -17,35 +17,119 @@ If you had wanted to customize a feature specific for each use, previously you w
 In this article, we will dive into specific use cases for both components and snippets, so you can identify which feature will be more suited to your needs within OU Campus.
 
 
+
+
 ## Inserting and Modifying Content
 
 ### User Interface Examples
 Let's start out by comparing the typical view of snippets and components for your end-users.
 
-**Snippet**
 
-![Editing snippet](/img/posts/component-snippet/edit-snippet.jpg)
+-----------------
 
-**Component**
+#### OU Campus Edit View for Snippets vs. Simple Components
 
-![Editing component](/img/posts/component-snippet/editing-component-no-preview.jpg)
+<div class="row">
+<div class="col-12 col-md-12">
+<p><strong>Snippet</strong><br/>
+Editing the message for this snippet is done by modifying text within the table cell:<br/>
+<img src="/img/posts/component-snippet/edit-snippet.jpg" alt="Editing snippet"></p>
+</div>
 
-![Editing component](/img/posts/component-snippet/edit-component.jpg)
+<div class="col-12 col-md-12">
+<p><strong>Component</strong><br/>
+To edit the component, click the edit icon (pencil) in Edit View and then edit the message in the corresponding modal:<br/>
+<div class="row">
+<div class="col-12 col-md-6"><img src="/img/posts/component-snippet/editing-component-no-preview-edit.jpg" alt="Editing component"></div>
 
-It might be worth mentioning that if you have preview turned off, it may prove difficult to figure out which component you want to edit when you're using multiple in the same edit region:
+<div class="col-12 col-md-6">
+<img src="/img/posts/component-snippet/edit-component.jpg" alt="Editing component"></p>
+</div>
+</div>
 
-![Editing component](/img/posts/component-snippet/editing-component-no-preview-multi.jpg)
 
-Further, if you do have preview component turned on, users may be confused by the preview. There are options users may attempt to edit when in the Edit Region mode (instead of the Edit Component view)--such as editing the image source or formatting text from the WYSIWYG toolbar--which won't save when completed. 
+</div>
 
-![Editing component](/img/posts/component-snippet/editing-component-table-transform.jpg)
+</div>
+
  
+-----------
+
+#### OU Campus Edit View for Complex Components
+
+Things get a bit messier when you have a complex component. These include components that have logic that is modified using XSLT or those that have the WYSIWYG preview turned off.
+
+<div class="row">
+<div class="col-12 col-md-6">
+<p>
+<strong>WYSIWYG Preview: On</strong><br/>
+If you do have preview component turned on, be aware that users may be confused by the preview. There are options users may attempt to edit when in the Edit Region mode (instead of the Edit Component view)—such as editing the image source or formatting text from the WYSIWYG toolbar—which won't save when completed. 
+  <img src="/img/posts/component-snippet/editing-component-table-transform.jpg" alt="Editing component">
+  </p>
+</div>
+<div class="col-12 col-md-6">
+<strong>WYSIWYG Preview: Off</strong><br/>
+<p>The alternative option (available in the Component settings) is to set WYSIWYG preview to Off. It might be worth mentioning that if you have preview turned off, it may prove difficult to figure out which component you want to edit when you're using multiple in the same edit region:
+  <img src="/img/posts/component-snippet/editing-component-no-preview-multi.jpg" alt="Editing component">
+  </p>
+</div>
+</div>
  
-> Components may be best for standalone environments; however snippets are preferable when users need to access features of the editable region--such as referencing link anchors, applying classes or inserting an additional snippet.
+ -----------
+
+#### Example of Modified CSS to Append Component Count
+
+One solution to identify each component is to modify the styles in your WYSIWYG CSS to append a counter for each instance of a non-previewable component. (Note: this relies on a consistent class manually added to the component source called `ou-component-countable`)
+
+<div class="row">
+<div class="col-12 col-md-6">
+<p>
+<strong>Example of CSS modifying preview of component to include instance number</strong>
+  <img src="/img/posts/component-snippet/component-css.jpg" alt="Editing component">
+  </p>
+</div>
+<div class="col-12 col-md-6">
+<p>
+<strong>Example of CSS modifying edit view of component to include instance number</strong>
+  <img src="/img/posts/component-snippet/component-css-edit.jpg" alt="Editing component">
+  </p>
+</div>
+</div>
+
+The CSS used for the above examples is shown below: 
+
+```css
+/* /_resources/ou/editor/wysiwyg.css */
+body {
+    counter-reset: component-counter;
+}
+
+.ou-je-component[data-ou-component-iswysiwygrender="false"]:after {
+    counter-increment: component-counter;
+    content: " (#" counter(component-counter) ")";
+}
+
+.ou-component-counted:before {
+    position:  absolute;
+    background: hsla(194, 64%, 31%, 0.8);
+    color: #fff;
+    font-weight: 400;
+    font-size: 12px;
+    padding: 5px;
+    counter-increment: component-counter;
+    content: "Component (#" counter(component-counter) ")";
+}
+```
+
+
+ 
+
 
 ### Linking Capabilities
 
-One tool that is often useful is the link tool in OU Campus. It allows you to link to a page or anchor. However, snippets and components work quite differently.
+One tool that is often useful is the link tool in OU Campus. It allows you to link to a page or anchor. However, snippets and components work quite differently. Components may be best for standalone environments; however snippets may be preferable when users need to access features of the editable region–such as referencing link anchors, applying classes or inserting an additional snippet.
+
+> Snippets may be preferable when users need to access features of the editable region--such as referencing link anchors, applying classes or inserting an additional snippet.
 
 When editing a snippet, you'll see options to add links and anchors that are available in the same Edit Region your snippet was placed in. In this example, `#schedule` is an available anchor as shown in the Link tool.
 
@@ -54,19 +138,9 @@ When editing a snippet, you'll see options to add links and anchors that are ava
 Components, on the other hand, are edited in a separate modal window. They do not have the option to link to anchors within the region it was placed. However, you can still use the less-powerful link options of the minimal WYSIWYG (often found in the MultiEdit regions).
 
 ![Editing component](/img/posts/component-snippet/link-anchor-component.jpg)
+
+
  
-### Page Preview
-
-On save, both components and snippets should show indentical to how they will publish (unless your snippet/component rely on server-side code to run).
-
-
-**Snippet**
-
-![Editing component](/img/posts/component-snippet/preview-snippet.jpg)
-
-**Component** 
-
-![Editing component](/img/posts/component-snippet/preview-component.jpg)
 
 
 
@@ -88,13 +162,23 @@ On save, both components and snippets should show indentical to how they will pu
 ~[com[2460 1 2{ "version": 2, "data": {"ca2ee8508fabe92a74fe08ca0f0b9018":"info","7cf226fac04bfa4a7b6ce21f6d58f80a":"&lt;p&gt;The campus will be closed due to extreme weather conditions.&lt;/p&gt;"}}]]~ 
 ```
 
-As you can see from the examples above, if you were to do a content inventory, or need to do a Find/Replace, components are a bit more obfuscated than snippets.
+As you can see from the examples above, if you were to do a content inventory or run a search on a certain type of element, components are a bit more obfuscated than snippets. That being said, there is some important information in these component calls:
 
-That being said, there seems to be some information in these component calls:
 ```js
-~[com[<COMPONENTID> <NUMBER OF ELEMENTS> <LAUNCH VERSION>{ "version": 2, "data": {"ca2ee8508fabe92a74fe08ca0f0b9018":"info","7cf226fac04bfa4a7b6ce21f6d58f80a":"&lt;p&gt;The campus will be closed due to extreme weather conditions.&lt;/p&gt;"}}]]~
+~[com[<COMPONENT-ID> <COMPONENT-INSTANCE-ID> <COMPONENT-VERSION>{ ... }]]~
 ```
 
+In this example, you could then do a search for `"ou-alert-default"` (snippets) or `"~[com[2460 "` (components) to find all pages using a certain type of component.
+
+
+## Previewing Content
+
+On save, both components and snippets should show indentical to how they will publish (unless your snippet or component relies on server-side code to run).
+
+
+Snippets and Components show the same result in page preview:
+
+![Editing component](/img/posts/component-snippet/preview-snippet.jpg)
 
 
 
@@ -110,40 +194,23 @@ Both snippets (using table-transformations) and components can use XSLT to creat
 
 ![Editing component](/img/posts/component-snippet/modify-component.jpg)
 
-OU Campus documentation shares the following:
+Further, OU Campus documentation shares the following:
 
 *"If an existing component is launched with changes that are significantly different from how it exists on pages (i.e., adding a new required element), then the extant instances of the component will not change until the next time someone edits the component content on a page. Then, the newest version will be used. For minor changes (such as changes in helper text), the components will be updated automatically on launch."* 
 
+
 ## Where can each be used?
 
-Knowing the limitations of the functionalities is one piece, but there is another important aspect of understanding if a component works for your situation: where will it be placed? Currently, assets and MultiEdit WYSIWYG regions do not include the option to insert a component.
+Knowing the limitations of the functionalities is one aspect, but there is another important part of understanding if a component works for your situation: where will it be placed? Currently, assets and MultiEdit WYSIWYG regions do not include the option to insert a component.
 
 Region | Snippets | Components 
 --- | --- | ---
 Page Editable Region | x | x
-MultiEdit WYSIWYG Region | x 
-Source Code Asset | x  
-
-![Editing component](/img/posts/component-snippet/asset-use-snippet.jpg)
-
-## Permissions
-
-Follow permissions? Folder links?
-
-Add to page?
-Edit in page?
-
-Components: 
-
-*"For the File and Image Chooser elements, select whether the user cannot navigate out of the current folder to look for files."*
-
-*"Access lets you select which group the component is available to. This restricts which users can place the component on a page, but doesn't affect who can edit the component on a page."*
+MultiEdit WYSIWYG Region | x  |
+Web Content Asset | x  | 
+ 
 
 
-Snippets
-Image embedded
+## Final Considerations
 
-## Considerations
-
-* Where will your feature be used?
-* Who will need access to it?
+When creating a snippet or component for your next OU Campus feature, consider where your feature will be placed (editable region or asset?) and how it will be used (will users need access to surrounding links and styles?) I hope this article helped showcase features and limitations of both uses, but it is important to note that OmniUpdate strives to continually evolve their OU Campus CMS and features. Please reach out if you have any questions or suggestions related to my examples.

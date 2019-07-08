@@ -2,7 +2,7 @@
 title: "Adding Bar Graphs using Highcharts in OU Campus"
 date: 2018-09-02T18:47:58-06:00
 banner: "img/banners/oucampus-highcharts-1024x585.png"
-tags: ["omniupdate"]
+tags: ["oucampus"]
 categories: ["portfolio"]
 authors:
   - jeanine
