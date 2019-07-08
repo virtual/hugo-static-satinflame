@@ -6,10 +6,19 @@
     <description>Recent content in Oucampus on satinflame design</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Feb 2019 10:23:38 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jul 2019 11:20:06 -0600</lastBuildDate>
     
 	<atom:link href="https://www.satinflame.com/tags/oucampus/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>OU Campus Components vs. Snippets</title>
+      <link>https://www.satinflame.com/blog/2019/07/oucampus-components-vs-snippets/</link>
+      <pubDate>Mon, 08 Jul 2019 11:20:06 -0600</pubDate>
+      
+      <guid>https://www.satinflame.com/blog/2019/07/oucampus-components-vs-snippets/</guid>
+      <description>For years, managing advanced features within OU Campus has been handled using a variety of snippets and assets. As a reminder, snippets come in two versions: 1) an inserted chunk of code or text that will be manually edited and managed and 2) table-transformations, which will be the majority of the examples for this article. Assets, similarly, can be used to manage a chunk of code, text, form, or collection of photos within a page; however, since each asset is centrally updated, every instance of one asset points to one source.</description>
+    </item>
     
     <item>
       <title>Shoreline Community College Redesign</title>

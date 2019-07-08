@@ -1,13 +1,12 @@
 ---
 title: "OU Campus Components vs. Snippets"
-date: 2019-07-03T11:20:06-06:00 
+date: 2019-07-08T11:20:06-06:00 
 banner: "img/posts/component-snippet/blog-components-snippets.jpg"
 tags: ["bootstrap4", "oucampus", "programming", "rwd"]
 categories: ["blog"]
 authors:
   - jeanine
 excerpt: "Components and snippets can often be used interchangeably within OU Campus for the same purpose, however, there are a number of differences between the two. When should you choose a component over a snippet or vice versa? Where can each be used and how are they managed?" 
-draft: true
 ---
 
 For years, managing advanced features within OU Campus has been handled using a variety of snippets and assets. As a reminder, snippets come in two versions: 1) an inserted chunk of code or text that will be manually edited and managed and 2) table-transformations, which will be the majority of the examples for this article. Assets, similarly, can be used to manage a chunk of code, text, form, or collection of photos within a page; however, since each asset is centrally updated, every instance of one asset points to one source. 
