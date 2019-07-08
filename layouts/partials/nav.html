@@ -7,8 +7,8 @@
                 
                 {{ if .IsHome }} <h1 class="logo-home"><span class="sr-only">{{ .Site.Title }}</span></h1>{{ end }}
                 <a class="navbar-brand home" href="{{ .Site.BaseURL }}">
-                <img src="{{ .Site.BaseURL }}img/logo.png" alt="{{ .Site.Title }}  - {{ i18n "navHome" }}" class="hidden-xs hidden-sm">
-                <img src="{{ .Site.BaseURL }}img/logo-small.png" alt="{{ .Site.Title }}  - {{ i18n "navHome" }}" class="visible-xs visible-sm">
+                <img src="{{ .Site.BaseURL }}img/logo.png" alt="{{ .Site.Title }}" title="{{ i18n "navHome" }}" class="hidden-xs hidden-sm">
+                <img src="{{ .Site.BaseURL }}img/logo-small.png" alt="{{ .Site.Title }}" title="{{ i18n "navHome" }}" class="visible-xs visible-sm">
             </a>
 
                 <div class="navbar-buttons">
