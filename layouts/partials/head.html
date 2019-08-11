@@ -19,7 +19,7 @@
 
   <!-- Bootstrap and Font Awesome css -->
   <script src="https://kit.fontawesome.com/c71a8edf08.js"></script>
-  <link href="{{ .Site.BaseURL }}css/bootstrap.min.css" />
+  <link href="{{ .Site.BaseURL }}css/bootstrap.min.css" rel="stylesheet" />
   <!-- Css animations  --><link href="{{ .Site.BaseURL }}css/animate.css" rel="stylesheet">
   <!-- Theme stylesheet, if possible do not edit this stylesheet -->{{ if and (isset .Site.Params "style") .Site.Params.style }}<link href="{{ .Site.BaseURL }}css/style.{{ .Site.Params.style }}.css" rel="stylesheet" id="theme-stylesheet">
   {{ else }}<link href="{{ .Site.BaseURL }}css/style.default.css" rel="stylesheet" id="theme-stylesheet">{{ end }}
