@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.satinflame.com/blog/2019/09/knight-university-case-study/</loc>
+    <lastmod>2019-09-02T11:30:53-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.satinflame.com/blog/2019/07/oucampus-components-vs-snippets/</loc>
     <lastmod>2019-07-08T11:20:06-06:00</lastmod>
   </url>
@@ -116,7 +121,7 @@
   
   <url>
     <loc>https://www.satinflame.com/blog/</loc>
-    <lastmod>2019-07-08T11:20:06-06:00</lastmod>
+    <lastmod>2019-09-02T11:30:53-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -143,6 +148,12 @@
   </url>
   
   <url>
+    <loc>https://www.satinflame.com/tags/design/</loc>
+    <lastmod>2019-09-02T11:30:53-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.satinflame.com/faq/</loc>
   </url>
   
@@ -154,7 +165,7 @@
   
   <url>
     <loc>https://www.satinflame.com/tags/learning/</loc>
-    <lastmod>2018-04-13T15:13:50-06:00</lastmod>
+    <lastmod>2019-09-02T11:30:53-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -178,7 +189,7 @@
   
   <url>
     <loc>https://www.satinflame.com/categories/portfolio/</loc>
-    <lastmod>2019-02-27T10:23:38-07:00</lastmod>
+    <lastmod>2019-09-02T11:30:53-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -229,8 +240,14 @@
   </url>
   
   <url>
+    <loc>https://www.satinflame.com/tags/ux/</loc>
+    <lastmod>2019-09-02T11:30:53-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.satinflame.com/</loc>
-    <lastmod>2019-07-08T11:20:06-06:00</lastmod>
+    <lastmod>2019-09-02T11:30:53-06:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -6,26 +6,18 @@ tags: ["seo", "amazon"]
 categories: ["blog"]
 authors:
   - jeanine
-excerpt: "After a redesign website, Google Analytics showed a huge drop in bounce rate. The cause? Duplicating GA tags within my website’s code!"
+excerpt: "Regardless if you’ve been handed an inventory of products you know nothing about, or if you’ve been maintaining your catalog for years, there may be a few things you haven’t considered when managing your products."
 keywords:
 - amazon
 - seo
 - keywords
 ---
 
-Regardless if you’ve been handed an inventory of products you know nothing about, or if you’ve been maintaining your catalog for years, there may be a few things you haven’t considered when managing your products.
-
 Although there are many resources to choose from within Amazon’s [Vendor Central](https://vendorcentral.amazon.com/gp/vendor/) Resource Center, the following actions are some simple ways to improve the findability of your products:
 
 ## Create variation families
 
 If you have many items with similar features, be sure your customer can see them all immediately. By using Amazon’s variation form, you can associate your products with one another using up to two variation options. The most common variants include color, style and size.
-
-<figure id="attachment_145" style="width: 300px" class="wp-caption aligncenter">![Example of variation options for a camera strap](http://satinflame.com/wp-content/uploads/2016/03/variation-300x110.png)
-
-<figcaption class="wp-caption-text">Example of variation options for a camera strap</figcaption>
-
-</figure>
 
 Variation swatches help your customers find similar products without having to go back to the Amazon search results**—**decreasing the chance they will settle with someone else’s product!
 
@@ -45,8 +37,7 @@ _Here are the requested video specifications as of January 2016:_
 *   _Formats: MPEG-2 (.mpeg), Windows Media (.wmv), QuickTime (.mov) or FLV (.flv)._
 *   _Minimum Video Quality: At least 720px wide, at least 872 kbps. Either 4:3 (standard) or 16:9 (widescreen) aspect ratios work equally well. Aspect ratio is the width divided by the height: if a video is 720px wide, then a 4:3 aspect video will be 540px tall and a 16:9 video will be 405px tall._
 *   _Maximum Size Allowed: 499Mb. (best results if under 100Mb.)_
-*   _Length of File: Unrestricted  
-    _
+*   _Length of File: Unrestricted_
 
 ## Refine product keywords
 
