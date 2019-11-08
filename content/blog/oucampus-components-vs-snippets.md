@@ -134,19 +134,21 @@ Components, on the other hand, are edited in a separate modal window. They do no
 </td></tr></tbody>
 </table>
 ```
+In this example, you could then do a search for `"ou-alert-default"` to find all PCF pages incorporating this specific type of snippet.
+
 **Component:**
 
 ```js
 ~[com[2460 1 2{ "version": 2, "data": {"ca2ee8508fabe92a74fe08ca0f0b9018":"info","7cf226fac04bfa4a7b6ce21f6d58f80a":"&lt;p&gt;The campus will be closed due to extreme weather conditions.&lt;/p&gt;"}}]]~ 
 ```
 
-As you can see from the examples above, if you were to do a content inventory or run a search on a certain type of element, components are a bit more obfuscated than snippets. That being said, there is some important information in these component calls:
+As you can see from the example above, there is some important information in these component calls:
 
 ```js
 ~[com[<COMPONENT-ID> <COMPONENT-INSTANCE-ID> <COMPONENT-VERSION>{ ... }]]~
 ```
 
-In this example, you could then do a search for `"ou-alert-default"` (snippets) or `"~[com[2460 "` (components) to find all pages using a certain type of component.
+Unfortunately, you **cannot do a Find/Replace on component code** at this time. This means searching for `"~[com[2460 "` would not show any results. Nor would you be able to change any text within a component using Find/Replace. 
 
 
 ## Previewing Content
@@ -192,3 +194,5 @@ Web Content Asset | <span class="far fa-check"><span class="sr-only">yes</span><
 ## Final Considerations
 
 When creating a snippet or component for your next OU Campus feature, consider where your feature will be placed (editable region or asset) and how it will be used (will users need access to surrounding links and styles?) I hope this article helped showcase features and limitations of both uses. It is important to note that OmniUpdate strives to continually evolve the OU Campus CMS and features. Please reach out if you have any questions or suggestions related to my examples.
+
+<small>Updated November 8, 2019</small>
