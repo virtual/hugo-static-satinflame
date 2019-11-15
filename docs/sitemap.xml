@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.satinflame.com/blog/2019/11/top-5-ways-to-use-videos-for-college-recruitment/</loc>
+    <lastmod>2019-11-15T09:27:44-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.satinflame.com/blog/2019/09/knight-university-case-study/</loc>
     <lastmod>2019-09-02T11:30:53-06:00</lastmod>
   </url>
@@ -114,14 +119,19 @@
   </url>
   
   <url>
+    <loc>https://www.satinflame.com/authors/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.satinflame.com/categories/blog/</loc>
-    <lastmod>2019-07-08T11:20:06-06:00</lastmod>
+    <lastmod>2019-11-15T09:27:44-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.satinflame.com/blog/</loc>
-    <lastmod>2019-09-02T11:30:53-06:00</lastmod>
+    <lastmod>2019-11-15T09:27:44-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -139,7 +149,7 @@
   
   <url>
     <loc>https://www.satinflame.com/categories/</loc>
-    <lastmod>2019-07-08T11:20:06-06:00</lastmod>
+    <lastmod>2019-11-15T09:27:44-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -150,6 +160,12 @@
   <url>
     <loc>https://www.satinflame.com/tags/design/</loc>
     <lastmod>2019-09-02T11:30:53-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.satinflame.com/tags/e-expectations/</loc>
+    <lastmod>2019-11-15T09:27:44-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -182,8 +198,12 @@
   </url>
   
   <url>
+    <loc>https://www.satinflame.com/authors/omniupdate/</loc>
+  </url>
+  
+  <url>
     <loc>https://www.satinflame.com/tags/oucampus/</loc>
-    <lastmod>2019-07-08T11:20:06-06:00</lastmod>
+    <lastmod>2019-11-15T09:27:44-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -207,7 +227,7 @@
   
   <url>
     <loc>https://www.satinflame.com/tags/rwd/</loc>
-    <lastmod>2019-07-08T11:20:06-06:00</lastmod>
+    <lastmod>2019-11-15T09:27:44-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -246,8 +266,14 @@
   </url>
   
   <url>
+    <loc>https://www.satinflame.com/tags/video/</loc>
+    <lastmod>2019-11-15T09:27:44-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.satinflame.com/</loc>
-    <lastmod>2019-09-02T11:30:53-06:00</lastmod>
+    <lastmod>2019-11-15T09:27:44-07:00</lastmod>
     <priority>0</priority>
   </url>
   
