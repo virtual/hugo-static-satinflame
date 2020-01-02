@@ -39,7 +39,7 @@ pygmentsStyle =  "monokailight"
     # Enable the contact form by entering your Formspree.io email
     email = "jeanine@satinflame.com"
  
-    copyright = "&copy; 2014-2019 satinflame design"
+    copyright = "&copy; 2014-2020 satinflame design"
     footerLink = "/blog"
     footerLinkText = "blog"
     date_format = "2006-01-02"
