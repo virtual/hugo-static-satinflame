@@ -1,27 +1,349 @@
-<!DOCTYPE html><html lang="en-us"><head><meta charset="utf-8"><meta name="robots" content="all,follow"><meta name="googlebot" content="index,follow,snippet,archive"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Setting Up A Multi Website Magento Store - satinflame design</title><meta name="author" content="Jeanine Schoessler"><meta name="theme-color" content="#333333"><meta content="Setting Up A Multi Website Magento Store - satinflame design" property="og:title"><meta name="description" content="Though there is a lot to learn, understanding the file structure of Magento is essential in order to migrate a store into a multi-website for an upgraded store. Here is an overview of the steps to migrate a second store into Magento."><meta name="generator" content="Hugo 0.53"><link rel="canonical" href="https://www.satinflame.com/blog/2017/03/setting-up-a-multi-website-magento-store/"><meta property="og:title" content="Setting Up A Multi Website Magento Store"><meta property="og:type" content="website"><meta property="og:url" content="https://www.satinflame.com//blog/2017/03/setting-up-a-multi-website-magento-store/"><meta property="og:image" content="https://www.satinflame.com/img/banners/magento-1-1024x493.png"><script src="https://kit.fontawesome.com/c71a8edf08.js"></script><link href="https://www.satinflame.com/css/bootstrap.min.css" rel="stylesheet"><link href="https://www.satinflame.com/css/animate.css" rel="stylesheet"><link href="https://www.satinflame.com/css/style.candy.css" rel="stylesheet" id="theme-stylesheet"><link href="https://www.satinflame.com/css/custom.css?v=5" rel="stylesheet"><link href="https://www.satinflame.com/css/modernscale.css" rel="stylesheet"><!--[if lt IE 9]>
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="robots" content="all,follow">
+  <meta name="googlebot" content="index,follow,snippet,archive">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Setting Up A Multi Website Magento Store - satinflame design</title>
+  <meta name="author" content="Jeanine Schoessler" />
+  <meta name="theme-color" content="#333333" />
+  <meta content="Setting Up A Multi Website Magento Store - satinflame design" property="og:title">
+  
+  <meta name="description" content="Though there is a lot to learn, understanding the file structure of Magento is essential in order to migrate a store into a multi-website for an upgraded store. Here is an overview of the steps to migrate a second store into Magento.">
+  <meta name="generator" content="Hugo 0.53" />
+  <link rel="canonical" href="https://www.satinflame.com/blog/2017/03/setting-up-a-multi-website-magento-store/">
+  <meta property="og:title" content="Setting Up A Multi Website Magento Store" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.satinflame.com//blog/2017/03/setting-up-a-multi-website-magento-store/" />
+  <meta property="og:image" content="https://www.satinflame.com/img/banners/magento-1-1024x493.png" />
+
+  
+  <script src="https://kit.fontawesome.com/c71a8edf08.js"></script>
+  <link href="https://www.satinflame.com/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://www.satinflame.com/css/animate.css" rel="stylesheet">
+  <link href="https://www.satinflame.com/css/style.candy.css" rel="stylesheet" id="theme-stylesheet">
+  
+  <link href="https://www.satinflame.com/css/custom.css?v=5" rel="stylesheet">
+  <link href="https://www.satinflame.com/css/modernscale.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]--><link rel="shortcut icon" href="https://www.satinflame.com/img/icons/favicon.ico" type="image/x-icon"><link rel="apple-touch-icon" href="https://www.satinflame.com/img/icons/apple-touch-icon.png"><link rel="icon" href="https://www.satinflame.com/img/icons/cropped-logo2014_03-32x32.png" sizes="32x32"><link rel="icon" href="https://www.satinflame.com/img/icons/cropped-logo2014_03-192x192.png" sizes="192x192"><link rel="apple-touch-icon-precomposed" href="https://www.satinflame.com/img/icons/cropped-logo2014_03-180x180.png"><meta name="msapplication-TileImage" content="https://www.satinflame.com/img/icons/cropped-logo2014_03-270x270.png"><link href="https://www.satinflame.com/css/owl.carousel.css" rel="stylesheet"><link href="https://www.satinflame.com/css/owl.theme.css" rel="stylesheet"><link rel="alternate" href="https://www.satinflame.com/index.xml" type="application/rss+xml" title="satinflame design"><link href="https://www.satinflame.com/css/banner.css" rel="stylesheet"><style>#heading-breadcrumbs.mine{background-image:linear-gradient(rgba(224,171,111,.96),rgba(167,16,104,.51)),url(https://www.satinflame.com/img/banners/magento-1-1024x493.png)}</style><script>!function(e,t,a,n,c,o,s){e.GoogleAnalyticsObject=c,e[c]=e[c]||function(){(e[c].q=e[c].q||[]).push(arguments)},e[c].l=1*new Date,o=t.createElement(a),s=t.getElementsByTagName(a)[0],o.async=1,o.src=n,s.parentNode.insertBefore(o,s)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-7598678-1","auto"),ga("send","pageview")</script></head><body class="page-single custom-background"><div class="topnav cf"><div class="container"><p class="tagline">Web development for higher education</p><div class="icons"><ul class="list-unstyled list-inline"><li><a title="Get started with your project" href="/contact"><span class="fas fa-envelope"><span class="sr-only">Email</span></span></a></li><li><a title="View Jeanine Schoessler's profile on LinkedIn" href="https://www.linkedin.com/in/satinflame/"><span class="fab fa-linkedin"><span class="sr-only">LinkedIn</span></span></a></li><li><a title="Find me on Twitter" href="https://twitter.com/satinflame"><span class="fab fa-twitter"><span class="sr-only">Twitter</span></span></a></li><li><a title="Find me on GitHub" href="https://github.com/virtual"><span class="fab fa-github"><span class="sr-only">GitHub</span></span></a></li></ul></div></div></div><div id="all"><header><div><div class="navbar navbar-default yamm" role="navigation" id="navbar"><div class="container"><div class="navbar-header"><a class="navbar-brand home" href="https://www.satinflame.com/"><img src="https://www.satinflame.com/img/logo.png" alt="satinflame design" title="go to homepage" class="hidden-xs hidden-sm"> <img src="https://www.satinflame.com/img/logo-small.png" alt="satinflame design" title="go to homepage" class="visible-xs visible-sm"></a><div class="navbar-buttons"><button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation"><span class="sr-only">Toggle Navigation</span> <span class="fas fa-bars" aria-hidden="true"></span></button></div></div><div class="navbar-collapse collapse" id="navigation"><ul class="nav navbar-nav navbar-right"><li class="dropdown"><a href="/">Home</a></li><li class="dropdown"><a href="/categories/portfolio/">Projects</a></li><li class="dropdown"><a href="/categories/blog/">Blog</a></li><li class="dropdown"><a href="/about/">About</a></li><li class="dropdown"><a href="/contact/">Contact</a></li></ul></div></div></div></div></header><div id="heading-breadcrumbs" class="mine"><div class="container"><div class="row"><div class="col-md-12"></div></div></div></div><div id="content"><div class="container"><div class="row"><article class="col-md-9" id="blog-post"><header class="blog-banner"><div class="topbanner"><img src="https://www.satinflame.com/img/banners/magento-1-1024x493.png" class="img-responsive" alt=""><div class="tag-container"><div class="panel"><div class="panel-body"><ul class="tag-cloud" id="tags"><li><a href="/tags/programming"><i class="fa fa-tags"></i> programming</a></li><li><a href="/tags/magento"><i class="fa fa-tags"></i> magento</a></li></ul></div></div></div></div><h1>Setting Up A Multi Website Magento Store</h1><p class="text-muted text-uppercase mb-small text-right">By <a href="https://www.satinflame.com/authors/jeanine/" rel="author">Jeanine</a> | 2017-03-04</p></header><div id="post-content"><p class="lead">Though there is a lot to learn, understanding the file structure of Magento is essential in order to migrate a store into a multi-website for an upgraded store. Here is an overview of the steps to migrate a second store into Magento.</p><p>Last year I had the opportunity to learn about working in the e-commerce platform Magento–creating products, adding modules, updating security patches and more. Though there is a lot to learn, understanding the file structure of Magento was essential in order to migrate another store (running version 1.4) into a multi-website for another store that had been recently upgraded to 1.9.2. While searching for the best process, I learned there are many ways to set up a second store on the same Magento install—but there were many things I still didn’t understand being the novice server administer of a one-person web team.</p><p>Below is an overview of the steps I took to migrate a second store into Magento; please note that this is not an exhaustive list but an overview to point you in the direction of which parts you may need to learn more about.</p><h2 id="add-second-website-to-magento">Add second website to Magento</h2><p>There are many guides that cover this including <a href="https://www.cloudways.com/blog/how-to-setup-multiple-stores-on-magento/">How To Setup Multiple Stores On Magento</a>. Be sure to understand the difference between a website, store and language. Separate websites can reference the same products and CMS pages, but they are typically used for completely different product catalogs. Set up your categories and website from the store settings, keeping the website code in mind, as you will want to make this consistent in your settings. Try it out now and <a href="https://www.cloudways.com/blog/how-to-setup-multiple-stores-on-magento/">set up your second store.</a></p><h2 id="modify-server-to-accommodate-multiple-magento-websites">Modify server to accommodate multiple Magento websites</h2><p>To me, the most daunting part of adding a new website to an existing Magento install was the fear of making an error that would take down the current website. After testing with local web servers, here are the steps I took on our Apache server (running Debian 7×64):</p><h3 id="update-dns-settings">Update DNS settings</h3><p>From your second domain (or a test domain) update the CNAME/A name to point to the server address of your primary Magento website. For example, my setup looks like this:</p><p><strong>Store2 Advanced DNS (A Records)</strong></p><table><thead><tr><th>Host</th><th>TTL Numeric</th><th>IP</th></tr></thead><tbody><tr><td>www</td><td>7200</td><td>192.168.x.x</td></tr><tr><td>@ (None)</td><td>7200</td><td>192.168.x.x</td></tr><tr><td>* (All Others)</td><td>7200</td><td>192.168.x.x</td></tr></tbody></table><h3 id="add-to-your-virtual-hosts">Add to your virtual hosts</h3><p>Add your second domain to sites-available on your server. Once you are satisfied with the setup, you can run aen2mod enabled, to enable to the second domain on your server. Ensure your server is using Named Virtual Hosts.</p><p><strong>Test apache server config prior to restarting:</strong></p><p><code>/usr/sbin/apachectl configtest</code></p><p><strong>Restart:</strong></p><p><code>sudo service apache2 restart</code></p><h2 id="update-primary-website-web-files">Update primary website web files</h2><p>In order to use shared themes between websites with minimal changes, it is best to centralize any settings that are the same between your websites, and only override the default themes as necessary using a local theme. I found it easiest to copy the local theme, rename it to match your website id and update the styles and HTML only when needed.</p><h3 id="support-secondary-website-and-multiple-themes">Support secondary website and multiple themes</h3><p>Copy the local design files (which override your default design theme) and rename the copied folders to match your website code.</p><ul><li>app\design\frontend</li><li>skin\frontend</li><li>skin\frontend\THEME</li></ul><h3 id="redirect-incoming-requests-to-the-appropriate-store">Redirect incoming requests to the appropriate store</h3><p>When typing in your primary or secondary website URL, the server must have a way to decide which files to use. In addition to the updates you made when setting up your second website, you must include web store codes in your index.php or <a href="https://www.hostknox.com/tutorials/magento/multistore">.htaccess file</a>. Here is how I’ve set mine up:</p><p><strong>index.php:</strong></p><div class="highlight"><div style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block"><tr><td style="vertical-align:top;padding:0;margin:0;border:0"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="margin-right:.4em;padding:0 .4em 0 .4em;color:#939390"> 1
-</span><span style="margin-right:.4em;padding:0 .4em 0 .4em;color:#939390"> 2
-</span><span style="margin-right:.4em;padding:0 .4em 0 .4em;color:#939390"> 3
-</span><span style="margin-right:.4em;padding:0 .4em 0 .4em;color:#939390"> 4
-</span><span style="margin-right:.4em;padding:0 .4em 0 .4em;color:#939390"> 5
-</span><span style="margin-right:.4em;padding:0 .4em 0 .4em;color:#939390"> 6
-</span><span style="margin-right:.4em;padding:0 .4em 0 .4em;color:#939390"> 7
-</span><span style="margin-right:.4em;padding:0 .4em 0 .4em;color:#939390"> 8
-</span><span style="margin-right:.4em;padding:0 .4em 0 .4em;color:#939390"> 9
-</span><span style="margin-right:.4em;padding:0 .4em 0 .4em;color:#939390">10
-</span><span style="margin-right:.4em;padding:0 .4em 0 .4em;color:#939390">11
-</span><span style="margin-right:.4em;padding:0 .4em 0 .4em;color:#939390">12
-</span><span style="margin-right:.4em;padding:0 .4em 0 .4em;color:#939390">13
-</span><span style="margin-right:.4em;padding:0 .4em 0 .4em;color:#939390">14
-</span><span style="margin-right:.4em;padding:0 .4em 0 .4em;color:#939390">15
-</span><span style="margin-right:.4em;padding:0 .4em 0 .4em;color:#939390">16
-</span><span style="margin-right:.4em;padding:0 .4em 0 .4em;color:#939390">17
-</span><span style="margin-right:.4em;padding:0 .4em 0 .4em;color:#939390">18
-</span><span style="margin-right:.4em;padding:0 .4em 0 .4em;color:#939390">19
-</span><span style="margin-right:.4em;padding:0 .4em 0 .4em;color:#939390">20
-</span></code></pre></td><td style="vertical-align:top;padding:0;margin:0;border:0"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#75715e">&lt;?php</span> 
+    <![endif]--> 
+
+  <link rel="shortcut icon" href="https://www.satinflame.com/img/icons/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="https://www.satinflame.com/img/icons/apple-touch-icon.png" />
+  <link rel="icon" href="https://www.satinflame.com/img/icons/cropped-logo2014_03-32x32.png" sizes="32x32" />
+  <link rel="icon" href="https://www.satinflame.com/img/icons/cropped-logo2014_03-192x192.png" sizes="192x192" />
+  <link rel="apple-touch-icon-precomposed" href="https://www.satinflame.com/img/icons/cropped-logo2014_03-180x180.png" />
+  <meta name="msapplication-TileImage" content="https://www.satinflame.com/img/icons/cropped-logo2014_03-270x270.png" />
+ 
+
+  <link href="https://www.satinflame.com/css/owl.carousel.css" rel="stylesheet">
+  <link href="https://www.satinflame.com/css/owl.theme.css" rel="stylesheet">
+  <link rel="alternate" href="https://www.satinflame.com/index.xml" type="application/rss+xml" title="satinflame design">
+
+  <link href="https://www.satinflame.com/css/banner.css" rel="stylesheet">
+  <style>
+  #heading-breadcrumbs.mine {
+  background-image: linear-gradient( rgba(224, 171, 111, 0.96),
+  rgba(167, 16, 104, 0.51)),
+  url("https://www.satinflame.com/img/banners/magento-1-1024x493.png");
+  }
+  </style>
+
+ 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-7598678-1', 'auto');
+  ga('send', 'pageview');
+</script> 
+</head>
+
+
+  <body class="page-single custom-background">
+   <div class="topnav cf">
+    <div class="container">
+    <p class="tagline">Web development for higher education</p>
+    <div class="icons">
+        <ul class="list-unstyled list-inline">
+            <li><a title="Get started with your project" href="/contact"><span class="fas fa-envelope"><span class="sr-only">Email</span></span></a></li>
+            <li><a title="View Jeanine Schoessler's profile on LinkedIn" href="https://www.linkedin.com/in/satinflame/"><span class="fab fa-linkedin"><span class="sr-only">LinkedIn</span></span></a></li>
+            <li><a title="Find me on Twitter" href="https://twitter.com/satinflame"><span class="fab fa-twitter"><span class="sr-only">Twitter</span></span></a></li>
+            <li><a title="Find me on GitHub" href="https://github.com/virtual"><span class="fab fa-github"><span class="sr-only">GitHub</span></span></a></li>
+        </ul>
+    </div>
+    </div>
+</div>
+    <div id="all">
+
+        <header>
+
+          <div>
+
+    <div class="navbar navbar-default yamm" role="navigation" id="navbar">
+
+        <div class="container">
+            <div class="navbar-header">
+                
+                
+                <a class="navbar-brand home" href="https://www.satinflame.com/">
+                <img src="https://www.satinflame.com/img/logo.png" alt="satinflame design" title="go to homepage" class="hidden-xs hidden-sm">
+                <img src="https://www.satinflame.com/img/logo-small.png" alt="satinflame design" title="go to homepage" class="visible-xs visible-sm">
+            </a>
+
+                <div class="navbar-buttons">
+                    <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
+                      <span class="sr-only">Toggle Navigation</span>
+                        <span class="fas fa-bars" aria-hidden="true"></span>
+                    </button>
+                </div>
+            </div>
+            
+
+            <div class="navbar-collapse collapse" id="navigation">
+                <ul class="nav navbar-nav navbar-right">
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/">Home</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/categories/portfolio/">Projects</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/categories/blog/">Blog</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/about/">About</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/contact/">Contact</a>
+                    
+                  </li>
+                  
+                </ul>
+            </div>
+            
+
+           
+            
+
+        </div>
+    </div>
+    
+
+</div>
+
+
+
+
+        </header>
+
+        <div id="heading-breadcrumbs"  
+class="mine" >
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                
+                                    
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        <div id="content">
+            <div class="container">
+
+                <div class="row">
+
+                    
+
+                    <article class="col-md-9" id="blog-post">
+                    <header class="blog-banner">
+
+                                     <div class="topbanner">
+                                      
+                                          <img src="https://www.satinflame.com/img/banners/magento-1-1024x493.png" class="img-responsive" alt="">
+                                      
+                                          
+                                         
+                                          
+
+
+<div class="tag-container"> 
+ <div class="panel">
+    
+    <div class="panel-body">
+       <ul class="tag-cloud" id="tags">
+  
+    <li><a href="/tags/programming"><i class="fa fa-tags"></i> programming</a> </li>
+  
+    <li><a href="/tags/magento"><i class="fa fa-tags"></i> magento</a> </li>
+  
+</ul>
+       
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+                                          </div>   
+                                            
+                <h1>Setting Up A Multi Website Magento Store</h1>
+                       
+                                    
+                        <p class="text-muted text-uppercase mb-small text-right">
+                           
+
+   By
+    
+        
+        
+        <a href="https://www.satinflame.com/authors/jeanine/" rel="author">Jeanine</a>
+        
+     |
+
+                        
+                        
+                        2017-03-04 </p>
+</header>
+                       
+                        <div id="post-content">
+                          
+                                        
+                                        
+                                         <p class="lead"> Though there is a lot to learn, understanding the file structure of Magento is essential in order to migrate a store into a multi-website for an upgraded store. Here is an overview of the steps to migrate a second store into Magento.
+                                          </p>
+                                          
+                          
+
+<p>Last year I had the opportunity to learn about working in the e-commerce platform Magento–creating products, adding modules, updating security patches and more. Though there is a lot to learn, understanding the file structure of Magento was essential in order to migrate another store (running version 1.4) into a multi-website for another store that had been recently upgraded to 1.9.2. While searching for the best process, I learned there are many ways to set up a second store on the same Magento install—but there were many things I still didn’t understand being the novice server administer of a one-person web team.</p>
+
+<p>Below is an overview of the steps I took to migrate a second store into Magento; please note that this is not an exhaustive list but an overview to point you in the direction of which parts you may need to learn more about.</p>
+
+<h2 id="add-second-website-to-magento">Add second website to Magento</h2>
+
+<p>There are many guides that cover this including <a href="https://www.cloudways.com/blog/how-to-setup-multiple-stores-on-magento/">How To Setup Multiple Stores On Magento</a>. Be sure to understand the difference between a website, store and language. Separate websites can reference the same products and CMS pages, but they are typically used for completely different product catalogs. Set up your categories and website from the store settings, keeping the website code in mind, as you will want to make this consistent in your settings. Try it out now and <a href="https://www.cloudways.com/blog/how-to-setup-multiple-stores-on-magento/">set up your second store.</a></p>
+
+<h2 id="modify-server-to-accommodate-multiple-magento-websites">Modify server to accommodate multiple Magento websites</h2>
+
+<p>To me, the most daunting part of adding a new website to an existing Magento install was the fear of making an error that would take down the current website. After testing with local web servers, here are the steps I took on our Apache server (running Debian 7×64):</p>
+
+<h3 id="update-dns-settings">Update DNS settings</h3>
+
+<p>From your second domain (or a test domain) update the CNAME/A name to point to the server address of your primary Magento website. For example, my setup looks like this:</p>
+
+<p><strong>Store2 Advanced DNS (A Records)</strong></p>
+
+<table>
+<thead>
+<tr>
+<th>Host</th>
+<th>TTL Numeric</th>
+<th>IP</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>www</td>
+<td>7200</td>
+<td>192.168.x.x</td>
+</tr>
+
+<tr>
+<td>@ (None)</td>
+<td>7200</td>
+<td>192.168.x.x</td>
+</tr>
+
+<tr>
+<td>* (All Others)</td>
+<td>7200</td>
+<td>192.168.x.x</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="add-to-your-virtual-hosts">Add to your virtual hosts</h3>
+
+<p>Add your second domain to sites-available on your server. Once you are satisfied with the setup, you can run aen2mod enabled, to enable to the second domain on your server. Ensure your server is using Named Virtual Hosts.</p>
+
+<p><strong>Test apache server config prior to restarting:</strong></p>
+
+<p><code>/usr/sbin/apachectl configtest</code></p>
+
+<p><strong>Restart:</strong></p>
+
+<p><code>sudo service apache2 restart</code></p>
+
+<h2 id="update-primary-website-web-files">Update primary website web files</h2>
+
+<p>In order to use shared themes between websites with minimal changes, it is best to centralize any settings that are the same between your websites, and only override the default themes as necessary using a local theme. I found it easiest to copy the local theme, rename it to match your website id and update the styles and HTML only when needed.</p>
+
+<h3 id="support-secondary-website-and-multiple-themes">Support secondary website and multiple themes</h3>
+
+<p>Copy the local design files (which override your default design theme) and rename the copied folders to match your website code.</p>
+
+<ul>
+<li>app\design\frontend</li>
+<li>skin\frontend</li>
+<li>skin\frontend\THEME</li>
+</ul>
+
+<h3 id="redirect-incoming-requests-to-the-appropriate-store">Redirect incoming requests to the appropriate store</h3>
+
+<p>When typing in your primary or secondary website URL, the server must have a way to decide which files to use. In addition to the updates you made when setting up your second website, you must include web store codes in your index.php or <a href="https://www.hostknox.com/tutorials/magento/multistore">.htaccess file</a>. Here is how I’ve set mine up:</p>
+
+<p><strong>index.php:</strong></p>
+<div class="highlight"><div style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#939390"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#939390"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#939390"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#939390"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#939390"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#939390"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#939390"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#939390"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#939390"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#939390">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#939390">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#939390">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#939390">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#939390">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#939390">15
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#939390">16
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#939390">17
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#939390">18
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#939390">19
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#939390">20
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#75715e">&lt;?php</span> 
 <span style="color:#75715e">/* Store or website code */</span>  
 <span style="color:#111">$mageRunCode</span> <span style="color:#f92672">=</span> <span style="color:#75af00">isset</span><span style="color:#111">(</span><span style="color:#111">$_SERVER</span><span style="color:#111">[</span><span style="color:#d88200">&#39;MAGE_RUN_CODE&#39;</span><span style="color:#111">])</span> <span style="color:#f92672">?</span> <span style="color:#111">$_SERVER</span><span style="color:#111">[</span><span style="color:#d88200">&#39;MAGE_RUN_CODE&#39;</span><span style="color:#111">]</span> <span style="color:#f92672">:</span> <span style="color:#d88200">&#39;&#39;</span><span style="color:#111">;</span>  
 <span style="color:#75715e">/* Run store or run website */</span>  
@@ -40,13 +362,243 @@
   <span style="color:#00a8c8">break</span><span style="color:#111">;</span>  
 <span style="color:#111">}</span>  
 <span style="color:#75af00">Mage</span><span style="color:#f92672">::</span><span style="color:#75af00">run</span><span style="color:#111">(</span><span style="color:#111">$mageRunCode</span><span style="color:#111">,</span> <span style="color:#111">$mageRunType</span><span style="color:#111">);</span>
-</code></pre></td></tr></table></div></div><h2 id="additional-magento-updates">Additional Magento updates</h2><h3 id="share-pages-when-applicable">Share pages when applicable</h3><p>Visit each CMS page and/or static block from your install and update the store permissions as necessary. Be sure to notice the selection to apply to “All stores” (versus selecting both stores) as this will keep your pages available to a third website if you ever do add one.</p><h3 id="point-design-settings-to-a-copy-of-local-design-files">Point design settings to a copy of local design files</h3><p>Update the Design settings to point to this second website theme for overrides as needed.</p><p><strong>Store2 Website:</strong></p><ul><li>Config &gt; General &gt; Web &gt; Base URL update (<a href="http://magentostore2.local/">http://magentostore2.local/</a>)</li><li>Default Pages: store2_home</li><li>Config &gt; General &gt; Design &gt; change “store1” to “store2”</li></ul><p><strong>HTML Head</strong></p><p>Header: images/store2.png</p><p><a href="http://magentostore2.local/">http://magentostore2.local/</a> (or similar) should now load an basic page similar to that of Store1.</p><h3 id="use-store-variables">Use store variables</h3><p>If you find that your pages are very similar aside from the occasional store name sprinkled in, you can update your page to use a site variable (e.g. reference the Store name variable) instead of using text. This allows a page to display the name of the store it is referenced from so you only have to maintain one page for two websites.</p><h2 id="other-considerations">Other considerations</h2><h3 id="ssl">SSL</h3><p>If you are already using an SSL certificate, simply copy this code into a new sites-available similar to how you added the second website previously. However the code for the SSL should be within the <code>&lt;:443&gt;</code> module.</p><h3 id="restricting-your-second-website-for-testing">Restricting your second website for testing</h3><p>In order to restrict viewing of your second website to your IP only, use the<location>within the sites-available. (The <a href="http://magento.stackexchange.com/questions/4564/setting-up-magento-staging-environment-with-restricted-access">developer IPs in the Magento admin settings are NOT for restricting access</a>!) Here is an example of my full sites-enabled code including the <code>&lt;Location /&gt;</code> tag. When you are ready for the world to see your second website, remove the entire <code>&lt;Location /&gt;</code> block. Restart your server after testing and making changes.</p><p><strong>sites-available/secondstore:</strong></p><div class="highlight"><div style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block"><tr><td style="vertical-align:top;padding:0;margin:0;border:0"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-.htaccess" data-lang=".htaccess"><span style="margin-right:.4em;padding:0 .4em 0 .4em;color:#939390">1
-</span><span style="margin-right:.4em;padding:0 .4em 0 .4em;color:#939390">2
-</span><span style="margin-right:.4em;padding:0 .4em 0 .4em;color:#939390">3
-</span><span style="margin-right:.4em;padding:0 .4em 0 .4em;color:#939390">4
-</span><span style="margin-right:.4em;padding:0 .4em 0 .4em;color:#939390">5
-</span></code></pre></td><td style="vertical-align:top;padding:0;margin:0;border:0"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-.htaccess" data-lang=".htaccess"><span style="color:#f92672">&lt;Location</span> <span style="color:#d88200">/</span><span style="color:#f92672">&gt;</span>  
+</code></pre></td></tr></table>
+</div>
+</div>
+<h2 id="additional-magento-updates">Additional Magento updates</h2>
+
+<h3 id="share-pages-when-applicable">Share pages when applicable</h3>
+
+<p>Visit each CMS page and/or static block from your install and update the store permissions as necessary. Be sure to notice the selection to apply to “All stores” (versus selecting both stores) as this will keep your pages available to a third website if you ever do add one.</p>
+
+<h3 id="point-design-settings-to-a-copy-of-local-design-files">Point design settings to a copy of local design files</h3>
+
+<p>Update the Design settings to point to this second website theme for overrides as needed.</p>
+
+<p><strong>Store2 Website:</strong></p>
+
+<ul>
+<li>Config &gt; General &gt; Web &gt; Base URL update (<a href="http://magentostore2.local/">http://magentostore2.local/</a>)</li>
+<li>Default Pages: store2_home</li>
+<li>Config &gt; General &gt; Design &gt; change “store1” to “store2”</li>
+</ul>
+
+<p><strong>HTML Head</strong></p>
+
+<p>Header: images/store2.png</p>
+
+<p><a href="http://magentostore2.local/">http://magentostore2.local/</a> (or similar) should now load an basic page similar to that of Store1.</p>
+
+<h3 id="use-store-variables">Use store variables</h3>
+
+<p>If you find that your pages are very similar aside from the occasional store name sprinkled in, you can update your page to use a site variable (e.g. reference the Store name variable) instead of using text. This allows a page to display the name of the store it is referenced from so you only have to maintain one page for two websites.</p>
+
+<h2 id="other-considerations">Other considerations</h2>
+
+<h3 id="ssl">SSL</h3>
+
+<p>If you are already using an SSL certificate, simply copy this code into a new sites-available similar to how you added the second website previously. However the code for the SSL should be within the <code>&lt;:443&gt;</code> module.</p>
+
+<h3 id="restricting-your-second-website-for-testing">Restricting your second website for testing</h3>
+
+<p>In order to restrict viewing of your second website to your IP only, use the <Location /> within the sites-available. (The <a href="http://magento.stackexchange.com/questions/4564/setting-up-magento-staging-environment-with-restricted-access">developer IPs in the Magento admin settings are NOT for restricting access</a>!) Here is an example of my full sites-enabled code including the <code>&lt;Location /&gt;</code> tag. When you are ready for the world to see your second website, remove the entire <code>&lt;Location /&gt;</code> block. Restart your server after testing and making changes.</p>
+
+<p><strong>sites-available/secondstore:</strong></p>
+<div class="highlight"><div style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-.htaccess" data-lang=".htaccess"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#939390">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#939390">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#939390">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#939390">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#939390">5
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-.htaccess" data-lang=".htaccess"><span style="color:#f92672">&lt;Location</span> <span style="color:#d88200">/</span><span style="color:#f92672">&gt;</span>  
 <span style="color:#111">Order</span> deny,allow  
 <span style="color:#111">Deny</span> from <span style="color:#00a8c8">all</span>  
 <span style="color:#111">Allow</span> from <span style="color:#ae81ff">174</span>.45.x.x  
-<span style="color:#f92672">&lt;/Location&gt;</span> </code></pre></td></tr></table></div></div><h3 id="import-export">Import/Export</h3><p>Although I did a lot of development testing using MAGMI, I ended up recreating the products from scratch on my second website. The easiest way to do this is to create your configurable product and then create the Associated Products using the Quick-Create. You can then go back and fill in all product information on the parent product as necessary.</p><p>To transfer customers, I was able to use the built-in <a href="https://www.templatemonster.com/help/magento-how-to-exportimport-data-in-csv-files.html#gref">Import and Export functions for Magento</a>. For orders and sales, I found <a href="https://www.aitoc.com/en/magentomods_orders_export_and_import.html">Aitoc Orders Export and Import</a> to be extremely efficient. Since you are adding sales and orders into an existing system, be sure to update the order IDs to start with 20000 instead of 10000 using find replace on any exported CSV files. After you’ve finished, you must update your indexes so they are ready for new orders.</p><h2 id="additional-resources">Additional Resources:</h2><ul><li><a href="http://store.pulsestorm.net/products/no-frills-magento-layout">No Frills Magento Layout by Alan Storm</a></li><li><a href="http://www.eddiemay.me.uk/2013/08/10/magento-multi-website-checklist/">Magento Multi-Website Checklist</a></li><li><a href="https://www.cloudways.com/blog/how-to-setup-multiple-stores-on-magento/">How To Setup Multiple Stores On Magento</a></li></ul></div><div id="comments"><div id="disqus_thread"></div><script type="application/javascript">var disqus_config=function(){};!function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1)return void(document.getElementById("disqus_thread").innerHTML="Disqus comments not available by default when the website is previewed locally.");var e=document,t=e.createElement("script");t.async=!0,t.src="//satinflame-com.disqus.com/embed.js",t.setAttribute("data-timestamp",+new Date),(e.head||e.body).appendChild(t)}()</script><noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript><a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a></div></article><div class="col-md-3"><div class="sidebar"><div class="profile"><a href="/contact"><img src="/img/jeanine-helo-300x300.jpg" alt="Jeanine Schoessler standing in front of a helicopter" height="300" width="300"></a></div><h2>Recent projects</h2><p>Developing out web page designs into HTML/CSS/JavaScript, fixing web page semantics for accessibility and SEO, migrating OU Campus web pages to new templates, and managing university websites.</p><h2>Learning</h2><p>Fall/Winter: <a href="https://learnui.design/">LearnUI</a><br>Summer: <a href="https://trydesignlab.com/web-design-course/?discount=55551ca2">Graphic Design</a>, <a href="https://frontendmasters.com/courses/servers-node-js/">Servers & Node.js</a><br></p><h2>Follow me</h2><a class="twitter-timeline" data-height="400" data-dnt="true" data-link-color="#E81C4F" href="https://twitter.com/satinflame?ref_src=twsrc%5Etfw">Tweets by satinflame</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div></div></div></div></div><div class="topnav cf"><div class="container"><p class="tagline">Web development for higher education</p><div class="icons"><ul class="list-unstyled list-inline"><li><a title="Get started with your project" href="/contact"><span class="fas fa-envelope"><span class="sr-only">Email</span></span></a></li><li><a title="View Jeanine Schoessler's profile on LinkedIn" href="https://www.linkedin.com/in/satinflame/"><span class="fab fa-linkedin"><span class="sr-only">LinkedIn</span></span></a></li><li><a title="Find me on Twitter" href="https://twitter.com/satinflame"><span class="fab fa-twitter"><span class="sr-only">Twitter</span></span></a></li><li><a title="Find me on GitHub" href="https://github.com/virtual"><span class="fab fa-github"><span class="sr-only">GitHub</span></span></a></li></ul></div></div></div><div class="padded-logos"><div class="container clearfix"><div class="row"><div class="col-sm-12"><p><a href="https://omniupdate.com/partners/partners-list.html">Official Partner—OmniUpdate </a></p></div></div></div></div><footer id="copyright"><div class="container"><div class="col-md-12"><p>&copy; 2014-2020 satinflame design ~ <a href="/blog">blog</a></p></div></div></footer></div><script src="https://www.satinflame.com//js/jquery-3.4.1.min.js"></script><script src="https://www.satinflame.com//js/bootstrap.min.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script><script src="https://www.satinflame.com/js/front.js"></script><script src="https://www.satinflame.com/js/owl.carousel.min.js"></script><script>!function(){if(sessionStorage.criticalFoftDataUriFontsLoaded)return void(document.documentElement.className+=" fonts-stage-1 fonts-stage-2");!function(){function e(e,t){document.addEventListener?e.addEventListener("scroll",t,!1):e.attachEvent("scroll",t)}function t(e){document.body?e():document.addEventListener?document.addEventListener("DOMContentLoaded",function t(){document.removeEventListener("DOMContentLoaded",t),e()}):document.attachEvent("onreadystatechange",function n(){"interactive"!=document.readyState&&"complete"!=document.readyState||(document.detachEvent("onreadystatechange",n),e())})}function n(e){this.a=document.createElement("div"),this.a.setAttribute("aria-hidden","true"),this.a.appendChild(document.createTextNode(e)),this.b=document.createElement("span"),this.c=document.createElement("span"),this.h=document.createElement("span"),this.f=document.createElement("span"),this.g=-1,this.b.style.cssText="max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;",this.c.style.cssText="max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;",this.f.style.cssText="max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;",this.h.style.cssText="display:inline-block;width:200%;height:200%;font-size:16px;max-width:none;",this.b.appendChild(this.h),this.c.appendChild(this.f),this.a.appendChild(this.b),this.a.appendChild(this.c)}function o(e,t){e.a.style.cssText="max-width:none;min-width:20px;min-height:20px;display:inline-block;overflow:hidden;position:absolute;width:auto;margin:0;padding:0;top:-999px;left:-999px;white-space:nowrap;font:"+t+";"}function i(e){var t=e.a.offsetWidth,n=t+100;return e.f.style.width=n+"px",e.c.scrollLeft=n,e.b.scrollLeft=e.b.scrollWidth+100,e.g!==t&&(e.g=t,!0)}function a(t,n){function o(){var e=a;i(e)&&null!==e.a.parentNode&&n(e.g)}var a=t;e(t.b,o),e(t.c,o),i(t)}function s(e,t){var n=t||{};this.family=e,this.style=n.style||"normal",this.weight=n.weight||"normal",this.stretch=n.stretch||"normal"}function d(){if(null===r){var e=document.createElement("div");try{e.style.font="condensed 100px sans-serif"}catch(t){}r=""!==e.style.font}return r}function c(e,t){return[e.style,e.weight,d()?e.stretch:"","100px",t].join(" ")}var l=null,r=null,h=null;s.prototype.load=function(e,i){var s=this,d=e||"BESbswy",r=i||3e3,u=(new Date).getTime();return new Promise(function(e,i){if(null===h&&(h=!!window.FontFace),h){var f=new Promise(function(e,t){function n(){(new Date).getTime()-u>=r?t():document.fonts.load(c(s,s.family),d).then(function(t){1<=t.length?e():setTimeout(n,25)},function(){t()})}n()}),m=new Promise(function(e,t){setTimeout(t,r)});Promise.race([m,f]).then(function(){e(s)},function(){i(s)})}else t(function(){function t(){var t;(t=-1!=w&&-1!=v||-1!=w&&-1!=y||-1!=v&&-1!=y)&&((t=w!=v&&w!=y&&v!=y)||(null===l&&(t=/AppleWebKit\/([0-9]+)(?:\.([0-9]+))/.exec(window.navigator.userAgent),l=!!t&&(536>parseInt(t[1],10)||536===parseInt(t[1],10)&&11>=parseInt(t[2],10))),t=l&&(w==g&&v==g&&y==g||w==b&&v==b&&y==b||w==x&&v==x&&y==x)),t=!t),t&&(null!==E.parentNode&&E.parentNode.removeChild(E),clearTimeout(F),e(s))}function h(){if((new Date).getTime()-u>=r)null!==E.parentNode&&E.parentNode.removeChild(E),i(s);else{var e=document.hidden;!0!==e&&void 0!==e||(w=f.a.offsetWidth,v=m.a.offsetWidth,y=p.a.offsetWidth,t()),F=setTimeout(h,50)}}var f=new n(d),m=new n(d),p=new n(d),w=-1,v=-1,y=-1,g=-1,b=-1,x=-1,E=document.createElement("div"),F=0;E.dir="ltr",o(f,c(s,"sans-serif")),o(m,c(s,"serif")),o(p,c(s,"monospace")),E.appendChild(f.a),E.appendChild(m.a),E.appendChild(p.a),document.body.appendChild(E),g=f.a.offsetWidth,b=m.a.offsetWidth,x=p.a.offsetWidth,h(),a(f,function(e){w=e,t()}),o(f,c(s,'"'+s.family+'",sans-serif')),a(m,function(e){v=e,t()}),o(m,c(s,'"'+s.family+'",serif')),a(p,function(e){y=e,t()}),o(p,c(s,'"'+s.family+'",monospace'))})})},"undefined"!=typeof module?module.exports=s:(window.FontFaceObserver=s,window.FontFaceObserver.prototype.load=s.prototype.load)}(),document.documentElement.className+=" fonts-stage-1";var e=new FontFaceObserver("Source Sans Pro"),t=new FontFaceObserver("Roboto",{weight:400});Promise.all([e.load(),t.load()]).then(function(){document.documentElement.className+=" fonts-stage-2",sessionStorage.criticalFoftDataUriFontsLoaded=!0})}()</script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css"><script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.js"></script></body></html>
+<span style="color:#f92672">&lt;/Location&gt;</span> </code></pre></td></tr></table>
+</div>
+</div>
+<h3 id="import-export">Import/Export</h3>
+
+<p>Although I did a lot of development testing using MAGMI, I ended up recreating the products from scratch on my second website. The easiest way to do this is to create your configurable product and then create the Associated Products using the Quick-Create. You can then go back and fill in all product information on the parent product as necessary.</p>
+
+<p>To transfer customers, I was able to use the built-in <a href="https://www.templatemonster.com/help/magento-how-to-exportimport-data-in-csv-files.html#gref">Import and Export functions for Magento</a>. For orders and sales, I found <a href="https://www.aitoc.com/en/magentomods_orders_export_and_import.html">Aitoc Orders Export and Import</a> to be extremely efficient. Since you are adding sales and orders into an existing system, be sure to update the order IDs to start with 20000 instead of 10000 using find replace on any exported CSV files. After you’ve finished, you must update your indexes so they are ready for new orders.</p>
+
+<h2 id="additional-resources">Additional Resources:</h2>
+
+<ul>
+<li><a href="http://store.pulsestorm.net/products/no-frills-magento-layout">No Frills Magento Layout by Alan Storm</a></li>
+<li><a href="http://www.eddiemay.me.uk/2013/08/10/magento-multi-website-checklist/">Magento Multi-Website Checklist</a></li>
+<li><a href="https://www.cloudways.com/blog/how-to-setup-multiple-stores-on-magento/">How To Setup Multiple Stores On Magento</a></li>
+</ul>
+
+                        </div>
+                           
+                        
+                      
+      
+                        <div id="comments">
+                            <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "satinflame-com" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+                        </div> 
+                        
+                    </article>
+                    
+
+                    
+
+                    
+
+                    <div class="col-md-3">
+
+                        
+
+                        <div class="sidebar">
+  <div class="profile">
+    <a href="/contact"><img src="/img/jeanine-helo-300x300.jpg" alt="Jeanine Schoessler standing in front of a helicopter"
+      height="300" width="300" /></a>
+  </div>
+
+  <h2>Recent projects</h2>
+  <p>Developing out web page designs into HTML/CSS/JavaScript, fixing web page semantics for accessibility and SEO, migrating OU Campus web pages to new templates, and
+    managing university websites. </p>
+
+  <h2>Learning</h2>
+  <p>
+    Fall/Winter: <a href="https://learnui.design/">LearnUI</a><br/>
+    Summer: <a href="https://trydesignlab.com/web-design-course/?discount=55551ca2">Graphic Design</a>, <a href="https://frontendmasters.com/courses/servers-node-js/">Servers & Node.js</a><br/>
+      </p>
+
+  <h2>Follow me</h2>
+  <a class="twitter-timeline" data-height="400" data-dnt="true" data-link-color="#E81C4F" href="https://twitter.com/satinflame?ref_src=twsrc%5Etfw">Tweets by satinflame</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  
+
+</div>
+
+                       
+
+
+                        
+
+                    </div>
+                    
+
+                    
+
+                </div>
+                
+ 
+            </div>
+            
+          
+            
+         
+        </div>
+        
+
+         <div class="topnav cf">
+    <div class="container">
+    <p class="tagline">Web development for higher education</p>
+    <div class="icons">
+        <ul class="list-unstyled list-inline">
+            <li><a title="Get started with your project" href="/contact"><span class="fas fa-envelope"><span class="sr-only">Email</span></span></a></li>
+            <li><a title="View Jeanine Schoessler's profile on LinkedIn" href="https://www.linkedin.com/in/satinflame/"><span class="fab fa-linkedin"><span class="sr-only">LinkedIn</span></span></a></li>
+            <li><a title="Find me on Twitter" href="https://twitter.com/satinflame"><span class="fab fa-twitter"><span class="sr-only">Twitter</span></span></a></li>
+            <li><a title="Find me on GitHub" href="https://github.com/virtual"><span class="fab fa-github"><span class="sr-only">GitHub</span></span></a></li>
+        </ul>
+    </div>
+    </div>
+</div>
+    
+
+<div class="padded-logos">
+  <div class="container clearfix">
+    <div class="row">
+      <div class="col-sm-12">
+        <p><a href="https://omniupdate.com/partners/partners-list.html">Official Partner—OmniUpdate </a></p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+<footer id="copyright">
+    <div class="container">
+        <div class="col-md-12">
+            
+            <p>&copy; 2014-2020 satinflame design ~ <a href="/blog">blog</a></p>
+            
+             
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+    </div>
+    
+
+    
+<script src="https://www.satinflame.com//js/jquery-3.4.1.min.js"></script>
+<script src="https://www.satinflame.com//js/bootstrap.min.js"></script>  
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax.js"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="https://www.satinflame.com/js/front.js"></script>
+
+
+<script src="https://www.satinflame.com/js/owl.carousel.min.js"></script>
+
+
+
+ 
+	<script>
+	(function() {
+		
+		if( sessionStorage.criticalFoftDataUriFontsLoaded ) {
+			document.documentElement.className += " fonts-stage-1 fonts-stage-2";
+			return;
+		}
+		
+		(function(){function e(e,t){document.addEventListener?e.addEventListener("scroll",t,!1):e.attachEvent("scroll",t)}function t(e){document.body?e():document.addEventListener?document.addEventListener("DOMContentLoaded",function t(){document.removeEventListener("DOMContentLoaded",t),e()}):document.attachEvent("onreadystatechange",function n(){if("interactive"==document.readyState||"complete"==document.readyState)document.detachEvent("onreadystatechange",n),e()})}function n(e){this.a=document.createElement("div"),this.a.setAttribute("aria-hidden","true"),this.a.appendChild(document.createTextNode(e)),this.b=document.createElement("span"),this.c=document.createElement("span"),this.h=document.createElement("span"),this.f=document.createElement("span"),this.g=-1,this.b.style.cssText="max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;",this.c.style.cssText="max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;",this.f.style.cssText="max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;",this.h.style.cssText="display:inline-block;width:200%;height:200%;font-size:16px;max-width:none;",this.b.appendChild(this.h),this.c.appendChild(this.f),this.a.appendChild(this.b),this.a.appendChild(this.c)}function r(e,t){e.a.style.cssText="max-width:none;min-width:20px;min-height:20px;display:inline-block;overflow:hidden;position:absolute;width:auto;margin:0;padding:0;top:-999px;left:-999px;white-space:nowrap;font:"+t+";"}function i(e){var t=e.a.offsetWidth,n=t+100;return e.f.style.width=n+"px",e.c.scrollLeft=n,e.b.scrollLeft=e.b.scrollWidth+100,e.g!==t?(e.g=t,!0):!1}function s(t,n){function r(){var e=s;i(e)&&null!==e.a.parentNode&&n(e.g)}var s=t;e(t.b,r),e(t.c,r),i(t)}function o(e,t){var n=t||{};this.family=e,this.style=n.style||"normal",this.weight=n.weight||"normal",this.stretch=n.stretch||"normal"}function l(){if(null===a){var e=document.createElement("div");try{e.style.font="condensed 100px sans-serif"}catch(t){}a=""!==e.style.font}return a}function c(e,t){return[e.style,e.weight,l()?e.stretch:"","100px",t].join(" ")}var u=null,a=null,f=null;o.prototype.load=function(e,i){var o=this,a=e||"BESbswy",l=i||3e3,h=(new Date).getTime();return new Promise(function(e,i){null===f&&(f=!!window.FontFace);if(f){var p=new Promise(function(e,t){function n(){(new Date).getTime()-h>=l?t():document.fonts.load(c(o,o.family),a).then(function(t){1<=t.length?e():setTimeout(n,25)},function(){t()})}n()}),d=new Promise(function(e,t){setTimeout(t,l)});Promise.race([d,p]).then(function(){e(o)},function(){i(o)})}else t(function(){function t(){var t;if(t=-1!=m&&-1!=g||-1!=m&&-1!=S||-1!=g&&-1!=S)(t=m!=g&&m!=S&&g!=S)||(null===u&&(t=/AppleWebKit\/([0-9]+)(?:\.([0-9]+))/.exec(window.navigator.userAgent),u=!!t&&(536>parseInt(t[1],10)||536===parseInt(t[1],10)&&11>=parseInt(t[2],10))),t=u&&(m==x&&g==x&&S==x||m==T&&g==T&&S==T||m==N&&g==N&&S==N)),t=!t;t&&(null!==C.parentNode&&C.parentNode.removeChild(C),clearTimeout(L),e(o))}function f(){if((new Date).getTime()-h>=l)null!==C.parentNode&&C.parentNode.removeChild(C),i(o);else{var e=document.hidden;if(!0===e||void 0===e)m=p.a.offsetWidth,g=d.a.offsetWidth,S=v.a.offsetWidth,t();L=setTimeout(f,50)}}var p=new n(a),d=new n(a),v=new n(a),m=-1,g=-1,S=-1,x=-1,T=-1,N=-1,C=document.createElement("div"),L=0;C.dir="ltr",r(p,c(o,"sans-serif")),r(d,c(o,"serif")),r(v,c(o,"monospace")),C.appendChild(p.a),C.appendChild(d.a),C.appendChild(v.a),document.body.appendChild(C),x=p.a.offsetWidth,T=d.a.offsetWidth,N=v.a.offsetWidth,f(),s(p,function(e){m=e,t()}),r(p,c(o,'"'+o.family+'",sans-serif')),s(d,function(e){g=e,t()}),r(d,c(o,'"'+o.family+'",serif')),s(v,function(e){S=e,t()}),r(v,c(o,'"'+o.family+'",monospace'))})})},"undefined"!=typeof module?module.exports=o:(window.FontFaceObserver=o,window.FontFaceObserver.prototype.load=o.prototype.load)})();
+			document.documentElement.className += " fonts-stage-1";
+			var fontA = new FontFaceObserver( 'Source Sans Pro');
+			var fontB = new FontFaceObserver('Roboto', {
+					weight: 400
+				});
+			Promise.all([fontA.load(), fontB.load()]).then(function () {
+				document.documentElement.className += " fonts-stage-2";
+				
+				sessionStorage.criticalFoftDataUriFontsLoaded = true;
+			}); 
+	})();
+</script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.js"></script>
+
+
+
+  </body>
+</html>

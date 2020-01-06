@@ -300,26 +300,53 @@ figure h4 {
   border: 1px solid rgba(167, 16, 104, 0.16);
   padding: 16px 8px 0 8px;
   margin-bottom: 10px;
+  
 }
+.figstack figure { border: 0; padding: 0; 
 
+  margin-bottom: .5rem;
+  margin-top: .5rem;
+}
+.figstack figure figcaption { background-color: transparent;
+padding: 0;
+} 
 .figstack>a {
   float: left;
   width: 25%;
   padding: 0 8px;
 }
-
+#blog-post .figstack>a {
+  text-decoration: none;
+}
 .figstack:after {
   content: '';
   display: block;
   width: 100%;
   clear: both;
 }
+ figure {
+  width: auto;
+  border: 2px solid #eee;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+ }
+ figure > a { display: block; } 
+ figure figcaption h4 {
+   line-height: 1.5;
 
+ }
+ figure figcaption {
+  padding: .5rem;
+   font-size: .9rem; 
+  background-color: #eee;
+  color: #000;
+  
+  }
+  figure figcaption p { margin: 0; padding: 0;}
 figure img {
   padding: 2px;
-  border: 1px solid #eee;
   max-width: 100%;
-  width: 100%;
+  width: initial;
 }
 
 @media (max-width: 767px) {
