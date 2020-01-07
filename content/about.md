@@ -57,9 +57,4 @@ Jeanine previously developed websites for [Montana State University (MSU) and M
 
 ## Resources
 
-Many of these are affiliate links to services I use *daily*. I'm grateful to these companies and would recommend you give them a try! Please tweet @satinflame if you have any questions. 
-
-- <a href="https://www.teamwork.com/partner/5c1s2ilctg">Teamwork (Project Management)</a> 
-- <a href="https://m.do.co/c/37313c752e08">DigitalOcean (Web Hosting)</a>
-- <a href="http://namecheap.com">Namecheap (Web Domains)</a>
-- <a href="https://accounting.waveapps.com">Wave Apps (Small Business Accounting)</a>
+View my favorite tools, software and hardware on my <a href="{{< ref "/uses" >}}">Uses</a> page.
