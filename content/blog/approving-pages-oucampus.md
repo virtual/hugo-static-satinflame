@@ -1,13 +1,12 @@
 ---
 title: "Approving Pages in OU Campus"
-date: 2020-01-06T12:42:18-07:00 
+date: 2020-01-10T06:42:18-07:00 
 banner: "img/posts/approvals-oucampus/omniupdate-approve-submissions.jpg"
 tags: ["oucampus", "administration"]
 categories: ["blog"]
 authors:
   - jeanine
 excerpt: "If you’re new to using OmniUpdate's OU Campus for updating and approving pages for your school's web site, you may be wondering which items need to be checked when reviewing submissions. Learn tips for identifying changes as well as eight common issues that may occur in submitted web pages." 
-draft: true
 ---
 
 
@@ -73,15 +72,15 @@ If the styled text should not be a heading, consider if the style is necessary. 
 
 The [OU Insights report tool](https://support.omniupdate.com/learn-ou-campus/modules/ou-insights.html)--a premium module available as an add-on to OU Campus--can be configured to check for correct heading levels. 
 
-Consider [reviewing toolbar settings for your users](https://support.omniupdate.com/learn-ou-campus/administration/setup/toolbars.html), and only allow admin users to update font families, colors and styles.
+Consider [reviewing toolbar settings for your users](https://support.omniupdate.com/learn-ou-campus/administration/setup/toolbars.html), and only allow admin users to update font families, colors, and styles.
 
 ### Overused underlines
 
-When reviewing text styles, be sure to avoid underlined text. [Keep underlined styling specific to links only](https://www.nngroup.com/articles/guidelines-for-visualizing-links/), and this will remove the cognitive load of users trying to understand if the text is linked or simply underlined. Instead of underlining for emphasis, consider using bold or italics text for important information.
+When reviewing text styles, be sure to avoid styling text with underlines. [Keep underlined styling specific to links only](https://www.nngroup.com/articles/guidelines-for-visualizing-links/), and this will remove the cognitive load of users trying to understand if the text is linked or simply underlined. Instead of underlining for emphasis, consider using bold or italics text for important information.
 
 ### Too much space
 
-Often you may find additional empty lines or content that includes handfuls of hard-coded space. Unfortunately, these empty spaces cause issues when viewing this content on a mobile device.  Content that may line-up well on a large monitor may look jumbled and disorganized on a phone. In these cases, consider if you should align the content using a 2-, 3- or 4-column snippet that automatically stacks content on mobile. If the information is table data and should be presented in a table format, insert a table and move the content into the cells accordingly. 
+Often you may find additional empty lines or content that includes handfuls of hard-coded space. Unfortunately, these empty spaces cause issues when viewing this content on a mobile device.  Content that may line-up well on a large monitor may look jumbled and disorganized on a phone. In these cases, consider if you should align the content using a 2-, 3-, or 4-column snippet that automatically stacks content on mobile. If the information is table data and should be presented in a table format, insert a table and move the content into the cells accordingly. 
 
 If you have access to the Source of the page, consider performing these actions prior to approving a page. 
 
@@ -118,11 +117,11 @@ Similarly, sometimes users may add new links leading to external pages; these li
 
 ## Unusable mobile views
 
-Although content managers are often using their desktop computers to update pages, over 40% of visits to your site may come through mobile or tablet devices. Resize your screen to see how the content wraps for smaller screen widths. If the content isn't designed to work responsively, consider adding new snippets to your OU Campus install—including 2-, 3- or 4-column snippet that stacks content on mobile.
+Although content managers are often using their desktop computers to update pages, over 40% of visits to your site may come through mobile or tablet devices. Resize your screen to see how the content wraps for smaller screen widths. If the content isn't designed to work responsively, consider adding new snippets to your OU Campus install—including 2-, 3-, and 4-column snippets that stack content on mobile devices.
 
 ## Accessibility issues
 
-As you are aware, accessibility is an important part of sharing your information with your visitors. In addition to the updates to headings (above), there are often a couple of other important items that may need to be addressed:
+As you are aware, accessibility is an important part of sharing your information with your visitors. In addition to the [updates to headings](#semantic-issues), there are often a couple of other important items that may need to be addressed:
 
 ### Inaccessible or unnecessary PDFs
 
@@ -132,7 +131,7 @@ If you determine that the information cannot be converted to web content, make s
 
 ### Missing or poor image descriptions
 
-As always, review the alt (description) field for each image. Image titles can be helpful when a user doesn't know what clicking a link will do, but otherwise, all alternative text should be placed in an alt field. When developing description content, consider what one might type to find this image using a Google search. If the image contains important text, type it out in the description. Don't include the words "logo of" or "image of" in alternative text. Screen readers can automatically detect when they share a description of an image.
+As always, review the alt (description) field for each image. When developing description content, consider what one might type to find this image using a Google search. If the image contains important text, type it out in the description. Don't include the words "logo of" or "image of" in alternative text. Screen readers can automatically detect when they share a description of an image.
 
 ## In summary
 
@@ -141,5 +140,7 @@ As always, review the alt (description) field for each image. Image titles can b
 - Check that links are not broken and remember displayed text does not necessarily match its link
 - Resize your screen to preview what the content looks like on mobile devices; use responsive snippets for advanced layouts
 - Check images and linked PDFs for accessibility—often, the content in a PDF can be moved into a new web page
+
+Do you often come across an issue not listed here that would be helpful for others to consider when approving pages? Please share it in the comments below.
 
 If you're looking for help with approving pages (possibly while you're out taking that much-needed vacation!), updating your global heading styles or developing responsive snippets for content layouts, [contact me](/contact/) and let's see if your project would be a good match.
