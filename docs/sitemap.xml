@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.satinflame.com/blog/2020/01/approving-pages-oucampus/</loc>
+    <lastmod>2020-01-10T06:42:18-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.satinflame.com/blog/2019/11/top-5-ways-to-use-videos-for-college-recruitment/</loc>
     <lastmod>2019-11-15T09:27:44-07:00</lastmod>
   </url>
@@ -107,6 +112,12 @@
   </url>
   
   <url>
+    <loc>https://www.satinflame.com/tags/administration/</loc>
+    <lastmod>2020-01-10T06:42:18-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.satinflame.com/tags/amazon/</loc>
     <lastmod>2016-03-12T19:57:25-06:00</lastmod>
     <priority>0</priority>
@@ -125,13 +136,13 @@
   
   <url>
     <loc>https://www.satinflame.com/categories/blog/</loc>
-    <lastmod>2019-11-15T09:27:44-07:00</lastmod>
+    <lastmod>2020-01-10T06:42:18-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.satinflame.com/blog/</loc>
-    <lastmod>2019-11-15T09:27:44-07:00</lastmod>
+    <lastmod>2020-01-10T06:42:18-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -149,7 +160,7 @@
   
   <url>
     <loc>https://www.satinflame.com/categories/</loc>
-    <lastmod>2019-11-15T09:27:44-07:00</lastmod>
+    <lastmod>2020-01-10T06:42:18-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -203,7 +214,7 @@
   
   <url>
     <loc>https://www.satinflame.com/tags/oucampus/</loc>
-    <lastmod>2019-11-15T09:27:44-07:00</lastmod>
+    <lastmod>2020-01-10T06:42:18-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -238,6 +249,10 @@
   </url>
   
   <url>
+    <loc>https://www.satinflame.com/search/</loc>
+  </url>
+  
+  <url>
     <loc>https://www.satinflame.com/tags/seo/</loc>
     <lastmod>2016-03-12T19:57:25-06:00</lastmod>
     <priority>0</priority>
@@ -255,8 +270,12 @@
   
   <url>
     <loc>https://www.satinflame.com/tags/</loc>
-    <lastmod>2016-03-12T19:57:25-06:00</lastmod>
+    <lastmod>2020-01-10T06:42:18-07:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.satinflame.com/uses/</loc>
   </url>
   
   <url>
@@ -273,7 +292,7 @@
   
   <url>
     <loc>https://www.satinflame.com/</loc>
-    <lastmod>2019-11-15T09:27:44-07:00</lastmod>
+    <lastmod>2020-01-10T06:42:18-07:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -1,6 +1,6 @@
 +++
 title = "About"
-description = "Frequently asked questions"
+description = "Jeanine Schoessler, Front-End Web Developer for satinflame design, enjoys crafting web experiences for higher education."
 keywords = ["FAQ","How do I","questions","what if"]
 aliases = [
     "/authors/jeanine/" 

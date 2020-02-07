@@ -369,3 +369,6 @@ $(window).resize(function () {
   }
 })
 console.log("Hi there. :) Looking for web development, assistance or consulting for websites in higher education? You've come to the right place.")
+$(function () {
+  $('#post-content h2, #post-content h3, #post-content h4').each(function() { $(this).prepend('<a class="hanchor" href=#' + $(this).attr('id') + '><span class="sr-only">Link to this heading</span></a>') })
+})

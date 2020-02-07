@@ -6,10 +6,20 @@
     <description>Recent content on satinflame design</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Nov 2019 09:27:44 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jan 2020 06:42:18 -0700</lastBuildDate>
     
 	<atom:link href="https://www.satinflame.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Approving Pages in OU Campus</title>
+      <link>https://www.satinflame.com/blog/2020/01/approving-pages-oucampus/</link>
+      <pubDate>Fri, 10 Jan 2020 06:42:18 -0700</pubDate>
+      
+      <guid>https://www.satinflame.com/blog/2020/01/approving-pages-oucampus/</guid>
+      <description>Getting started When you first open up a submitted web page, you may be wondering what is different between the submission and the live versions. During user training, encourage your content managers to write descriptions that outline what they&amp;rsquo;ve changed.
+Encourage content managers to write a clear subject and message detailing what content has changed.  Before you begin reviewing, save a new version of the staged page with a description &amp;ldquo;As submitted by user,&amp;ldquo;&amp;ndash;this way, you can revert or compare your changes to the original submission.</description>
+    </item>
     
     <item>
       <title>Top 5 Ways to Use Videos for College Recruitment</title>
@@ -257,6 +267,15 @@ Before updating, this Web page had used mobile queries to (unfortunately) simply
     </item>
     
     <item>
+      <title>Search</title>
+      <link>https://www.satinflame.com/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.satinflame.com/search/</guid>
+      <description>Search</description>
+    </item>
+    
+    <item>
       <title>Stock Photos</title>
       <link>https://www.satinflame.com/stock-photos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -264,6 +283,16 @@ Before updating, this Web page had used mobile queries to (unfortunately) simply
       <guid>https://www.satinflame.com/stock-photos/</guid>
       <description>Stock Photos Photos I’ve taken that can be used freely in any lawful use:
  in digital format on websites, blog posts, social media, advertisements, film and television productions, web and mobile applications in printed materials such as magazines, newspapers, books, brochures, flyers, product packaging for decorative use in your home, office or any public place personal use or commercial use    mountains in Montana      Sikorksy UH-60      chocolate cake      Glacier National Park sun shining through treetops      patio set in Cancun      hummingbird at a feeder</description>
+    </item>
+    
+    <item>
+      <title>Uses</title>
+      <link>https://www.satinflame.com/uses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.satinflame.com/uses/</guid>
+      <description>🔗 Web apps  DigitalOcean (Web Hosting)* Namecheap (Web Domains) Teamwork (Project Management)* Wave Apps (Small Business Accounting)  * These are affiliate links to services I use daily. I&amp;rsquo;m grateful to these companies and would recommend you give them a try! Please tweet @satinflame if you have any questions.
+🌎 Browser extensions  Accessibility Insights for Web AdBlock Auto Refresh Plus axe - Web Accessibility Testing ChromeVox Classic Extension Design Grid Overlay Full Page Screen Capture Google Keep Chrome Extension Grammarly for Chrome HTML5 Outliner JSON Viewer Lighthouse Momentum Quick Javascript Switcher Save as eBook Siteimprove Accessibility Checker Web Developer Checklist  ⌨️ IDE  Notepad++</description>
     </item>
     
   </channel>
