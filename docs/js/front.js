@@ -372,3 +372,18 @@ console.log("Hi there. :) Looking for web development, assistance or consulting 
 $(function () {
   $('#post-content h2, #post-content h3, #post-content h4').each(function() { $(this).prepend('<a class="hanchor" href=#' + $(this).attr('id') + '><span class="sr-only">Link to this heading</span></a>') })
 })
+
+// Service Worker
+if('serviceWorker' in navigator) {
+  navigator.serviceWorker
+      .register('/sw.js', { scope: '/' })
+      .then(function(registration) {
+          console.log('Service Worker Registered');
+      });
+
+  navigator.serviceWorker
+      .ready
+      .then(function(registration) {
+          console.log('Service Worker Ready');
+      });
+}

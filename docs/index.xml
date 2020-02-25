@@ -247,6 +247,15 @@ Before updating, this Web page had used mobile queries to (unfortunately) simply
     </item>
     
     <item>
+      <title>Offline</title>
+      <link>https://www.satinflame.com/offline/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.satinflame.com/offline/</guid>
+      <description>Offline Please connect to a network to view.</description>
+    </item>
+    
+    <item>
       <title>OmniUpdate</title>
       <link>https://www.satinflame.com/authors/omniupdate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
