@@ -1,31 +1,31 @@
 const CACHE_VERSION = 1;
 
 const BASE_CACHE_FILES = [
-    '{{ .Site.BaseURL }}css/bootstrap.min.css',
-    '{{ .Site.BaseURL }}css/animate.css',
-    '{{ .Site.BaseURL }}css/style.candy.css',
-    '{{ .Site.BaseURL }}css/custom.css',
-    '{{ .Site.BaseURL }}css/modernscale.css',
-    '{{ .Site.BaseURL }}css/owl.carousel.css',
-    '{{ .Site.BaseURL }}css/owl.theme.css',
+    '/css/bootstrap.min.css',
+    '/css/animate.css',
+    '/css/style.candy.css',
+    '/css/custom.css',
+    '/css/modernscale.css',
+    '/css/owl.carousel.css',
+    '/css/owl.theme.css',
     'https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css',
-    '{{ .Site.BaseURL }}js/jquery-3.4.1.min.js',
-    '{{ .Site.BaseURL }}js/bootstrap.min.js',
+    '/js/jquery-3.4.1.min.js',
+    '/js/bootstrap.min.js',
     '//cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax.js',
     '//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js',
-    '{{ .Site.BaseURL }}js/front.js',
-    '{{ .Site.BaseURL }}js/owl.carousel.min.js',
+    '/js/front.js',
+    '/js/owl.carousel.min.js',
     '/manifest.json',
     'https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.js',
 
-    '{{ .Site.BaseURL }}img/logo.png',
-    '{{ .Site.BaseURL }}img/meta/favicon-196x196.png',
+    '/img/logo.png',
+    '/img/meta/favicon-196x196.png',
 ];
  
 
 const OFFLINE_CACHE_FILES = [
-  '{{ .Site.BaseURL }}img/logo.png',
-  '{{ .Site.BaseURL }}img/meta/favicon-196x196.png',
+  '/img/logo.png',
+  '/img/meta/favicon-196x196.png',
 ];
 
 const NOT_FOUND_CACHE_FILES = [ 

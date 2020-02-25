@@ -17,7 +17,7 @@ _________________________________________________________ -->
         <div class="col-md-12">
             {{ if isset .Site.Params "copyright" }}
             <p>{{ .Site.Params.copyright | safeHTML }}  &nbsp;
-              <a href="{{ .Site.BaseURL }}index.xml"><span class="fa fa-rss"><span class="sr-only">rss</span></span></a></p>
+              <a href="{{ .Site.BaseURL }}index.xml"><span class="fa fa-rss"></span> <span class="sr-only">Blog RSS</span></a></p>
             {{ end }}
              
         </div>

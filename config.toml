@@ -7,7 +7,7 @@ publishDir = "docs"
 
 # Define the number of posts per page
 paginate = 10
-
+enableRobotsTXT = true
 
 DisqusShortname = "satinflame-com"
 
