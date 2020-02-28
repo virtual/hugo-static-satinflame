@@ -45,7 +45,7 @@ pygmentsStyle =  "monokailight"
     date_format = "2006-01-02"
     logo = "img/logo.png"
     ogimg = "img/ogimg.png"
-    DefaultDescription = "satinflame design provides web services for higher ed including responsive web development and implementation of snippets, assets and page layouts into OU Campus."
+    DefaultDescription = "satinflame design provides OU Campus web services including responsive web development and implementation of snippets, assets and page layouts."
 
     # Enable Google Analytics by entering your tracking code
     googleAnalytics = "UA-7598678-1"

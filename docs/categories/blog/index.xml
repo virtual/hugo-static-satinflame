@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on satinflame design</title>
+    <title>blog on satinflame design</title>
     <link>https://www.satinflame.com/categories/blog/</link>
-    <description>Recent content in Blog on satinflame design</description>
+    <description>Recent content in blog on satinflame design</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 10 Jan 2020 06:42:18 -0700</lastBuildDate>
@@ -18,7 +18,7 @@
       
       <guid>https://www.satinflame.com/blog/2020/01/approving-pages-oucampus/</guid>
       <description>Getting started When you first open up a submitted web page, you may be wondering what is different between the submission and the live versions. During user training, encourage your content managers to write descriptions that outline what they&amp;rsquo;ve changed.
-Encourage content managers to write a clear subject and message detailing what content has changed.  Before you begin reviewing, save a new version of the staged page with a description &amp;ldquo;As submitted by user,&amp;ldquo;&amp;ndash;this way, you can revert or compare your changes to the original submission.</description>
+Before you begin reviewing, save a new version of the staged page with a description &amp;ldquo;As submitted by user,&amp;quot;&amp;ndash;this way, you can revert or compare your changes to the original submission.</description>
     </item>
     
     <item>
@@ -27,12 +27,12 @@ Encourage content managers to write a clear subject and message detailing what c
       <pubDate>Fri, 15 Nov 2019 09:27:44 -0700</pubDate>
       
       <guid>https://www.satinflame.com/blog/2019/11/top-5-ways-to-use-videos-for-college-recruitment/</guid>
-      <description>By Heidi King, OmniUpdate Guest Post 
-It’s no secret that Google is the world’s largest search engine, but few people realize that YouTube is in second place. Consider these statistics:
- About 1.3 billion people use the platform.
- YouTube is bigger than Bing, Yahoo!, Ask, and AOL combined.
- The site gets over 30 million visitors daily.
- YouTube on mobile reaches more 18–49-year-olds than any cable network in the U.</description>
+      <description>By Heidi King, OmniUpdate Guest Post   About 1.3 billion people use the platform.
+  YouTube is bigger than Bing, Yahoo!, Ask, and AOL combined.
+  The site gets over 30 million visitors daily.
+  YouTube on mobile reaches more 18–49-year-olds than any cable network in the U.S.
+  About 5 billion videos are watched daily on the site.
+  Material is available in 76 different languages, covering 95 percent of the internet population, and there are local versions in 88 countries.</description>
     </item>
     
     <item>
@@ -98,7 +98,8 @@ It had been four years since I&amp;rsquo;d last attended a national conference, 
       <guid>https://www.satinflame.com/blog/2016/06/giant-decline-in-bounce-rate-is-it-really-a-good-thing/</guid>
       <description>Is it Really a Good Thing?
 No, probably not.
-In April 2016, I updated a website with a fresh, responsive Magento design in collaboration with Social Ruckus in Bozeman, Montana. There was a noticeable slowing of the websites as most features used AJAX and dynamic loading. Even so, I noticed a huge drop (~50% to 3%) in bounce rate. Bounce dropped after releasing RWD&amp;ndash;I&amp;rsquo;m a bit nervous. What other metrics should I look at?</description>
+In April 2016, I updated a website with a fresh, responsive Magento design in collaboration with Social Ruckus in Bozeman, Montana. There was a noticeable slowing of the websites as most features used AJAX and dynamic loading. Even so, I noticed a huge drop (~50% to 3%) in bounce rate.
+I looked around a bit but couldn’t find any definitive ideas about redesigns correlating to changes in bounce rates.</description>
     </item>
     
     <item>

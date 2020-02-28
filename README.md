@@ -19,3 +19,6 @@ Rebuilt portfolio using gohugo.io
 ## New Post
 - `hugo new blog/my-post-name.md`
 - `hugo server -D` (show drafts)
+
+## Update 
+- Windows: from Git Bash with Admin priv: `choco upgrade hugo`
