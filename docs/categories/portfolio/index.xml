@@ -18,7 +18,7 @@
       
       <guid>https://www.satinflame.com/blog/2019/09/knight-university-case-study/</guid>
       <description>It was time for a redesign of Knight University, and while working through Designlab&amp;rsquo;s curriculum, I focused on creating a fresh web design with a focus on user needs. Knight University is for my experimental code/designs and is not a real university.
-Before &amp;amp; after screenshots Case study Word fileView an accessible version of the case study above</description>
+Before &amp;amp; after screenshots   The previous design for Knight University with an overly blue and less exciting design     The new design for Knight University     The open megamenu for the new design for Knight University   Case study Word file View an accessible version of the case study above</description>
     </item>
     
     <item>
@@ -47,9 +47,10 @@ On your page, include the Highcharts library file as well as your customized JS�
       <pubDate>Fri, 13 Apr 2018 15:13:50 -0600</pubDate>
       
       <guid>https://www.satinflame.com/blog/2018/04/apps-and-tiny-tools/</guid>
-      <description>Little Apps These small applications range from fun games to small applications utilizing APIs across the web. Tools include SVG, D3, React and plain ol&amp;rsquo; JavaScript.
-Tiny Tools Once in awhile, I make tiny tools to make my life easier. Here are a couple.
-Want to see more? Follow me on GitHub — @virtual</description>
+      <description>Game of Life The &#34;Game of Life&#34; is a small game based on a formula that determines whether a square is &#34;alive&#34; or &#34;dead&#34; based on its number of neighbors. React
+    Recipe Collector A collection of delicous recipes--browse or add your own. The first five recipes are protected so they can&#39;t be deleted or modified.
+ReactMongoDb
+    Escape from Toy Factory A lot of fun putting together this JavaScript challenge--and it still has a little way to go!</description>
     </item>
     
     <item>
@@ -110,8 +111,8 @@ Unlike other designs I’ve implemented, Naropa University’s wasn’t quite r
       <pubDate>Sun, 10 Jan 2016 15:02:57 -0600</pubDate>
       
       <guid>https://www.satinflame.com/blog/2016/01/elizabeth-city-state-university-web-redesign/</guid>
-      <description>In 2015, I worked with Vayakone Sphabmixay from SAX, Inc. implementing their redesign for Elizabeth City State University in North Carolina. There were many creative design pieces that presented fun challenges for implementing in a responsive environment.
-Historical Year Timeline The timeline is both collapsible and adapts to mobile devices. In addition, with this and other dynamic pages developed—such as the Past Presidents of ECSU—a page scroll to the updated area was necessary to orient users to new information.</description>
+      <description>ECSU Secondary Page     ECSU Homepage     ECSU Admissions     ECSU History Page   In 2015, I worked with Vayakone Sphabmixay from SAX, Inc. implementing their redesign for Elizabeth City State University in North Carolina. There were many creative design pieces that presented fun challenges for implementing in a responsive environment.
+Historical Year Timeline The timeline is both collapsible and adapts to mobile devices.</description>
     </item>
     
     <item>

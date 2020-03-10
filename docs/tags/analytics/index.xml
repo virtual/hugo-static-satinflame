@@ -29,7 +29,7 @@
       <description>Is it Really a Good Thing?
 No, probably not.
 In April 2016, I updated a website with a fresh, responsive Magento design in collaboration with Social Ruckus in Bozeman, Montana. There was a noticeable slowing of the websites as most features used AJAX and dynamic loading. Even so, I noticed a huge drop (~50% to 3%) in bounce rate.
-I looked around a bit but couldn’t find any definitive ideas about redesigns correlating to changes in bounce rates.</description>
+Bounce dropped after releasing RWD--I&#39;m a bit nervous. What other metrics should I look at?</description>
     </item>
     
   </channel>

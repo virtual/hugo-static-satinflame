@@ -18,6 +18,9 @@ pygmentsCodeFences = true
 # color-codes for highlighting derived from this style
 pygmentsStyle =  "monokailight" 
 
+[markup.goldmark.renderer]
+unsafe= true
+
 [params]
     style="candy"
     viewMorePostLink     = "/blog/"

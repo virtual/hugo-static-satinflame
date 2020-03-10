@@ -18,13 +18,14 @@ Jeanine previously developed websites for [Montana State University (MSU) and M
 
 ### Front-end Development:  
 -	Responsive web development based on single- or multi-layout designs 
-  - Example 1: <a href="https://virtual.github.io/shoreline/" rel="nofollow">Shoreline Community College Redesign</a>
-  - Example 2: <a href="https://virtual.github.io/allanhancock/" rel="nofollow">Allan Hancock College Redesign</a>
-  - Example 3: <a href="https://satinflame.com/ou/meridian/" rel="nofollow">Meridian Community College Redesign</a>
+    - Example 1: <a href="https://virtual.github.io/shoreline/" rel="nofollow">Shoreline Community College Redesign</a>
+    - Example 2: <a href="https://virtual.github.io/allanhancock/" rel="nofollow">Allan Hancock College Redesign</a>
+    - Example 3: <a href="https://satinflame.com/ou/meridian/" rel="nofollow">Meridian Community College Redesign</a>
+    - Example 4: <a href="https://satinflame.com/ou/ojc/" rel="nofollow">Otero Junior College Redesign</a>
 -	Create flexible deliverables:
-  - HTML/CSS/JavaScript code
-  - Git repository including file structure
-  - Code optimized for implementation into OmniUpdate's OU Campus or a static website
+    - HTML/CSS/JavaScript code
+    - Git repository including file structure
+    - Code optimized for implementation into OmniUpdate's OU Campus or a static website
 -	Restructure non-responsive websites for responsive use
 -	Update or debug layout, style, or script errors
 - Implement print styles
@@ -41,9 +42,9 @@ Jeanine previously developed websites for [Montana State University (MSU) and M
 - Provide general webmaster assistance, web content maintenance and editing
 - Semantic formatting (HTML)
 - Consult / provide recommendations for:
-  - OU Campus template setup or modifications
-  - Social media meta tags
-  - Rich snippets and Search Engine Optimization (SEO) 
+    - OU Campus template setup or modifications
+    - Social media meta tags
+    - Rich snippets and Search Engine Optimization (SEO) 
 - Accessibility updates (colors, screen-reader content, images, sematic markup) to WCAG 2.0 AA standards
 - Web development / updates for a secure HTTPS website
 
