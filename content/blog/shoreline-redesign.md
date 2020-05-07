@@ -23,7 +23,7 @@ In January 2018, Shoreline unveiled an updated Identity Guideline which I implem
 </div> 
 
 
-With the school's updated guidelines launched, Shoreline Community College's team then worked with [Andy Fitzgerald for User Experience (UX)](https://andyfitzgeraldconsulting.com/) and [Joe Shoop for web design](http://joeshoop.com/). Months later, the design was ready for development. For the handoff, Joe exported his complex Sketch file into a service called Zeplin. This powerful tool lets a developer look at the typography, shapes and layout to immediately see the various style properties, e.g. font-family information, border radius and sizes.  
+With the school's updated guidelines launched, Shoreline Community College's team then worked with [Andy Fitzgerald for User Experience (UX)](https://www.andyfitzgeraldconsulting.com/) and [Joe Shoop for web design](http://joeshoop.com/). Months later, the design was ready for development. For the handoff, Joe exported his complex Sketch file into a service called Zeplin. This powerful tool lets a developer look at the typography, shapes and layout to immediately see the various style properties, e.g. font-family information, border radius and sizes.  
 
 
 ## Development

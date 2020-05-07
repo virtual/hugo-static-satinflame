@@ -27,7 +27,7 @@ excerpt: "ECSU’s redesign included many creative design pieces that presented 
  
  
 
-In 2015, I worked with [Vayakone Sphabmixay from SAX, Inc.](http://www.saxproductions.com/vayakone-sphabmixay/) implementing their redesign for Elizabeth City State University in North Carolina. There were many creative design pieces that presented fun challenges for implementing in a responsive environment.
+In 2015, I worked with [Vayakone Sphabmixay from the Sax Agency](https://thesaxagency.com/vayakone-sphabmixay/) implementing their redesign for Elizabeth City State University in North Carolina. There were many creative design pieces that presented fun challenges for implementing in a responsive environment.
 
 ## Historical Year Timeline
 
