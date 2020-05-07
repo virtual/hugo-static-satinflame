@@ -65,7 +65,23 @@
                                           {{ end }}</p>
                                           
                           {{ .Content }}
+
+                          
+
+                          <div class="nav-links">
+                          {{ if .PrevInSection }}
+                          <div class="nav-previous"><a rel="prev" href="{{.PrevInSection.Permalink}}"><span class="nav-title">{{.PrevInSection.Title}}</span><span class="nav-arrow">
+                            <span class="fas fa-arrow-left" aria-hidden="true"></span>
+                          </span></a></div>
+{{ end }}
+
+{{ if .NextInSection }}
+<div class="nav-next"><a rel="next" href="{{.NextInSection.Permalink}}"><span class="nav-title">{{.NextInSection.Title}}</span><span class="nav-arrow">
+  <span class="fas fa-arrow-right" aria-hidden="true"></span>
+</span></a></div>
+{{ end }}
                         </div>
+                      </div>
                            
                         <!-- /#post-content -->
                       
