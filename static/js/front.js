@@ -1,24 +1,24 @@
 /* global $this: true */
 /* eslint no-unused-vars: ["error", { "varsIgnorePattern": "animationsSlider" }] */
 
-if ($.cookie('themeCSSpath')) {
-  $('link#theme-stylesheet').attr('href', $.cookie('themeCSSpath'))
-}
-if ($.cookie('themeLayout')) {
-  $('body').addClass($.cookie('themeLayout'))
-}
+// if ($.cookie('themeCSSpath')) {
+//   $('link#theme-stylesheet').attr('href', $.cookie('themeCSSpath'))
+// }
+// if ($.cookie('themeLayout')) {
+//   $('body').addClass($.cookie('themeLayout'))
+// }
 
 $(function () {
   sliderHomepage()
   sliders()
-  fullScreenContainer()
-  productDetailGallery(4000)
-  menuSliding()
-  productDetailSizes()
-  utils()
-  animations()
+  // fullScreenContainer()
+  // productDetailGallery(4000)
+  // menuSliding()
+  // productDetailSizes()
+  // utils()
+  // animations()
  // counters()
-  demo()
+  // demo()
   contactForm()
 })
 
@@ -42,38 +42,38 @@ function contactForm () {
 }
 
 /* for demo purpose only - can be deleted */
-function demo () {
-  if ($.cookie('themeCSSpath')) {
-    $('link#theme-stylesheet').attr('href', $.cookie('themeCSSpath'))
-  }
+// function demo () {
+//   if ($.cookie('themeCSSpath')) {
+//     $('link#theme-stylesheet').attr('href', $.cookie('themeCSSpath'))
+//   }
 
-  $('#colour').change(function () {
-    if ($(this).val() !== '') {
-      var themeCSSpath = 'css/style.' + $(this).val() + '.css'
+//   $('#colour').change(function () {
+//     if ($(this).val() !== '') {
+//       var themeCSSpath = 'css/style.' + $(this).val() + '.css'
 
-      $('link#theme-stylesheet').attr('href', themeCSSpath)
+//       $('link#theme-stylesheet').attr('href', themeCSSpath)
 
-      $.cookie('themeCSSpath', themeCSSpath, {expires: 365, path: '/'})
-    }
+//       $.cookie('themeCSSpath', themeCSSpath, {expires: 365, path: '/'})
+//     }
 
-    return false
-  })
+//     return false
+//   })
 
-  $('#layout').change(function () {
-    if ($(this).val() !== '') {
-      var themeLayout = $(this).val()
+//   $('#layout').change(function () {
+//     if ($(this).val() !== '') {
+//       var themeLayout = $(this).val()
 
-      $('body').removeClass('wide')
-      $('body').removeClass('boxed')
+//       $('body').removeClass('wide')
+//       $('body').removeClass('boxed')
 
-      $('body').addClass(themeLayout)
+//       $('body').addClass(themeLayout)
 
-      $.cookie('themeLayout', themeLayout, {expires: 365, path: '/'})
-    }
+//       $.cookie('themeLayout', themeLayout, {expires: 365, path: '/'})
+//     }
 
-    return false
-  })
-}
+//     return false
+//   })
+// }
 
 /* slider homepage */
 function sliderHomepage () {
@@ -140,23 +140,23 @@ function sliders () {
 }
 
 /* menu sliding */
-function menuSliding () {
-  $('.dropdown').on('show.bs.dropdown', function () {
-    if ($(window).width() > 750) {
-      $(this).find('.dropdown-menu').first().stop(true, true).slideDown()
-    } else {
-      $(this).find('.dropdown-menu').first().stop(true, true).show()
-    }
-  })
+// function menuSliding () {
+//   $('.dropdown').on('show.bs.dropdown', function () {
+//     if ($(window).width() > 750) {
+//       $(this).find('.dropdown-menu').first().stop(true, true).slideDown()
+//     } else {
+//       $(this).find('.dropdown-menu').first().stop(true, true).show()
+//     }
+//   })
 
-  $('.dropdown').on('hide.bs.dropdown', function () {
-    if ($(window).width() > 750) {
-      $(this).find('.dropdown-menu').first().stop(true, true).slideUp()
-    } else {
-      $(this).find('.dropdown-menu').first().stop(true, true).hide()
-    }
-  })
-}
+//   $('.dropdown').on('hide.bs.dropdown', function () {
+//     if ($(window).width() > 750) {
+//       $(this).find('.dropdown-menu').first().stop(true, true).slideUp()
+//     } else {
+//       $(this).find('.dropdown-menu').first().stop(true, true).hide()
+//     }
+//   })
+// }
 
 /* animations */
 function animations () {
@@ -196,178 +196,178 @@ function animationsSlider () {
 }
 
 /* counters */
-function counters () {
-  $('.counter').counterUp({
-    delay: 10,
-    time: 1000
-  })
-}
+// function counters () {
+//   $('.counter').counterUp({
+//     delay: 10,
+//     time: 1000
+//   })
+// }
 
 /* picture zoom */
-function pictureZoom () {
-  $('.product .image, .post .image, .photostream div').each(function () {
-    var imgHeight = $(this).find('img').height()
-    if (imgHeight) {
-      $(this).height(imgHeight)
-    }
-  })
-}
+// function pictureZoom () {
+//   $('.product .image, .post .image, .photostream div').each(function () {
+//     var imgHeight = $(this).find('img').height()
+//     if (imgHeight) {
+//       $(this).height(imgHeight)
+//     }
+//   })
+// }
 
 /* full screen intro */
-function fullScreenContainer () {
-  var screenWidth = $(window).width() + 'px'
-  var screenHeight = '500px'
+// function fullScreenContainer () {
+//   var screenWidth = $(window).width() + 'px'
+//   var screenHeight = '500px'
 
-  if ($(window).height() > 500) {
-    screenHeight = $(window).height() + 'px'
-  }
+//   if ($(window).height() > 500) {
+//     screenHeight = $(window).height() + 'px'
+//   }
 
-  $('#intro, #intro .item').css({
-    width: screenWidth,
-    height: screenHeight
-  })
-}
+//   $('#intro, #intro .item').css({
+//     width: screenWidth,
+//     height: screenHeight
+//   })
+// }
 
-function utils () {
-  /* tooltips */
-  $('[data-toggle="tooltip"]').tooltip()
+// function utils () {
+//   /* tooltips */
+//   $('[data-toggle="tooltip"]').tooltip()
 
-  /* click on the box activates the radio */
-  $('#checkout').on('click', '.box.shipping-method, .box.payment-method', function () {
-    var radio = $(this).find(':radio')
-    radio.prop('checked', true)
-  })
+//   /* click on the box activates the radio */
+//   $('#checkout').on('click', '.box.shipping-method, .box.payment-method', function () {
+//     var radio = $(this).find(':radio')
+//     radio.prop('checked', true)
+//   })
 
-  /* click on the box activates the link in it */
-  $('.box.clickable').on('click', function () {
-    window.location = $(this).find('a').attr('href')
-  })
+//   /* click on the box activates the link in it */
+//   $('.box.clickable').on('click', function () {
+//     window.location = $(this).find('a').attr('href')
+//   })
 
-  /* external links in new window */
-  $('.external').on('click', function (e) {
-    e.preventDefault()
-    window.open($(this).attr('href'))
-  })
+//   /* external links in new window */
+//   $('.external').on('click', function (e) {
+//     e.preventDefault()
+//     window.open($(this).attr('href'))
+//   })
 
-  /* animated scrolling */
-  $('.scroll-to, .scroll-to-top').click(function (event) {
-    var fullUrl = this.href
-    var parts = fullUrl.split('#')
+//   /* animated scrolling */
+//   $('.scroll-to, .scroll-to-top').click(function (event) {
+//     var fullUrl = this.href
+//     var parts = fullUrl.split('#')
 
-    if (parts.length > 1) {
-      scrollTo(fullUrl)
-      event.preventDefault()
-    }
-  })
+//     if (parts.length > 1) {
+//       scrollTo(fullUrl)
+//       event.preventDefault()
+//     }
+//   })
 
-  function scrollTo (fullUrl) {
-    var parts = fullUrl.split('#')
-    var trgt = parts[1]
-    var targetOffset = $('#' + trgt).offset()
-    var targetTop = targetOffset.top - 100
+//   function scrollTo (fullUrl) {
+//     var parts = fullUrl.split('#')
+//     var trgt = parts[1]
+//     var targetOffset = $('#' + trgt).offset()
+//     var targetTop = targetOffset.top - 100
 
-    if (targetTop < 0) {
-      targetTop = 0
-    }
+//     if (targetTop < 0) {
+//       targetTop = 0
+//     }
 
-    $('html, body').animate({
-      scrollTop: targetTop
-    }, 1000)
-  }
-}
+//     $('html, body').animate({
+//       scrollTop: targetTop
+//     }, 1000)
+//   }
+// }
 
 /* product detail gallery */
-function productDetailGallery (confDetailSwitch) {
-  $('.thumb:first').addClass('active')
-  var timer = setInterval(autoSwitch, confDetailSwitch)
+// function productDetailGallery (confDetailSwitch) {
+//   $('.thumb:first').addClass('active')
+//   var timer = setInterval(autoSwitch, confDetailSwitch)
 
-  $('.thumb').click(function (e) {
-    switchImage($(this))
-    clearInterval(timer)
-    timer = setInterval(autoSwitch, confDetailSwitch)
-    e.preventDefault()
-  })
+//   $('.thumb').click(function (e) {
+//     switchImage($(this))
+//     clearInterval(timer)
+//     timer = setInterval(autoSwitch, confDetailSwitch)
+//     e.preventDefault()
+//   })
 
-  $('#mainImage').hover(function () {
-    clearInterval(timer)
-  }, function () {
-    timer = setInterval(autoSwitch, confDetailSwitch)
-  })
+//   $('#mainImage').hover(function () {
+//     clearInterval(timer)
+//   }, function () {
+//     timer = setInterval(autoSwitch, confDetailSwitch)
+//   })
 
-  function autoSwitch () {
-    var nextThumb = $('.thumb.active').closest('div').next('div').find('.thumb')
-    if (nextThumb.length === 0) {
-      nextThumb = $('.thumb:first')
-    }
-    switchImage(nextThumb)
-  }
+//   function autoSwitch () {
+//     var nextThumb = $('.thumb.active').closest('div').next('div').find('.thumb')
+//     if (nextThumb.length === 0) {
+//       nextThumb = $('.thumb:first')
+//     }
+//     switchImage(nextThumb)
+//   }
 
-  function switchImage (thumb) {
-    $('.thumb').removeClass('active')
-    var bigUrl = thumb.attr('href')
-    thumb.addClass('active')
-    $('#mainImage img').attr('src', bigUrl)
-  }
-}
+//   function switchImage (thumb) {
+//     $('.thumb').removeClass('active')
+//     var bigUrl = thumb.attr('href')
+//     thumb.addClass('active')
+//     $('#mainImage img').attr('src', bigUrl)
+//   }
+// }
 
 /* product detail sizes */
-function productDetailSizes () {
-  $('.sizes a').click(function (e) {
-    e.preventDefault()
-    $('.sizes a').removeClass('active')
-    $('.size-input').prop('checked', false)
-    $(this).addClass('active')
-    $(this).next('input').prop('checked', true)
-  })
-}
+// function productDetailSizes () {
+//   $('.sizes a').click(function (e) {
+//     e.preventDefault()
+//     $('.sizes a').removeClass('active')
+//     $('.size-input').prop('checked', false)
+//     $(this).addClass('active')
+//     $(this).next('input').prop('checked', true)
+//   })
+// }
 
-$.fn.alignElementsSameHeight = function () {
-  $('.same-height-row').each(function () {
-    var maxHeight = 0
-    var children = $(this).find('.same-height')
-    children.height('auto')
+// $.fn.alignElementsSameHeight = function () {
+//   $('.same-height-row').each(function () {
+//     var maxHeight = 0
+//     var children = $(this).find('.same-height')
+//     children.height('auto')
 
-    if ($(window).width() > 768) {
-      children.each(function () {
-        if ($(this).innerHeight() > maxHeight) {
-          maxHeight = $(this).innerHeight()
-        }
-      })
-      children.innerHeight(maxHeight)
-    }
+//     if ($(window).width() > 768) {
+//       children.each(function () {
+//         if ($(this).innerHeight() > maxHeight) {
+//           maxHeight = $(this).innerHeight()
+//         }
+//       })
+//       children.innerHeight(maxHeight)
+//     }
 
-    maxHeight = 0
-    children = $(this).find('.same-height-always')
-    children.height('auto')
-    children.each(function () {
-      if ($(this).height() > maxHeight) {
-        maxHeight = $(this).innerHeight()
-      }
-    })
-    children.innerHeight(maxHeight)
-  })
-}
+//     maxHeight = 0
+//     children = $(this).find('.same-height-always')
+//     children.height('auto')
+//     children.each(function () {
+//       if ($(this).height() > maxHeight) {
+//         maxHeight = $(this).innerHeight()
+//       }
+//     })
+//     children.innerHeight(maxHeight)
+//   })
+// }
 
-var windowWidth
-$(function () {
-  windowWidth = $(window).width()
+// var windowWidth
+// $(function () {
+//   windowWidth = $(window).width()
 
-  $(this).alignElementsSameHeight()
-  pictureZoom()
-})
+//   // $(this).alignElementsSameHeight()
+//   // pictureZoom()
+// })
 
-$(window).resize(function () {
-  var newWindowWidth = $(window).width()
+// $(window).resize(function () {
+//   var newWindowWidth = $(window).width()
 
-  if (windowWidth !== newWindowWidth) {
-    setTimeout(function () {
-      $(this).alignElementsSameHeight()
-      fullScreenContainer()
-      pictureZoom()
-    }, 205)
-    windowWidth = newWindowWidth
-  }
-})
+//   if (windowWidth !== newWindowWidth) {
+//     setTimeout(function () {
+//       $(this).alignElementsSameHeight()
+//       fullScreenContainer()
+//       pictureZoom()
+//     }, 205)
+//     windowWidth = newWindowWidth
+//   }
+// })
 console.log("Hi there. :) Looking for web development, assistance or consulting for websites in higher education? You've come to the right place.")
 $(function () {
   $('#post-content h2, #post-content h3, #post-content h4').each(function() { $(this).prepend('<a class="hanchor" href=#' + $(this).attr('id') + '><span class="sr-only">Link to this heading</span></a>') })

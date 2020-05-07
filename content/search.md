@@ -2,9 +2,6 @@
 title = "Search"
 description = "Search"
 keywords = ["Search"]
-aliases = [
-    "/authors/jeanine/" 
-]
 +++
 
 Search

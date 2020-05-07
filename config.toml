@@ -9,7 +9,7 @@ publishDir = "docs"
 paginate = 10
 enableRobotsTXT = true
 
-DisqusShortname = "satinflame-com"
+DisqusShortname = ""
 
 pygmentsOptions = "linenos=table"  
 # enables syntax guessing for code fences without specified language
