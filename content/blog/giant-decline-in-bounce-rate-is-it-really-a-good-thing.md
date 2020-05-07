@@ -23,7 +23,7 @@ I looked around a bit but couldn’t find any definitive ideas about redesigns c
 
 Was something set up incorrectly? **Yes—tag implementation!**
 
-Thanks to help from [UI Designer Krista Lacida](https://medium.com/@kristalacida) I was able to target a second Google Analytics tag being loaded into my code which caused issues with my statistics.
+Thanks to help from [UI Designer Krista Lacida](https://dribbble.com/kristalacida) I was able to target a second Google Analytics tag being loaded into my code which caused issues with my statistics.
 
 Since removing the second tag, all is back to “normal.” (Though I’d much rather keep the 3% bounce rate!)
 

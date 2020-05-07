@@ -11,14 +11,14 @@ excerpt: "Though there is a lot to learn, understanding the file structure of Ma
 
 
 
-Last year I had the opportunity to learn about working in the e-commerce platform Magento–creating products, adding modules, updating security patches and more. Though there is a lot to learn, understanding the file structure of Magento was essential in order to migrate another store (running version 1.4) into a multi-website for another store that had been recently upgraded to 1.9.2\. While searching for the best process, I learned there are many ways to set up a second store on the same Magento install—but there were many things I still didn’t understand being the novice server administer of a one-person web team.
+Last year I had the opportunity to learn about working in the e-commerce platform Magento–creating products, adding modules, updating security patches and more. Though there is a lot to learn, understanding the file structure of Magento was essential in order to migrate another store (running version 1.4) into a multi-website for another store that had been recently upgraded to 1.9.2. While searching for the best process, I learned there are many ways to set up a second store on the same Magento install—but there were many things I still didn’t understand being the novice server administer of a one-person web team.
 
 Below is an overview of the steps I took to migrate a second store into Magento; please note that this is not an exhaustive list but an overview to point you in the direction of which parts you may need to learn more about.
 
 Add second website to Magento
 ---------------------
 
-There are many guides that cover this including [How To Setup Multiple Stores On Magento](https://www.cloudways.com/blog/how-to-setup-multiple-stores-on-magento/). Be sure to understand the difference between a website, store and language. Separate websites can reference the same products and CMS pages, but they are typically used for completely different product catalogs. Set up your categories and website from the store settings, keeping the website code in mind, as you will want to make this consistent in your settings. Try it out now and [set up your second store.](https://www.cloudways.com/blog/how-to-setup-multiple-stores-on-magento/)
+There are many guides that cover this including "Cloudways - How To Setup Multiple Stores On Magento." Be sure to understand the difference between a website, store and language. Separate websites can reference the same products and CMS pages, but they are typically used for completely different product catalogs. Set up your categories and website from the store settings, keeping the website code in mind, as you will want to make this consistent in your settings. Try it out now and set up your second store.
 
 
 
@@ -150,4 +150,4 @@ To transfer customers, I was able to use the built-in [Import and Export functio
 
 *   [No Frills Magento Layout by Alan Storm](http://store.pulsestorm.net/products/no-frills-magento-layout)
 *   [Magento Multi-Website Checklist](http://www.eddiemay.me.uk/2013/08/10/magento-multi-website-checklist/)
-*   [How To Setup Multiple Stores On Magento](https://www.cloudways.com/blog/how-to-setup-multiple-stores-on-magento/)
+*   Cloudways - How To Setup Multiple Stores On Magento

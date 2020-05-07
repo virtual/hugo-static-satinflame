@@ -22,7 +22,7 @@ It had been four years since I'd last attended a national conference, so I had a
 OmniUpdate's team shared a few highlights for the coming year(s):
 
 - Global Search (April)
-- [Code Mashup](https://github.com/omniupdate/example-code-mashup)
+- Code Mashup
 - Updates to the Feed Manager, additional sorting, [example: Hope College news](https://hope.edu/news/?type=news-detail)
 - Components (slated for June): separate content from design easily and at any scale
 - Official release of Jesse Clark's Unpublish Gadget (not to mention winner for Customer of the Year!)

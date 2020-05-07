@@ -31,8 +31,14 @@ In 2015, I worked with [Vayakone Sphabmixay from SAX, Inc.](http://www.saxproduc
 
 ## Historical Year Timeline
 
-The timeline is both collapsible and adapts to mobile devices. In addition, with this and other dynamic pages developed—such as the [Past Presidents of ECSU](http://www.ecsu.edu/about/history/past_presidents.html)—a page scroll to the updated area was necessary to orient users to new information.  
-<iframe src="//jsfiddle.net/Virtual/mqbf9v9o/embedded/html,css,result/" width="100%" height="300" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+The timeline is both collapsible and adapts to mobile devices. In addition, with this and other dynamic pages developed—such as the Past Presidents of ECSU—a page scroll to the updated area was necessary to orient users to new information.  
+
+<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="html,result" data-user="virtual" data-slug-hash="Vjrbvb" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Collapsible Timeline using Bootstrap's .panel.">
+  <span>See the Pen <a href="https://codepen.io/virtual/pen/Vjrbvb">
+  Collapsible Timeline using Bootstrap's .panel.</a> by Jeanine (<a href="https://codepen.io/virtual">@virtual</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 ## Custom Weather Feed
 
@@ -41,6 +47,5 @@ If you use [OmniUpdate for your Content Management System](http://omniupdate.co
 ## Hover Tiles
 
 The content tiles on [ECSU’s admissions page](http://www.ecsu.edu/admissions/) were designed to link to other elements when a user hovers or clicks on a image.  
-<iframe src="//jsfiddle.net/Virtual/s7p1seoL/embedded/html,css,result/" width="100%" height="300" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 Visit ECSU’s website at [http://www.ecsu.edu/](http://www.ecsu.edu/) to see the variety of page layouts and how they work on your devices—desktop, tablet and mobile!
