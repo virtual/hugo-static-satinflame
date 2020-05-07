@@ -1,7 +1,7 @@
 ---
 title: "Speeding Up Load Times on Magento CE 1.9x"
 date: 2016-07-21T19:37:25-06:00
-banner: "/img/banners/speed-james-cawley.jpg"
+banner: "img/banners/speed-james-cawley.jpg"
 tags: ["programming", "magento"]
 categories: ["blog"]
 authors:

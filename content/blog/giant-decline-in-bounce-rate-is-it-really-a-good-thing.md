@@ -1,7 +1,7 @@
 ---
 title: "Giant Decline in Bounce Rate: Is it Really a Good Thing?"
 date: 2016-06-12T19:57:25-06:00
-banner: "/img/posts/bounce.png"
+banner: "img/posts/bounce.png"
 tags: ["analytics"]
 categories: ["blog"]
 authors:

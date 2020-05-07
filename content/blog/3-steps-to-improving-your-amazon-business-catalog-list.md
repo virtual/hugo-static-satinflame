@@ -1,7 +1,7 @@
 ---
 title: "3 Steps to Improving your Amazon Business Catalog [List]"
 date: 2016-03-12T19:57:25-06:00
-banner: "/img/posts/amazon.png"
+banner: "img/posts/amazon.png"
 tags: ["seo", "amazon"]
 categories: ["blog"]
 authors:
