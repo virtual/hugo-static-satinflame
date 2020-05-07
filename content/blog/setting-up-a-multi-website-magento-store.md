@@ -130,7 +130,7 @@ If you are already using an SSL certificate, simply copy this code into a new si
 
 ### Restricting your second website for testing
 
-In order to restrict viewing of your second website to your IP only, use the <Location /> within the sites-available. (The [developer IPs in the Magento admin settings are NOT for restricting access](http://magento.stackexchange.com/questions/4564/setting-up-magento-staging-environment-with-restricted-access)!) Here is an example of my full sites-enabled code including the `<Location />` tag. When you are ready for the world to see your second website, remove the entire `<Location />` block. Restart your server after testing and making changes.
+In order to restrict viewing of your second website to your IP only, use the <Location /> within the sites-available. (The [developer IPs in the Magento admin settings are NOT for restricting access](https://magento.stackexchange.com/questions/4564/setting-up-magento-staging-environment-with-restricted-access)!) Here is an example of my full sites-enabled code including the `<Location />` tag. When you are ready for the world to see your second website, remove the entire `<Location />` block. Restart your server after testing and making changes.
 
 **sites-available/secondstore:**
 ```.htaccess
@@ -148,6 +148,6 @@ To transfer customers, I was able to use the built-in [Import and Export functio
 
 ## Additional Resources:
 
-*   [No Frills Magento Layout by Alan Storm](http://store.pulsestorm.net/products/no-frills-magento-layout)
-*   [Magento Multi-Website Checklist](http://www.eddiemay.me.uk/2013/08/10/magento-multi-website-checklist/)
+*   [No Frills Magento Layout by Alan Storm](https://store.pulsestorm.net/products/no-frills-magento-2-layout)
+*   [Magento Multi-Website Checklist](https://eddiemay.me.uk/2013/08/10/magento-multi-website-checklist/)
 *   Cloudways - How To Setup Multiple Stores On Magento

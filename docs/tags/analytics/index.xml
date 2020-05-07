@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>analytics on satinflame design</title>
+    <title>Analytics on satinflame design</title>
     <link>https://www.satinflame.com/tags/analytics/</link>
-    <description>Recent content in analytics on satinflame design</description>
+    <description>Recent content in Analytics on satinflame design</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 20 May 2019 08:41:36 -0600</lastBuildDate>
@@ -28,8 +28,7 @@
       <guid>https://www.satinflame.com/blog/2016/06/giant-decline-in-bounce-rate-is-it-really-a-good-thing/</guid>
       <description>Is it Really a Good Thing?
 No, probably not.
-In April 2016, I updated a website with a fresh, responsive Magento design in collaboration with Social Ruckus in Bozeman, Montana. There was a noticeable slowing of the websites as most features used AJAX and dynamic loading. Even so, I noticed a huge drop (~50% to 3%) in bounce rate.
-Bounce dropped after releasing RWD--I&#39;m a bit nervous. What other metrics should I look at?</description>
+In April 2016, I updated a website with a fresh, responsive Magento design in collaboration with Social Ruckus in Bozeman, Montana. There was a noticeable slowing of the websites as most features used AJAX and dynamic loading. Even so, I noticed a huge drop (~50% to 3%) in bounce rate. Bounce dropped after releasing RWD&amp;ndash;I&amp;rsquo;m a bit nervous. What other metrics should I look at?</description>
     </item>
     
   </channel>

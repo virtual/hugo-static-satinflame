@@ -38,7 +38,7 @@ A working sample of Highcharts using an HTML table and JS:
 <p data-height="265" data-theme-id="0" data-slug-hash="yqYbJx" data-default-tab="html,result" data-user="virtual" data-pen-title="Bar Graph" class="codepen">See the Pen <a href="https://codepen.io/virtual/pen/yqYbJx/">Bar Graph</a> by Jeanine (<a href="https://codepen.io/virtual">@virtual</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
-View a live version I implemented on [Morehouse School of Medicine's GME Salary webpage](http://www.msm.edu/Education/GME/OBGYNResidencyProgram/SalaryandBenefits.php).
+View a live version I implemented on [Morehouse School of Medicine's GME Salary webpage](https://www.msm.edu/Education/GME/OBGYNResidencyProgram/SalaryandBenefits.php).
 
 __Additional customization notes:__
 

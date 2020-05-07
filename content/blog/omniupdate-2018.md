@@ -74,7 +74,7 @@ Sunday night we were spoiled with an In-N-Out food truck whereupon I enjoyed a "
 
 Monday evening we were all braceleted up and sent off to Disneyland's California Adventure. After weaving through crowds of people, we finally happened upon the dinner buffet. (I also discovered I hate blue cheese&hellip;) After a little music from Lala Jazz and some excitement that the saxophonist had a [Neotech strap](http://www.neotechstraps.com/), we wandered off to find some rides. One round of bumper cars and a very cool Monsters Inc. ride later, we headed back. 
 
-There were a lot more adventures that week and I learned many problem-solving ideas including using [Google Sheets](https://hope.edu/_showcase/craigdev/OUTC18/index.html) for [feeding data](http://aims.oudemo.com/calendar/sheet.php), tips for [enhancing pages through XSL](http://www.unco.edu/web-support/outc18/jesse/), [server-side includes](https://outc18.com/workshop-resources.php), and maybe my favorite&mdash;how to preview markdown in VSCode. (<kbd>CTRL+K,V</kbd>—Thanks Jim!)
+There were a lot more adventures that week and I learned many problem-solving ideas including using Google Sheets for feeding data, tips for enhancing pages through XSL, [server-side includes](http://outc18.com/workshop-resources.php), and maybe my favorite&mdash;how to preview markdown in VSCode. (<kbd>CTRL+K,V</kbd>—Thanks Jim!)
 
 
 <div class="figstack">

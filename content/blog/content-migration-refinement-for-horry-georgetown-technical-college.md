@@ -11,7 +11,7 @@ excerpt: "Working on a redesign for your website? HGTC’s revamped webpages nee
 
 Sometimes redesigns need to happen _fast_! If your web team is small or needs a helping hand in preparing your website ready for its big unveil, consider contacting me for information on how I can help!
 
-For this project, I worked with Missy at [Horry Georgetown Technical College](http://www.hgtc.edu) to help her quickly release the [migration](http://support.omniupdate.com/OU Campus10/site-development/migration/index.pdf) of her new beautiful redesign out into the “wild!”
+For this project, I worked with Missy at [Horry Georgetown Technical College](https://www.hgtc.edu/) to help her quickly release the migration of her new beautiful redesign out into the “wild!”
 
 I contributed in the following ways:
 
@@ -28,4 +28,4 @@ Thanks to Missy for sharing the following client testimonial–what an honor it
 > <small>Missy Monolo, Horry Georgetown Technical College</small>
 
 
-Are you thinking of updating your website or need temporary assistance with a large update to your domain? [Contact me with your web goals](http://satinflame.com/contact/) and learn how I can assist in improving your web presence!
+Are you thinking of updating your website or need temporary assistance with a large update to your domain? [Contact me with your web goals](/contact/) and learn how I can assist in improving your web presence!

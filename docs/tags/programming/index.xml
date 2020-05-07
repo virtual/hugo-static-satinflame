@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>programming on satinflame design</title>
+    <title>Programming on satinflame design</title>
     <link>https://www.satinflame.com/tags/programming/</link>
-    <description>Recent content in programming on satinflame design</description>
+    <description>Recent content in Programming on satinflame design</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 08 Jul 2019 11:20:06 -0600</lastBuildDate>
@@ -96,7 +96,7 @@ Keep the users on the lead page In order to get the contact information we hope
       
       <guid>https://www.satinflame.com/blog/2016/03/residence-life-interactive-map/</guid>
       <description>When looking into how best to create an image with interactive elements, I had to go beyond using outdated image maps and get creative with implementing maps using SVG (Scalable Vector Graphics) and creating a responsive, interactive information pop-ups!
-This map looks great on desktop and mobile**—**test it out yourself! The functionality enables a user to click either the name or the building itself to learn more about it.
+This map looks great on desktop and mobile—test it out yourself! The functionality enables a user to click either the name or the building itself to learn more about it.
 Within Illustrator, we grouped paths and then was able to edit the exported .</description>
     </item>
     
@@ -116,7 +116,8 @@ Unlike other designs I’ve implemented, Naropa University’s wasn’t quite r
       <pubDate>Sun, 10 Jan 2016 15:02:57 -0600</pubDate>
       
       <guid>https://www.satinflame.com/blog/2016/01/elizabeth-city-state-university-web-redesign/</guid>
-      <description>ECSU Secondary Page     ECSU Homepage     ECSU Admissions     ECSU History Page   In 2015, I worked with Vayakone Sphabmixay from SAX, Inc. implementing their redesign for Elizabeth City State University in North Carolina. There were many creative design pieces that presented fun challenges for implementing in a responsive environment.
+      <description>ECSU Secondary Page      ECSU Homepage      ECSU Admissions      ECSU History Page    
+In 2015, I worked with Vayakone Sphabmixay from SAX, Inc. implementing their redesign for Elizabeth City State University in North Carolina. There were many creative design pieces that presented fun challenges for implementing in a responsive environment.
 Historical Year Timeline The timeline is both collapsible and adapts to mobile devices.</description>
     </item>
     

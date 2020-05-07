@@ -114,7 +114,7 @@ unsafe= true
     enable = true 
      title = "Let's work together."
     subtitle = "If your website needs custom web development, updates in OmniUpdate's OU Campus CMS, or site-wide style changes, contact me—let's see if your project would be a good match."
-    link_url = "/contact"
+    link_url = "/contact/"
     link_text = "Send me a message"
 
 [params.clients]

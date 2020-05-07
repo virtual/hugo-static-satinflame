@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sass on satinflame design</title>
@@ -47,7 +47,8 @@ Unlike other designs I’ve implemented, Naropa University’s wasn’t quite r
       <pubDate>Sun, 10 Jan 2016 15:02:57 -0600</pubDate>
       
       <guid>https://www.satinflame.com/blog/2016/01/elizabeth-city-state-university-web-redesign/</guid>
-      <description>ECSU Secondary Page     ECSU Homepage     ECSU Admissions     ECSU History Page   In 2015, I worked with Vayakone Sphabmixay from SAX, Inc. implementing their redesign for Elizabeth City State University in North Carolina. There were many creative design pieces that presented fun challenges for implementing in a responsive environment.
+      <description>ECSU Secondary Page      ECSU Homepage      ECSU Admissions      ECSU History Page    
+In 2015, I worked with Vayakone Sphabmixay from SAX, Inc. implementing their redesign for Elizabeth City State University in North Carolina. There were many creative design pieces that presented fun challenges for implementing in a responsive environment.
 Historical Year Timeline The timeline is both collapsible and adapts to mobile devices.</description>
     </item>
     

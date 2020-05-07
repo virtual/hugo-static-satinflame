@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on satinflame design</title>
@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>administration</title>
+      <title>Administration</title>
       <link>https://www.satinflame.com/tags/administration/</link>
       <pubDate>Fri, 10 Jan 2020 06:42:18 -0700</pubDate>
       
@@ -21,70 +21,34 @@
     </item>
     
     <item>
-      <title>oucampus</title>
-      <link>https://www.satinflame.com/tags/oucampus/</link>
-      <pubDate>Fri, 10 Jan 2020 06:42:18 -0700</pubDate>
+      <title>Amazon</title>
+      <link>https://www.satinflame.com/tags/amazon/</link>
+      <pubDate>Sat, 12 Mar 2016 19:57:25 -0600</pubDate>
       
-      <guid>https://www.satinflame.com/tags/oucampus/</guid>
+      <guid>https://www.satinflame.com/tags/amazon/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>e-expectations</title>
-      <link>https://www.satinflame.com/tags/e-expectations/</link>
-      <pubDate>Fri, 15 Nov 2019 09:27:44 -0700</pubDate>
+      <title>Analytics</title>
+      <link>https://www.satinflame.com/tags/analytics/</link>
+      <pubDate>Mon, 20 May 2019 08:41:36 -0600</pubDate>
       
-      <guid>https://www.satinflame.com/tags/e-expectations/</guid>
+      <guid>https://www.satinflame.com/tags/analytics/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>rwd</title>
-      <link>https://www.satinflame.com/tags/rwd/</link>
-      <pubDate>Fri, 15 Nov 2019 09:27:44 -0700</pubDate>
+      <title>Bootstrap3</title>
+      <link>https://www.satinflame.com/tags/bootstrap3/</link>
+      <pubDate>Wed, 27 Apr 2016 15:02:57 -0600</pubDate>
       
-      <guid>https://www.satinflame.com/tags/rwd/</guid>
+      <guid>https://www.satinflame.com/tags/bootstrap3/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>video</title>
-      <link>https://www.satinflame.com/tags/video/</link>
-      <pubDate>Fri, 15 Nov 2019 09:27:44 -0700</pubDate>
-      
-      <guid>https://www.satinflame.com/tags/video/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>design</title>
-      <link>https://www.satinflame.com/tags/design/</link>
-      <pubDate>Mon, 02 Sep 2019 11:30:53 -0600</pubDate>
-      
-      <guid>https://www.satinflame.com/tags/design/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>learning</title>
-      <link>https://www.satinflame.com/tags/learning/</link>
-      <pubDate>Mon, 02 Sep 2019 11:30:53 -0600</pubDate>
-      
-      <guid>https://www.satinflame.com/tags/learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ux</title>
-      <link>https://www.satinflame.com/tags/ux/</link>
-      <pubDate>Mon, 02 Sep 2019 11:30:53 -0600</pubDate>
-      
-      <guid>https://www.satinflame.com/tags/ux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>bootstrap4</title>
+      <title>Bootstrap4</title>
       <link>https://www.satinflame.com/tags/bootstrap4/</link>
       <pubDate>Mon, 08 Jul 2019 11:20:06 -0600</pubDate>
       
@@ -93,7 +57,70 @@
     </item>
     
     <item>
-      <title>programming</title>
+      <title>Design</title>
+      <link>https://www.satinflame.com/tags/design/</link>
+      <pubDate>Mon, 02 Sep 2019 11:30:53 -0600</pubDate>
+      
+      <guid>https://www.satinflame.com/tags/design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>E Expectations</title>
+      <link>https://www.satinflame.com/tags/e-expectations/</link>
+      <pubDate>Fri, 15 Nov 2019 09:27:44 -0700</pubDate>
+      
+      <guid>https://www.satinflame.com/tags/e-expectations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript</title>
+      <link>https://www.satinflame.com/tags/javascript/</link>
+      <pubDate>Fri, 13 Apr 2018 15:13:50 -0600</pubDate>
+      
+      <guid>https://www.satinflame.com/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning</title>
+      <link>https://www.satinflame.com/tags/learning/</link>
+      <pubDate>Mon, 02 Sep 2019 11:30:53 -0600</pubDate>
+      
+      <guid>https://www.satinflame.com/tags/learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Magento</title>
+      <link>https://www.satinflame.com/tags/magento/</link>
+      <pubDate>Sat, 04 Mar 2017 09:37:25 -0600</pubDate>
+      
+      <guid>https://www.satinflame.com/tags/magento/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Migration</title>
+      <link>https://www.satinflame.com/tags/migration/</link>
+      <pubDate>Mon, 11 Jul 2016 15:02:57 -0600</pubDate>
+      
+      <guid>https://www.satinflame.com/tags/migration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oucampus</title>
+      <link>https://www.satinflame.com/tags/oucampus/</link>
+      <pubDate>Fri, 10 Jan 2020 06:42:18 -0700</pubDate>
+      
+      <guid>https://www.satinflame.com/tags/oucampus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programming</title>
       <link>https://www.satinflame.com/tags/programming/</link>
       <pubDate>Mon, 08 Jul 2019 11:20:06 -0600</pubDate>
       
@@ -102,11 +129,20 @@
     </item>
     
     <item>
-      <title>analytics</title>
-      <link>https://www.satinflame.com/tags/analytics/</link>
-      <pubDate>Mon, 20 May 2019 08:41:36 -0600</pubDate>
+      <title>React</title>
+      <link>https://www.satinflame.com/tags/react/</link>
+      <pubDate>Fri, 13 Apr 2018 15:13:50 -0600</pubDate>
       
-      <guid>https://www.satinflame.com/tags/analytics/</guid>
+      <guid>https://www.satinflame.com/tags/react/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rwd</title>
+      <link>https://www.satinflame.com/tags/rwd/</link>
+      <pubDate>Fri, 15 Nov 2019 09:27:44 -0700</pubDate>
+      
+      <guid>https://www.satinflame.com/tags/rwd/</guid>
       <description></description>
     </item>
     
@@ -120,25 +156,16 @@
     </item>
     
     <item>
-      <title>javascript</title>
-      <link>https://www.satinflame.com/tags/javascript/</link>
-      <pubDate>Fri, 13 Apr 2018 15:13:50 -0600</pubDate>
+      <title>Seo</title>
+      <link>https://www.satinflame.com/tags/seo/</link>
+      <pubDate>Sat, 12 Mar 2016 19:57:25 -0600</pubDate>
       
-      <guid>https://www.satinflame.com/tags/javascript/</guid>
+      <guid>https://www.satinflame.com/tags/seo/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>react</title>
-      <link>https://www.satinflame.com/tags/react/</link>
-      <pubDate>Fri, 13 Apr 2018 15:13:50 -0600</pubDate>
-      
-      <guid>https://www.satinflame.com/tags/react/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>svg</title>
+      <title>Svg</title>
       <link>https://www.satinflame.com/tags/svg/</link>
       <pubDate>Fri, 13 Apr 2018 15:13:50 -0600</pubDate>
       
@@ -147,47 +174,20 @@
     </item>
     
     <item>
-      <title>magento</title>
-      <link>https://www.satinflame.com/tags/magento/</link>
-      <pubDate>Sat, 04 Mar 2017 09:37:25 -0600</pubDate>
+      <title>Ux</title>
+      <link>https://www.satinflame.com/tags/ux/</link>
+      <pubDate>Mon, 02 Sep 2019 11:30:53 -0600</pubDate>
       
-      <guid>https://www.satinflame.com/tags/magento/</guid>
+      <guid>https://www.satinflame.com/tags/ux/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>migration</title>
-      <link>https://www.satinflame.com/tags/migration/</link>
-      <pubDate>Mon, 11 Jul 2016 15:02:57 -0600</pubDate>
+      <title>Video</title>
+      <link>https://www.satinflame.com/tags/video/</link>
+      <pubDate>Fri, 15 Nov 2019 09:27:44 -0700</pubDate>
       
-      <guid>https://www.satinflame.com/tags/migration/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>bootstrap3</title>
-      <link>https://www.satinflame.com/tags/bootstrap3/</link>
-      <pubDate>Wed, 27 Apr 2016 15:02:57 -0600</pubDate>
-      
-      <guid>https://www.satinflame.com/tags/bootstrap3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>amazon</title>
-      <link>https://www.satinflame.com/tags/amazon/</link>
-      <pubDate>Sat, 12 Mar 2016 19:57:25 -0600</pubDate>
-      
-      <guid>https://www.satinflame.com/tags/amazon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>seo</title>
-      <link>https://www.satinflame.com/tags/seo/</link>
-      <pubDate>Sat, 12 Mar 2016 19:57:25 -0600</pubDate>
-      
-      <guid>https://www.satinflame.com/tags/seo/</guid>
+      <guid>https://www.satinflame.com/tags/video/</guid>
       <description></description>
     </item>
     

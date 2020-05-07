@@ -42,7 +42,7 @@ The timeline is both collapsible and adapts to mobile devices. In addition, wit
 
 ## Custom Weather Feed
 
-If you use [OmniUpdate for your Content Management System](http://omniupdate.com/customers/testimonials.html), you can set your feeds to republish every hour. This is perfect for third-party tools that are only free up to a number of page views. For ECSU, the weather feed was implemented using [Weather Underground’s API](http://www.wunderground.com/weather/api/) and is re-published on an hourly basis.
+If you use [OmniUpdate for your Content Management System](https://omniupdate.com/customers/testimonials.html), you can set your feeds to republish every hour. This is perfect for third-party tools that are only free up to a number of page views. For ECSU, the weather feed was implemented using [Weather Underground’s API](http://www.wunderground.com/weather/api/) and is re-published on an hourly basis.
 
 ## Hover Tiles
 
