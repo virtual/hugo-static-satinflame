@@ -17,8 +17,8 @@
             <div class="row">
 
                 {{ $posts := .Paginate (where .Data.Pages "Type" "blog") }}
-                {{ range first 4 $posts.Pages }}
-                <div class="col-md-3 col-sm-6">
+                {{ range first 3 $posts.Pages }}
+                <div class="col-md-4 col-sm-4">
                     <div class="box-image-text blog">
                         <div class="top">
                             <div class="image" style="overflow:hidden">
@@ -29,7 +29,7 @@
                             <div class="bg"></div>
                             <div class="text">
                                 <p class="buttons">
-                                    <a href="{{ .Permalink }}" class="btn btn-template-transparent-primary"><i class="fa fa-link"></i> {{ i18n "readMore" }}</a>
+                                    <a href="{{ .Permalink }}" class="btn btn-template-transparent-primary"><span class="fa fa-link" aria-hidden="true"></span> {{ i18n "readMore" }}</a>
                                 </p>
                             </div>
                         </div>
@@ -42,9 +42,10 @@
                             <a href="{{ .Site.BaseURL }}/about">   {{ .Params.author }}    </a>
                             {{end}}
                             
+                          </p>
+                          {{if false}}
+                          <p class="intro">
                             {{ i18n "publishedOn" }} {{ .Date.Format .Site.Params.date_format }}
-                            </p>
-                            <p class="intro">
                                 {{ if .Params.excerpt }}
                       {{ .Params.excerpt }}
                                           {{else}}
@@ -53,9 +54,12 @@
                                           
                                           {{ end }}
                             </p>
+                            
+
                             <p class="read-more">
                               <a href="{{ .Permalink }}" class="btn btn-template-main">{{ i18n "continueReading" }}</a>
                             </p>
+                            {{ end }}
                         </div>
                     </div>
                     <!-- /.box-image-text -->

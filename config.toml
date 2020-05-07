@@ -127,8 +127,8 @@ unsafe= true
 
 [params.recent_posts]
     enable = false
-    title = "From the blog"
-    subtitle = "Recent posts from my blog"
+    title = "Recent Posts"
+    #subtitle = "Recent posts from my blog"
   
 [params.authors]
 [params.authors.jeanine]
