@@ -1028,3 +1028,15 @@ button.gsc-search-button {
   flex: 0 0 0%;
   padding: 10px 20px;
 }
+.text-muted {
+  color: #585858;
+}
+@media (max-width: 579px) {
+  .topnav ul li a {
+    padding: 12px 16px;
+  }
+}
+/* prevent issues with highlighter */
+td pre {
+  word-break: normal;
+}

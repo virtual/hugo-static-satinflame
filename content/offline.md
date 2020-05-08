@@ -1,10 +1,7 @@
 +++
 title = "Offline"
 description = "Offline"
-keywords = ["Offline"]
-aliases = [
-    "/authors/jeanine/" 
-]
+keywords = ["Offline"] 
 +++
 
 Offline

@@ -45,10 +45,10 @@
 
   <!-- Bootstrap and Font Awesome css -->
   <script src="https://kit.fontawesome.com/c71a8edf08.js"></script>
-  <link href="{{ .Site.BaseURL }}css/bootstrap.min.css" rel="stylesheet" />
-  <!-- Theme stylesheet, if possible do not edit this stylesheet -->{{ if and (isset .Site.Params "style") .Site.Params.style }}<link href="{{ .Site.BaseURL }}css/style.{{ .Site.Params.style }}.css" rel="stylesheet" id="theme-stylesheet">
-  {{ else }}<link href="{{ .Site.BaseURL }}css/style.default.css" rel="stylesheet" id="theme-stylesheet">{{ end }}
-  <!-- Custom stylesheet - for your changes --><link href="{{ .Site.BaseURL }}css/custom.css?v=5" rel="stylesheet">
+  <link href="{{ .Site.BaseURL }}css/bootstrap.min.css?v=2" rel="stylesheet" />
+  <!-- Theme stylesheet, if possible do not edit this stylesheet -->{{ if and (isset .Site.Params "style") .Site.Params.style }}<link href="{{ .Site.BaseURL }}css/style.{{ .Site.Params.style }}.css?v=2" rel="stylesheet" id="theme-stylesheet">
+  {{ else }}<link href="{{ .Site.BaseURL }}css/style.default.css?v=2" rel="stylesheet" id="theme-stylesheet">{{ end }}
+  <!-- Custom stylesheet - for your changes --><link href="{{ .Site.BaseURL }}css/custom.css?v=2?v=5" rel="stylesheet">
   
   <!-- Favicon and apple touch icons-->
   <link rel="shortcut icon" href="{{ .Site.BaseURL }}img/icons/favicon.ico" type="image/x-icon" />
@@ -82,11 +82,11 @@
   <!-- disallow Twitter from using your site's info for personalization purposes -->
   <meta name="twitter:dnt" content="on">
 
-  <!-- owl carousel css --><link href="{{ .Site.BaseURL }}css/owl.carousel.css" rel="stylesheet">
-  <link href="{{ .Site.BaseURL }}css/owl.theme.css" rel="stylesheet">
+  <!-- owl carousel css --><link href="{{ .Site.BaseURL }}css/owl.carousel.css?v=2" rel="stylesheet">
+  <link href="{{ .Site.BaseURL }}css/owl.theme.css?v=2" rel="stylesheet">
   <link rel="alternate" href="{{ "/index.xml" | absURL }}" type="application/rss+xml" title="{{ .Site.Title }}">
 {{ if .Params.banner }}
-  <link href="{{ .Site.BaseURL }}css/banner.css" rel="stylesheet">
+  <link href="{{ .Site.BaseURL }}css/banner.css?v=2" rel="stylesheet">
   <style>
   #heading-breadcrumbs.mine {
   background-image: linear-gradient( rgba(224, 171, 111, 0.96),

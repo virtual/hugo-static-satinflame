@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>satinflame design</title>
@@ -18,7 +18,7 @@
       
       <guid>https://www.satinflame.com/blog/2020/01/approving-pages-oucampus/</guid>
       <description>Getting started When you first open up a submitted web page, you may be wondering what is different between the submission and the live versions. During user training, encourage your content managers to write descriptions that outline what they&amp;rsquo;ve changed.
-Encourage content managers to write a clear subject and message detailing what content has changed.  Before you begin reviewing, save a new version of the staged page with a description &amp;ldquo;As submitted by user,&amp;ldquo;&amp;ndash;this way, you can revert or compare your changes to the original submission.</description>
+Encourage content managers to write a clear subject and message detailing what content has changed.Before you begin reviewing, save a new version of the staged page with a description &amp;ldquo;As submitted by user,&amp;quot;&amp;ndash;this way, you can revert or compare your changes to the original submission.</description>
     </item>
     
     <item>
@@ -29,10 +29,10 @@ Encourage content managers to write a clear subject and message detailing what c
       <guid>https://www.satinflame.com/blog/2019/11/top-5-ways-to-use-videos-for-college-recruitment/</guid>
       <description>By Heidi King, OmniUpdate Guest Post 
 It’s no secret that Google is the world’s largest search engine, but few people realize that YouTube is in second place. Consider these statistics:
- About 1.3 billion people use the platform.
- YouTube is bigger than Bing, Yahoo!, Ask, and AOL combined.
- The site gets over 30 million visitors daily.
- YouTube on mobile reaches more 18–49-year-olds than any cable network in the U.</description>
+  About 1.3 billion people use the platform.
+  YouTube is bigger than Bing, Yahoo!, Ask, and AOL combined.
+  The site gets over 30 million visitors daily.
+  YouTube on mobile reaches more 18–49-year-olds than any cable network in the U.</description>
     </item>
     
     <item>
@@ -42,7 +42,7 @@ It’s no secret that Google is the world’s largest search engine, but few peo
       
       <guid>https://www.satinflame.com/blog/2019/09/knight-university-case-study/</guid>
       <description>It was time for a redesign of Knight University, and while working through Designlab&amp;rsquo;s curriculum, I focused on creating a fresh web design with a focus on user needs. Knight University is for my experimental code/designs and is not a real university.
-Before &amp;amp; after screenshots   The previous design for Knight University with an overly blue and less exciting design      The new design for Knight University      The open megamenu for the new design for Knight University     Case study Word file View an accessible version of the case study above</description>
+Before &amp;amp; after screenshots   The previous design for Knight University with an overly blue and less exciting design     The new design for Knight University     The open megamenu for the new design for Knight University   Case study Word file View an accessible version of the case study above</description>
     </item>
     
     <item>
@@ -160,7 +160,8 @@ I contributed in the following ways:</description>
       <guid>https://www.satinflame.com/blog/2016/06/giant-decline-in-bounce-rate-is-it-really-a-good-thing/</guid>
       <description>Is it Really a Good Thing?
 No, probably not.
-In April 2016, I updated a website with a fresh, responsive Magento design in collaboration with Social Ruckus in Bozeman, Montana. There was a noticeable slowing of the websites as most features used AJAX and dynamic loading. Even so, I noticed a huge drop (~50% to 3%) in bounce rate. Bounce dropped after releasing RWD&amp;ndash;I&amp;rsquo;m a bit nervous. What other metrics should I look at?</description>
+In April 2016, I updated a website with a fresh, responsive Magento design in collaboration with Social Ruckus in Bozeman, Montana. There was a noticeable slowing of the websites as most features used AJAX and dynamic loading. Even so, I noticed a huge drop (~50% to 3%) in bounce rate.
+Bounce dropped after releasing RWD--I&#39;m a bit nervous. What other metrics should I look at?</description>
     </item>
     
     <item>
@@ -181,7 +182,7 @@ Keep the users on the lead page In order to get the contact information we hope
       
       <guid>https://www.satinflame.com/blog/2016/03/residence-life-interactive-map/</guid>
       <description>When looking into how best to create an image with interactive elements, I had to go beyond using outdated image maps and get creative with implementing maps using SVG (Scalable Vector Graphics) and creating a responsive, interactive information pop-ups!
-This map looks great on desktop and mobile—test it out yourself! The functionality enables a user to click either the name or the building itself to learn more about it.
+This map looks great on desktop and mobile**—**test it out yourself! The functionality enables a user to click either the name or the building itself to learn more about it.
 Within Illustrator, we grouped paths and then was able to edit the exported .</description>
     </item>
     
@@ -211,8 +212,7 @@ Unlike other designs I’ve implemented, Naropa University’s wasn’t quite r
       <pubDate>Sun, 10 Jan 2016 15:02:57 -0600</pubDate>
       
       <guid>https://www.satinflame.com/blog/2016/01/elizabeth-city-state-university-web-redesign/</guid>
-      <description>ECSU Secondary Page      ECSU Homepage      ECSU Admissions      ECSU History Page    
-In 2015, I worked with Vayakone Sphabmixay from the Sax Agency implementing their redesign for Elizabeth City State University in North Carolina. There were many creative design pieces that presented fun challenges for implementing in a responsive environment.</description>
+      <description>ECSU Secondary Page     ECSU Homepage     ECSU Admissions     ECSU History Page   In 2015, I worked with Vayakone Sphabmixay from the Sax Agency implementing their redesign for Elizabeth City State University in North Carolina. There were many creative design pieces that presented fun challenges for implementing in a responsive environment.</description>
     </item>
     
     <item>
@@ -240,9 +240,7 @@ Before updating, this Web page had used mobile queries to (unfortunately) simply
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.satinflame.com/contact/</guid>
-      <description> Contact Me  Follow me on Twitter and send a quick hello
- View my experience at Linkedin Browse through my current Github or Codepen projects  Send me a quick message to learn more about updating your site, or visit my portfolio to see my completed projects!
- </description>
+      <description>Contact Me  Follow me on Twitter and send a quick hello View my experience at Linkedin Browse through my current Github or Codepen projects  Send me a quick message to learn more about updating your site, or visit my portfolio to see my completed projects!</description>
     </item>
     
     <item>
@@ -260,8 +258,8 @@ Before updating, this Web page had used mobile queries to (unfortunately) simply
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.satinflame.com/authors/omniupdate/</guid>
-      <description> OmniUpdate OmniUpdate is the definitive partner of choice among web content management system (CMS) providers in higher education. Backed by award-winning training and support, OmniUpdate’s OU Campus® CMS is the easiest to use with features and modules designed to meet higher ed’s unique needs.
-   </description>
+      <description>OmniUpdate OmniUpdate is the definitive partner of choice among web content management system (CMS) providers in higher education. Backed by award-winning training and support, OmniUpdate’s OU Campus® CMS is the easiest to use with features and modules designed to meet higher ed’s unique needs.
+</description>
     </item>
     
     <item>
@@ -270,7 +268,7 @@ Before updating, this Web page had used mobile queries to (unfortunately) simply
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.satinflame.com/search/</guid>
-      <description>Search</description>
+      <description>Search </description>
     </item>
     
     <item>
@@ -280,7 +278,7 @@ Before updating, this Web page had used mobile queries to (unfortunately) simply
       
       <guid>https://www.satinflame.com/stock-photos/</guid>
       <description>Stock Photos Photos I’ve taken that can be used freely in any lawful use:
- in digital format on websites, blog posts, social media, advertisements, film and television productions, web and mobile applications in printed materials such as magazines, newspapers, books, brochures, flyers, product packaging for decorative use in your home, office or any public place personal use or commercial use    mountains in Montana      Sikorksy UH-60      chocolate cake      Glacier National Park sun shining through treetops      patio set in Cancun      hummingbird at a feeder</description>
+ in digital format on websites, blog posts, social media, advertisements, film and television productions, web and mobile applications in printed materials such as magazines, newspapers, books, brochures, flyers, product packaging for decorative use in your home, office or any public place personal use or commercial use    mountains in Montana      Sikorksy UH-60      chocolate cake      Glacier National Park sun shining through treetops      patio set in Cancun      hummingbird at a feeder    </description>
     </item>
     
     <item>
@@ -290,7 +288,7 @@ Before updating, this Web page had used mobile queries to (unfortunately) simply
       
       <guid>https://www.satinflame.com/uses/</guid>
       <description>🔗 Web apps  DigitalOcean (Web Hosting)* Namecheap (Web Domains) Teamwork (Project Management)* Wave Apps (Small Business Accounting)  * These are affiliate links to services I use daily. I&amp;rsquo;m grateful to these companies and would recommend you give them a try! Please tweet @satinflame if you have any questions.
-🌎 Browser extensions  Accessibility Insights for Web AdBlock Auto Refresh Plus axe - Web Accessibility Testing ChromeVox Classic Extension Design Grid Overlay Full Page Screen Capture Google Keep Chrome Extension Grammarly for Chrome HTML5 Outliner JSON Viewer Lighthouse Momentum Quick Javascript Switcher Save as eBook Siteimprove Accessibility Checker Web Developer Checklist  ⌨️ IDE  Notepad++</description>
+🌎 Browser extensions  Accessibility Insights for Web AdBlock Auto Refresh Plus axe - Web Accessibility Testing ChromeVox Classic Extension Design Grid Overlay Full Page Screen Capture Google Keep Chrome Extension Grammarly for Chrome HTML5 Outliner JSON Viewer Lighthouse Momentum Quick Javascript Switcher Save as eBook Siteimprove Accessibility Checker Web Developer Checklist  ⌨️ IDE  Notepad++ Git Bash integrated terminal VSCode with the following extensions:  Auto Close Tag Beautify Better Comments Better TOML Blackboard Theme Bracket Pair Colorizer 2 ES Lint expand-region generate-react-component Jest jsx Node Debug Path Intellisense PHP Debug PHP Extension Pack React Native Tools React Redux ES6 Snippets React Toolbox Snippets react-beautify REST Client Sass Typescript React/Redux Snippets Useful React Snippets Vetur vscode-icions WakaTime    💻 Favorite programs  Adobe Photoshop Dropbox Figma Microsoft Outlook Snipping Tool WinSCP  📻 Music  Last.</description>
     </item>
     
   </channel>
