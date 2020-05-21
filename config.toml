@@ -1,7 +1,7 @@
 baseURL = "https://www.satinflame.com/"
 languageCode = "en-us"
 theme = "hugo-universal-theme"
-title = "satinflame design" 
+title = "satinflame design"  
 
 publishDir = "docs"
 
@@ -46,8 +46,9 @@ unsafe= true
     footerLink = "/blog"
     footerLinkText = "blog"
     date_format = "2006-01-02"
-    logo = "img/logo.png"
-    ogimg = "img/ogimg.png"
+    header = "satinflame design"
+    logo = "https://www.satinflame.com/img/logo.png"
+    ogimg = "https://www.satinflame.com/img/oglogo.png"
     DefaultDescription = "satinflame design provides OU Campus web services including responsive web development and implementation of snippets, assets and page layouts."
 
     # Enable Google Analytics by entering your tracking code

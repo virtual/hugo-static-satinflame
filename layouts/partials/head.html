@@ -3,46 +3,17 @@
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}</title>
+  <title>{{ $isHomePage := eq .Title .Site.Title }}{{ if (eq $isHomePage true) }}{{ .Title }} - Web development for OU Campus & higher education {{else}}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
   <meta name="author" content="Jeanine Schoessler" />
   <meta name="theme-color" content="#333333" />
-  <meta content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}" property="og:title">
-  {{ if .Description }}<meta name="description" content="{{ .Description }}">{{ else if .Params.excerpt }}<meta name="description" content="{{ .Params.excerpt }}">{{ else if .Site.Params.DefaultDescription }}
-  <meta name="description" content="{{ .Site.Params.DefaultDescription }}">{{ end }}
+  {{ if .Description }}<meta name="description" content="{{ .Description }}">{{ else if .Params.excerpt }}<meta name="description" content="{{ .Params.excerpt }}">{{ else if .Site.Params.DefaultDescription }}<meta name="description" content="{{ .Site.Params.DefaultDescription }}">{{ end }}
   {{ hugo.Generator }}
   <link rel="canonical" href="{{ .Permalink }}">
   <!-- Facebook OpenGraph tags --><meta property="og:title" content="{{ .Title }}" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{{ .Permalink }}" />
   {{ if .Params.banner }}<meta property="og:image" content="{{ .Site.BaseURL}}{{ .Params.banner }}" />{{ else}}<meta property="og:image" content="{{ .Site.BaseURL}}{{ .Site.Params.ogimg }}" />{{ end}}
-
-  <script type="application/ld+json">
-    { "@context": "https://schema.org",
- "@type": "Organization",
- "name": "satinflame design",
- "legalName" : "satinflame design LLC",
- "url": "https://www.satinflame.com",
- "logo": "https://www.satinflame.com/img/logo.png",
- "foundingDate": "2014",
- "founders": [
- {
- "@type": "Person",
- "name": "Jeanine Schoessler",
- "image": "https://www.satinflame.com/img/jeanine-helo-300x300.jpg"
- }],
- "address": {
- "@type": "PostalAddress", 
- "addressLocality": "Belgrade",
- "addressRegion": "MT",
- "postalCode": "59714",
- "addressCountry": "USA"
- },
- "sameAs": [ 
- "https://www.linkedin.com/company/satinflame-design"
- ]}
-  </script>
-
-
+  {{ partial "schema.html" . }}
   <!-- Bootstrap and Font Awesome css -->
   <script src="https://kit.fontawesome.com/c71a8edf08.js"></script>
   <link href="{{ .Site.BaseURL }}css/bootstrap.min.css?v=2" rel="stylesheet" />

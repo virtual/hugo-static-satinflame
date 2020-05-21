@@ -1040,3 +1040,8 @@ button.gsc-search-button {
 td pre {
   word-break: normal;
 }
+
+blockquote cite {
+  font-size: 1rem;
+  color: #000;
+}

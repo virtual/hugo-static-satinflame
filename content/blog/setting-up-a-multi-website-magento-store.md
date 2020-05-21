@@ -150,4 +150,3 @@ To transfer customers, I was able to use the built-in [Import and Export functio
 
 *   [No Frills Magento Layout by Alan Storm](https://store.pulsestorm.net/products/no-frills-magento-2-layout)
 *   [Magento Multi-Website Checklist](https://eddiemay.me.uk/2013/08/10/magento-multi-website-checklist/)
-*   Cloudways - How To Setup Multiple Stores On Magento

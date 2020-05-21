@@ -37,11 +37,6 @@ This plugin from Magento Connect places magical kittens on your site to remember
 
 I hope to come back in the next few months and share the rise in customer traffic that results from these lower pageload times! Until then, just know that I will be dancing around my website, zipping from page to page, all thanks to Magento’s [Full Page Cache](https://mirasvit.com/magento-extensions/full-page-cache.html).
 
-* * *
 
-Are you struggling with your own Magento Community Edition 1x installation? Do you need updates to your plugins or new features added? [Contact me](/contact/) and let’s chat about your website goals!
 
-* * *
-
-Have you found another method that worked for speeding up your Magento install? Please share!
  

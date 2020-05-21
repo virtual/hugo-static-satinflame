@@ -1,0 +1,50 @@
+<script type="application/ld+json">
+{{ if eq .Section "blog" }}  {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ .Title }},
+  "image": {{ .Params.banner | absURL }},
+  "datePublished": {{ .PublishDate }},
+  "dateModified": {{ .Lastmod }},
+  {{ if .Params.authors }}{{ $author := index .Params.authors 0}}"author": {
+    "@type": "Person",
+    "name": {{ if eq $author "jeanine"}}{{.Site.Params.authors.jeanine.name}}{{else}}{{index (.Params.authors) 0}}{{ end }}
+  },{{ end }}
+  "mainEntityOfPage": { "@type": "WebPage" },
+    "publisher": {
+    "@type": "Organization",
+    "name": {{ .Site.Params.header }},
+    "logo": {
+      "@type": "ImageObject",
+      "url": {{ .Site.Params.logo }}
+    }
+  },
+  "description": {{  .Params.excerpt | plainify | safeHTML }},
+  "keywords": [{{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}]
+},  {{ end }}
+{ 
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": {{ .Site.Params.header }},
+  "legalName" : "satinflame design LLC",
+  "url": "https://www.satinflame.com",
+  "logo": {{ .Site.Params.logo }},
+  "foundingDate": "2014",
+  "founders": [
+    {
+    "@type": "Person",
+    "name": "Jeanine Schoessler",
+    "image": "https://www.satinflame.com/img/jeanine-helo-300x300.jpg"
+    }],
+  "address": {
+  "@type": "PostalAddress", 
+  "addressLocality": "Belgrade",
+  "addressRegion": "MT",
+  "postalCode": "59714",
+  "addressCountry": "USA"
+  },
+  "sameAs": [ 
+    "https://www.linkedin.com/company/satinflame-design"
+  ]
+}
+</script>
