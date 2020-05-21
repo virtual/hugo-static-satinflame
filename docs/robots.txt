@@ -1,4 +1,2 @@
 User-agent: *
-Disallow: /subeta/
-Disallow: /ou/
 Sitemap: https://www.satinflame.com/sitemap.xml
