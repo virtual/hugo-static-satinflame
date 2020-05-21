@@ -10,6 +10,7 @@ Rebuilt portfolio using gohugo.io
 - Run server from project root: `hugo server`
 
 ## Build site
+- `rm -rf docs` remove old docs files
 - [Hugo command](https://gohugo.io/commands/hugo/): `hugo`
 - `gulp build` to compress HTML
 - commit to git repo
