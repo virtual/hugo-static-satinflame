@@ -6,10 +6,20 @@
     <description>Recent content on satinflame design</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Jan 2020 06:42:18 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2020 10:14:46 -0600</lastBuildDate>
     
 	<atom:link href="https://www.satinflame.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Creating Flexible Contact Snippets in OU Campus</title>
+      <link>https://www.satinflame.com/blog/2020/05/creating-flexible-contact-boxes-in-ou-campus/</link>
+      <pubDate>Fri, 29 May 2020 10:14:46 -0600</pubDate>
+      
+      <guid>https://www.satinflame.com/blog/2020/05/creating-flexible-contact-boxes-in-ou-campus/</guid>
+      <description>Making the leap to apply for a new school can be exciting but scary. Often prospective students are looking for answers prior to clicking that magical Apply Now button—but what if they can&amp;rsquo;t find the information they need? Who can they contact?
+Creating a system to deliver consistent contact information is an opportunity to help your higher ed website shine and encourage students to reach out! In the following project, we developed a standardized contact region and the tools to manage it using OU Campus.</description>
+    </item>
     
     <item>
       <title>Approving Pages in OU Campus</title>

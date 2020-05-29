@@ -3,6 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.satinflame.com/blog/</loc>
+    <lastmod>2020-05-29T10:14:46-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.satinflame.com/categories/</loc>
+    <lastmod>2020-05-29T10:14:46-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.satinflame.com/blog/2020/05/creating-flexible-contact-boxes-in-ou-campus/</loc>
+    <lastmod>2020-05-29T10:14:46-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.satinflame.com/tags/oucampus/</loc>
+    <lastmod>2020-05-29T10:14:46-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.satinflame.com/categories/portfolio/</loc>
+    <lastmod>2020-05-29T10:14:46-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.satinflame.com/</loc>
+    <lastmod>2020-05-29T10:14:46-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.satinflame.com/tags/</loc>
+    <lastmod>2020-05-29T10:14:46-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.satinflame.com/tags/administration/</loc>
     <lastmod>2020-01-10T06:42:18-07:00</lastmod>
   </url>
@@ -14,31 +49,6 @@
   
   <url>
     <loc>https://www.satinflame.com/categories/blog/</loc>
-    <lastmod>2020-01-10T06:42:18-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.satinflame.com/blog/</loc>
-    <lastmod>2020-01-10T06:42:18-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.satinflame.com/categories/</loc>
-    <lastmod>2020-01-10T06:42:18-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.satinflame.com/tags/oucampus/</loc>
-    <lastmod>2020-01-10T06:42:18-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.satinflame.com/</loc>
-    <lastmod>2020-01-10T06:42:18-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.satinflame.com/tags/</loc>
     <lastmod>2020-01-10T06:42:18-07:00</lastmod>
   </url>
   
@@ -74,11 +84,6 @@
   
   <url>
     <loc>https://www.satinflame.com/tags/learning/</loc>
-    <lastmod>2019-09-02T11:30:53-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.satinflame.com/categories/portfolio/</loc>
     <lastmod>2019-09-02T11:30:53-06:00</lastmod>
   </url>
   

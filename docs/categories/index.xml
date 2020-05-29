@@ -6,10 +6,19 @@
     <description>Recent content in Categories on satinflame design</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Jan 2020 06:42:18 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2020 10:14:46 -0600</lastBuildDate>
     
 	<atom:link href="https://www.satinflame.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>portfolio</title>
+      <link>https://www.satinflame.com/categories/portfolio/</link>
+      <pubDate>Fri, 29 May 2020 10:14:46 -0600</pubDate>
+      
+      <guid>https://www.satinflame.com/categories/portfolio/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>blog</title>
@@ -17,15 +26,6 @@
       <pubDate>Fri, 10 Jan 2020 06:42:18 -0700</pubDate>
       
       <guid>https://www.satinflame.com/categories/blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>portfolio</title>
-      <link>https://www.satinflame.com/categories/portfolio/</link>
-      <pubDate>Mon, 02 Sep 2019 11:30:53 -0600</pubDate>
-      
-      <guid>https://www.satinflame.com/categories/portfolio/</guid>
       <description></description>
     </item>
     
