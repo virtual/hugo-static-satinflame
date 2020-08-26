@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Svg on satinflame design</title>
+    <title>svg on satinflame design</title>
     <link>https://www.satinflame.com/tags/svg/</link>
-    <description>Recent content in Svg on satinflame design</description>
+    <description>Recent content in svg on satinflame design</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 13 Apr 2018 15:13:50 -0600</lastBuildDate>
@@ -30,7 +30,7 @@ ReactMongoDb
       
       <guid>https://www.satinflame.com/blog/2016/03/residence-life-interactive-map/</guid>
       <description>When looking into how best to create an image with interactive elements, I had to go beyond using outdated image maps and get creative with implementing maps using SVG (Scalable Vector Graphics) and creating a responsive, interactive information pop-ups!
-This map looks great on desktop and mobile—test it out yourself! The functionality enables a user to click either the name or the building itself to learn more about it.
+This map looks great on desktop and mobile**—**test it out yourself! The functionality enables a user to click either the name or the building itself to learn more about it.
 Within Illustrator, we grouped paths and then was able to edit the exported .</description>
     </item>
     
