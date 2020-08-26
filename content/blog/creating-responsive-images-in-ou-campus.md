@@ -1,33 +1,32 @@
 ---
-title: "Creating Responsive Images in OU Campus"
-date: 2020-08-25T19:18:22-06:00 
+title: "Using Image Sets to Create Responsive Images in OU Campus"
+date: 2020-08-26T03:18:22-06:00 
 banner: "img/posts/responsive-images/rwd-images.png"
-tags: ["oucampus", "programming", "rwd"]
+tags: ["oucampus", "images", "rwd"]
 categories: ["blog"]
 authors:
   - jeanine
-excerpt: "Responsive images allow you to deliver an optimally sized image to each device--preventing unnecessarily large downloads and potentially speeding up your webpage. In this article, discover how responsive images work and how they can be set up in OU Campus." 
-draft: true
+excerpt: "Responsive images allow you to deliver an optimally sized image to each device—preventing unnecessarily large downloads and potentially speeding up your webpage. In this article, discover how responsive images work and how they can leverage Image Size Sets and snippets in OU Campus." 
 ---
 
-It's no secret: these past years have seen ever-increasing sizes of images to feature on your school's homepage. Though some designs are now implementing smaller images (and thankfully taking a step back from large carousels), these pages can still pack a punch on your visitor's bandwidth. With over 30% of users likely visiting from mobile devices, it would be ideal that a 480px-wide mobile device only downloads a 480px-wide image instead of the 1200px-wide image that would display for a desktop monitor.
+It's no secret: these past years have seen ever-increasing sizes of images to feature on your school's homepage. Though some designs are now implementing smaller images (and thankfully taking a step back from large carousels), these pages can still pack a punch to your visitors' bandwidth. With over 30% of users likely visiting from mobile devices, it would be ideal that a 480px-wide mobile device only downloads a 480px-wide image instead of the 1200px-wide image that is typically designed for a desktop monitor.
 
 ## How responsive images work
 
 Let's take a look at page speed for a site loading a large hero image. 
 
 <figure style="text-align: center">
-<img src="/img/posts/responsive-images/network-xl.png" alt="image of network tab desktop loading images">
+<img src="/img/posts/responsive-images/network-xl-hl.png" alt="image of network tab desktop loading images">
 <figcaption>Load time on desktop: the large hero image (explore-xxl.jpg) takes 1.65 seconds to load.</figcaption>
 </figure>
 
 
-Check image download speeds on your site by using Chrome's Inspect Element > Network tab filtered by Img. With a regular image tag, your visitors will need to download the largest image regardless of which device they're on. Large hero images are typically 300kb-1mb! 
+With a regular image tag, visitors will need to download the largest image regardless of which device they're using. (Check image download speeds on your site by using Chrome's Inspect Element > Network tab filtered by Img.) Large hero images are typically 300kb-1mb! 
 
-Instead, if provided a <picture> tag using alternative sizes, the webpage can deliver the most appropriate image for each device. For example: a 1200px-wide image (420kb) for desktop or a 480px-wide image (46kb) for mobile.
+Instead, if provided a <picture> tag using alternative sizes, the webpage can deliver the most appropriate image for each device. For example: a 1200px-wide image (316kb) for desktop or a 480px-wide image (46kb) for mobile.
 
 <figure style="text-align: center">
-<img src="/img/posts/responsive-images/network-sm.png" alt="image of network tab desktop loading images">
+<img src="/img/posts/responsive-images/network-sm-hl.png" alt="image of network tab desktop loading images">
 <figcaption>Load time on mobile: the responsive small hero image (explore-sm.jpg) takes 232 ms (0.23 seconds) to load.</figcaption>
 </figure>
 
@@ -37,7 +36,7 @@ Delivering the optimized image can shave off seconds on page load time. Consider
 
 Now you know *why* they're great; next, let's go through *how* they are set up!
 
-First, let's look at typical HTML for a `<picture>` element:
+First, let's look at the typical HTML for a `<picture>` element:
 
 ```html
 <picture>
@@ -50,9 +49,9 @@ First, let's look at typical HTML for a `<picture>` element:
 
 ### The fallback: `<img>`
 
-In the above example, only one of the four images will load--depending on the size of the user's device. It's important to note that the `<img>` element is still present (last) in the list of images. Since this example is designed to be mobile-first, the `<img>` will be shown on mobile devices. It also allows for a fallback for older browsers including Internet Explorer 11. (Yes, it might be a bit blurry, but IE users aren't looking for optimal experiences, are they?) 
+In the above example, only one of the four images will load—depending on the screen size of the user's device. It's important to note that the `<img>` element is still present (last) in the list of images. Since this example is designed to be mobile-first, the `<img>` will be shown on mobile devices. It also supports older browsers, including Internet Explorer 11, that don't support the `<picture>` element. (Yes, it might be a bit blurry, but IE users aren't looking for optimal experiences, are they?) 
 
-Another important reason for including the `<img>` tag is that it will be able to pull in the alt tag description as well as the width and height of the image. Image widths and heights might seem arbitrary, but they're becoming quite important again as we try to address issues of [cumulative layout shift (CLS)](https://web.dev/cls/). The unexpected jumpiness of loading elements on your page may contribute to overall CLS. By ensuring your image has its height and width set, the browser has an idea of how much layout space to save for each image, helping to prevent delayed movement of content or unintended clicks.
+Another important reason for including the `<img>` tag is that it can convey the alt tag description as well as the width and height of the image. Image widths and heights might seem arbitrary, but they're becoming quite important again as we try to address issues of [cumulative layout shift (CLS)](https://web.dev/cls/). The unexpected jumpiness of loading elements on your page may contribute to overall CLS. By ensuring your image has its height and width set, the browser has an idea of how much layout space to reserve for each image. This reserved space helps prevent delayed movement of content or unintended clicks.
 
 ### Choosing alternative sizes
 
@@ -69,12 +68,13 @@ In the example above, click the zoom factor (1x, 0.5x, and 0.25x) to simulate di
 
 ## How to create responsive `<picture>` elements in OU Campus
 
-With the recent addition of Image Size Sets within OU Campus, the ability to create a set of appropriately sized images is easier than ever! 
+With the recent addition of Image Size Sets within OU Campus, the ability to create a group of dynamically sized images is easier than ever! 
 
-- Review and set up [image set sizes in OU Campus](https://vimeo.com/353812283) using consistent extension naming (reference the example below)
-- [Update XSL](https://github.com/virtual/ou-picture-tag/tree/master/_resources/xsl/_shared) in snippets.xsl and functions.xsl
-- [Implement snippet](https://github.com/virtual/ou-picture-tag/blob/master/snippets/ou-build-picture.html) in Editable Region
-- Confirm the media queries work for your images
+1. Review and set up [image set sizes in OU Campus](https://vimeo.com/353812283) using consistent extension naming (referencing the example below.)
+1. Set up a directory to use your Image Set in access settings, and upload and publish the images in this new directory. (Publishing prior to editing a pcf ensure images are available.)
+1. [Update XSL](https://github.com/virtual/ou-picture-tag/tree/master/_resources/xsl/_shared) in snippets.xsl and functions.xsl.
+1. [Implement the Build Picture snippet](https://github.com/virtual/ou-picture-tag/blob/master/snippets/ou-build-picture.html) in and Editable Region.
+1. Confirm the media queries work for your images by resizing your browser window.
  
 ### Image size setup
 
@@ -89,7 +89,7 @@ This example uses the following image size set with "crop" setting (note: you ca
 
 ### Snippet usage
 
-Given a normal image placed within the snippet:
+Insert an image into the snippet using the `-sm` version of a set of images:
 
 ```html
 <img src="/_resources/images/hero/students-under-trees-sm.jpg" alt="students under trees" width="480" height="300">

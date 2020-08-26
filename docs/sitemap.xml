@@ -1,15 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.satinflame.com/blog/</loc>
-    <lastmod>2020-05-29T10:14:46-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.satinflame.com/categories/</loc>
-    <lastmod>2020-05-29T10:14:46-06:00</lastmod>
+    <loc>https://www.satinflame.com/blog/2020/08/creating-responsive-images-in-ou-campus/</loc>
+    <lastmod>2020-08-26T03:18:22-06:00</lastmod>
   </url>
   
   <url>
@@ -18,48 +13,8 @@
   </url>
   
   <url>
-    <loc>https://www.satinflame.com/tags/oucampus/</loc>
-    <lastmod>2020-05-29T10:14:46-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.satinflame.com/categories/portfolio/</loc>
-    <lastmod>2020-05-29T10:14:46-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.satinflame.com/</loc>
-    <lastmod>2020-05-29T10:14:46-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.satinflame.com/tags/</loc>
-    <lastmod>2020-05-29T10:14:46-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.satinflame.com/tags/administration/</loc>
-    <lastmod>2020-01-10T06:42:18-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.satinflame.com/blog/2020/01/approving-pages-oucampus/</loc>
     <lastmod>2020-01-10T06:42:18-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.satinflame.com/categories/blog/</loc>
-    <lastmod>2020-01-10T06:42:18-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.satinflame.com/tags/e-expectations/</loc>
-    <lastmod>2019-11-15T09:27:44-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.satinflame.com/tags/rwd/</loc>
-    <lastmod>2019-11-15T09:27:44-07:00</lastmod>
   </url>
   
   <url>
@@ -68,33 +23,8 @@
   </url>
   
   <url>
-    <loc>https://www.satinflame.com/tags/video/</loc>
-    <lastmod>2019-11-15T09:27:44-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.satinflame.com/tags/design/</loc>
-    <lastmod>2019-09-02T11:30:53-06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.satinflame.com/blog/2019/09/knight-university-case-study/</loc>
     <lastmod>2019-09-02T11:30:53-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.satinflame.com/tags/learning/</loc>
-    <lastmod>2019-09-02T11:30:53-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.satinflame.com/tags/ux/</loc>
-    <lastmod>2019-09-02T11:30:53-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.satinflame.com/tags/bootstrap4/</loc>
-    <lastmod>2019-07-08T11:20:06-06:00</lastmod>
   </url>
   
   <url>
@@ -103,23 +33,8 @@
   </url>
   
   <url>
-    <loc>https://www.satinflame.com/tags/programming/</loc>
-    <lastmod>2019-07-08T11:20:06-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.satinflame.com/tags/analytics/</loc>
-    <lastmod>2019-05-20T08:41:36-06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.satinflame.com/blog/2019/05/regain-access-google-analytics/</loc>
     <lastmod>2019-05-20T08:41:36-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.satinflame.com/tags/sass/</loc>
-    <lastmod>2019-02-27T10:23:38-07:00</lastmod>
   </url>
   
   <url>
@@ -134,21 +49,6 @@
   
   <url>
     <loc>https://www.satinflame.com/blog/2018/04/apps-and-tiny-tools/</loc>
-    <lastmod>2018-04-13T15:13:50-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.satinflame.com/tags/javascript/</loc>
-    <lastmod>2018-04-13T15:13:50-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.satinflame.com/tags/react/</loc>
-    <lastmod>2018-04-13T15:13:50-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.satinflame.com/tags/svg/</loc>
     <lastmod>2018-04-13T15:13:50-06:00</lastmod>
   </url>
   
@@ -168,11 +68,6 @@
   </url>
   
   <url>
-    <loc>https://www.satinflame.com/tags/magento/</loc>
-    <lastmod>2017-03-04T09:37:25-06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.satinflame.com/blog/2017/03/setting-up-a-multi-website-magento-store/</loc>
     <lastmod>2017-03-04T09:37:25-06:00</lastmod>
   </url>
@@ -188,18 +83,8 @@
   </url>
   
   <url>
-    <loc>https://www.satinflame.com/tags/migration/</loc>
-    <lastmod>2016-07-11T15:02:57-06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.satinflame.com/blog/2016/06/giant-decline-in-bounce-rate-is-it-really-a-good-thing/</loc>
     <lastmod>2016-06-12T19:57:25-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.satinflame.com/tags/bootstrap3/</loc>
-    <lastmod>2016-04-27T15:02:57-06:00</lastmod>
   </url>
   
   <url>
@@ -214,16 +99,6 @@
   
   <url>
     <loc>https://www.satinflame.com/blog/2016/03/3-steps-to-improving-your-amazon-business-catalog-list/</loc>
-    <lastmod>2016-03-12T19:57:25-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.satinflame.com/tags/amazon/</loc>
-    <lastmod>2016-03-12T19:57:25-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.satinflame.com/tags/seo/</loc>
     <lastmod>2016-03-12T19:57:25-06:00</lastmod>
   </url>
   
@@ -247,11 +122,102 @@
   </url>
   
   <url>
+    <loc>https://www.satinflame.com/tags/administration/</loc>
+    <lastmod>2020-01-10T06:42:18-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.satinflame.com/tags/amazon/</loc>
+    <lastmod>2016-03-12T19:57:25-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.satinflame.com/tags/analytics/</loc>
+    <lastmod>2019-05-20T08:41:36-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.satinflame.com/authors/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.satinflame.com/categories/blog/</loc>
+    <lastmod>2020-08-26T03:18:22-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.satinflame.com/blog/</loc>
+    <lastmod>2020-08-26T03:18:22-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.satinflame.com/tags/bootstrap3/</loc>
+    <lastmod>2016-04-27T15:02:57-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.satinflame.com/tags/bootstrap4/</loc>
+    <lastmod>2019-07-08T11:20:06-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.satinflame.com/categories/</loc>
+    <lastmod>2020-08-26T03:18:22-06:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.satinflame.com/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.satinflame.com/tags/design/</loc>
+    <lastmod>2019-09-02T11:30:53-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.satinflame.com/tags/e-expectations/</loc>
+    <lastmod>2019-11-15T09:27:44-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.satinflame.com/tags/images/</loc>
+    <lastmod>2020-08-26T03:18:22-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.satinflame.com/tags/javascript/</loc>
+    <lastmod>2018-04-13T15:13:50-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.satinflame.com/tags/learning/</loc>
+    <lastmod>2019-09-02T11:30:53-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.satinflame.com/tags/magento/</loc>
+    <lastmod>2017-03-04T09:37:25-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.satinflame.com/tags/migration/</loc>
+    <lastmod>2016-07-11T15:02:57-06:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -263,7 +229,49 @@
   </url>
   
   <url>
+    <loc>https://www.satinflame.com/tags/oucampus/</loc>
+    <lastmod>2020-08-26T03:18:22-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.satinflame.com/categories/portfolio/</loc>
+    <lastmod>2020-05-29T10:14:46-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.satinflame.com/tags/programming/</loc>
+    <lastmod>2019-07-08T11:20:06-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.satinflame.com/tags/react/</loc>
+    <lastmod>2018-04-13T15:13:50-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.satinflame.com/tags/rwd/</loc>
+    <lastmod>2020-08-26T03:18:22-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.satinflame.com/tags/sass/</loc>
+    <lastmod>2019-02-27T10:23:38-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.satinflame.com/search/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.satinflame.com/tags/seo/</loc>
+    <lastmod>2016-03-12T19:57:25-06:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -271,7 +279,37 @@
   </url>
   
   <url>
+    <loc>https://www.satinflame.com/tags/svg/</loc>
+    <lastmod>2018-04-13T15:13:50-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.satinflame.com/tags/</loc>
+    <lastmod>2020-01-10T06:42:18-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.satinflame.com/uses/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.satinflame.com/tags/ux/</loc>
+    <lastmod>2019-09-02T11:30:53-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.satinflame.com/tags/video/</loc>
+    <lastmod>2019-11-15T09:27:44-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.satinflame.com/</loc>
+    <lastmod>2020-08-26T03:18:22-06:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

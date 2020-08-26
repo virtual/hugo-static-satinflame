@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>portfolio on satinflame design</title>
+    <title>Portfolio on satinflame design</title>
     <link>https://www.satinflame.com/categories/portfolio/</link>
-    <description>Recent content in portfolio on satinflame design</description>
+    <description>Recent content in Portfolio on satinflame design</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 29 May 2020 10:14:46 -0600</lastBuildDate>
@@ -28,7 +28,7 @@ Creating a system to deliver consistent contact information is an opportunity to
       
       <guid>https://www.satinflame.com/blog/2019/09/knight-university-case-study/</guid>
       <description>It was time for a redesign of Knight University, and while working through Designlab&amp;rsquo;s curriculum, I focused on creating a fresh web design with a focus on user needs. Knight University is for my experimental code/designs and is not a real university.
-Before &amp;amp; after screenshots   The previous design for Knight University with an overly blue and less exciting design     The new design for Knight University     The open megamenu for the new design for Knight University   Case study Word file View an accessible version of the case study above</description>
+Before &amp;amp; after screenshots   The previous design for Knight University with an overly blue and less exciting design      The new design for Knight University      The open megamenu for the new design for Knight University     Case study Word file View an accessible version of the case study above</description>
     </item>
     
     <item>
@@ -101,7 +101,7 @@ Keep the users on the lead page In order to get the contact information we hope
       
       <guid>https://www.satinflame.com/blog/2016/03/residence-life-interactive-map/</guid>
       <description>When looking into how best to create an image with interactive elements, I had to go beyond using outdated image maps and get creative with implementing maps using SVG (Scalable Vector Graphics) and creating a responsive, interactive information pop-ups!
-This map looks great on desktop and mobile**—**test it out yourself! The functionality enables a user to click either the name or the building itself to learn more about it.
+This map looks great on desktop and mobile—test it out yourself! The functionality enables a user to click either the name or the building itself to learn more about it.
 Within Illustrator, we grouped paths and then was able to edit the exported .</description>
     </item>
     
@@ -121,7 +121,8 @@ Unlike other designs I’ve implemented, Naropa University’s wasn’t quite r
       <pubDate>Sun, 10 Jan 2016 15:02:57 -0600</pubDate>
       
       <guid>https://www.satinflame.com/blog/2016/01/elizabeth-city-state-university-web-redesign/</guid>
-      <description>ECSU Secondary Page     ECSU Homepage     ECSU Admissions     ECSU History Page   In 2015, I worked with Vayakone Sphabmixay from the Sax Agency implementing their redesign for Elizabeth City State University in North Carolina. There were many creative design pieces that presented fun challenges for implementing in a responsive environment.</description>
+      <description>ECSU Secondary Page      ECSU Homepage      ECSU Admissions      ECSU History Page    
+In 2015, I worked with Vayakone Sphabmixay from the Sax Agency implementing their redesign for Elizabeth City State University in North Carolina. There were many creative design pieces that presented fun challenges for implementing in a responsive environment.</description>
     </item>
     
     <item>

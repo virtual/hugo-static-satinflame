@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="robots" content="all,follow">
+  <meta name="googlebot" content="index,follow,snippet,archive">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Using Image Sets to Create Responsive Images in OU Campus - satinflame design</title>
+  <meta name="author" content="Jeanine Schoessler" />
+  <meta name="theme-color" content="#333333" />
+  <meta name="description" content="Responsive images allow you to deliver an optimally sized image to each device—preventing unnecessarily large downloads and potentially speeding up your webpage. In this article, discover how responsive images work and how they can leverage Image Size Sets and snippets in OU Campus.">
+  <meta name="generator" content="Hugo 0.53" />
+  <link rel="canonical" href="https://www.satinflame.com/blog/2020/08/creating-responsive-images-in-ou-campus/">
+  <meta property="og:title" content="Using Image Sets to Create Responsive Images in OU Campus" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.satinflame.com/blog/2020/08/creating-responsive-images-in-ou-campus/" />
+  <meta property="og:image" content="https://www.satinflame.com/img/posts/responsive-images/rwd-images.png" />
+    
+  <script type="application/ld+json">
+    {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": Using Image Sets to Create Responsive Images in OU Campus,
+  "image": https://www.satinflame.com/img/posts/responsive-images/rwd-images.png,
+  "datePublished": 2020-08-26 03:18:22 -0600 MDT,
+  "dateModified": 2020-08-26 03:18:22 -0600 MDT,
+  "author": {
+    "@type": "Person",
+    "name": Jeanine Schoessler
+  },
+  "mainEntityOfPage": { "@type": "WebPage" },
+    "publisher": {
+    "@type": "Organization",
+    "name": satinflame design,
+    "logo": {
+      "@type": "ImageObject",
+      "url": https://www.satinflame.com/img/logo.png
+    }
+  },
+  "description": Responsive images allow you to deliver an optimally sized image to each device—preventing unnecessarily large downloads and potentially speeding up your webpage. In this article, discover how responsive images work and how they can leverage Image Size Sets and snippets in OU Campus.,
+  "keywords": [oucampus, images, rwd]
+} </script> 
+<script type="application/ld+json">
+{ 
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": satinflame design,
+  "legalName" : "satinflame design LLC",
+  "url": "https://www.satinflame.com",
+  "logo": https://www.satinflame.com/img/logo.png,
+  "foundingDate": "2014",
+  "founders": [
+    {
+    "@type": "Person",
+    "name": "Jeanine Schoessler",
+    "image": "https://www.satinflame.com/img/jeanine-helo-300x300.jpg"
+    }],
+  "address": {
+  "@type": "PostalAddress", 
+  "addressLocality": "Belgrade",
+  "addressRegion": "MT",
+  "postalCode": "59714",
+  "addressCountry": "USA"
+  },
+  "sameAs": [ 
+    "https://www.linkedin.com/company/satinflame-design"
+  ]
+}
+</script>
+  
+  <script src="https://kit.fontawesome.com/c71a8edf08.js"></script>
+  <link href="https://www.satinflame.com/css/bootstrap.min.css?v=2" rel="stylesheet" />
+  <link href="https://www.satinflame.com/css/style.candy.css?v=2" rel="stylesheet" id="theme-stylesheet">
+  
+  <link href="https://www.satinflame.com/css/custom.css?v=2?v=5" rel="stylesheet">
+  
+  
+  <link rel="shortcut icon" href="https://www.satinflame.com/img/icons/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="https://www.satinflame.com/img/icons/apple-touch-icon.png" />
+  <link rel="icon" href="https://www.satinflame.com/img/icons/cropped-logo2014_03-32x32.png" sizes="32x32" />
+  <link rel="icon" href="https://www.satinflame.com/img/icons/cropped-logo2014_03-192x192.png" sizes="192x192" /> 
+
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://www.satinflame.com/img/meta/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://www.satinflame.com/img/meta/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://www.satinflame.com/img/meta/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.satinflame.com/img/meta/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://www.satinflame.com/img/meta/apple-touch-icon-60x60.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://www.satinflame.com/img/meta/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://www.satinflame.com/img/meta/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://www.satinflame.com/img/meta/apple-touch-icon-152x152.png" />
+  <link rel="icon" type="image/png" href="https://www.satinflame.com/img/meta/favicon-196x196.png" sizes="196x196" />
+  <link rel="icon" type="image/png" href="https://www.satinflame.com/img/meta/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="https://www.satinflame.com/img/meta/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="https://www.satinflame.com/img/meta/favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="https://www.satinflame.com/img/meta/favicon-128.png" sizes="128x128" />
+  <meta name="application-name" content="satinflame design | OU Campus Web Services for Higher Ed"/>
+  <meta name="msapplication-TileColor" content="#A71068" />
+  <meta name="msapplication-TileImage" content="https://www.satinflame.com/img/meta/mstile-144x144.png" />
+  <meta name="msapplication-square70x70logo" content="https://www.satinflame.com/img/meta/mstile-70x70.png" />
+  <meta name="msapplication-square150x150logo" content="https://www.satinflame.com/img/meta/mstile-150x150.png" />
+  <meta name="msapplication-wide310x150logo" content="https://www.satinflame.com/img/meta/mstile-310x150.png" />
+  <meta name="msapplication-square310x310logo" content="https://www.satinflame.com/img/meta/mstile-310x310.png" />
+
+  <link rel="manifest" href="/manifest.json">
+ 
+  
+  <meta name="twitter:dnt" content="on">
+
+  <link href="https://www.satinflame.com/css/owl.carousel.css?v=2" rel="stylesheet">
+  <link href="https://www.satinflame.com/css/owl.theme.css?v=2" rel="stylesheet">
+  <link rel="alternate" href="https://www.satinflame.com/index.xml" type="application/rss+xml" title="satinflame design">
+
+  <link href="https://www.satinflame.com/css/banner.css?v=2" rel="stylesheet">
+  <style>
+  #heading-breadcrumbs.mine {
+  background-image: linear-gradient( rgba(224, 171, 111, 0.96),
+  rgba(167, 16, 104, 0.51)),
+  url("https://www.satinflame.com/img/posts/responsive-images/rwd-images.png");
+  }
+  </style>
+
+ 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-7598678-1', 'auto');
+  ga('send', 'pageview');
+</script> 
+</head>
+
+
+  <body class="page-single custom-background">
+   <div class="topnav cf">
+    <div class="container">
+    <p class="tagline">Web development for OU Campus & higher education</p>
+    <div class="icons">
+        <ul class="list-unstyled list-inline">
+            <li><a title="Get started with your project" href="/contact"><span class="fas fa-envelope"><span class="sr-only">Email</span></span></a></li>
+            <li><a title="View Jeanine Schoessler's profile on LinkedIn" href="https://www.linkedin.com/in/satinflame/"><span class="fab fa-linkedin"><span class="sr-only">LinkedIn</span></span></a></li>
+            <li><a title="Find me on Twitter" href="https://twitter.com/satinflame"><span class="fab fa-twitter"><span class="sr-only">Twitter</span></span></a></li>
+            <li><a title="Find me on GitHub" href="https://github.com/virtual"><span class="fab fa-github"><span class="sr-only">GitHub</span></span></a></li>
+        </ul>
+    </div>
+    </div>
+</div>
+    <div id="all">
+
+        <header>
+
+          <div>
+
+    <div class="navbar navbar-default yamm" role="navigation" id="navbar">
+
+        <div class="container">
+            <div class="navbar-header">
+                
+                
+                <a class="navbar-brand home" href="https://www.satinflame.com/">
+                <img src="https://www.satinflame.com/img/logo.png" alt="satinflame design" title="go to homepage" class="hidden-xs hidden-sm">
+                <img src="https://www.satinflame.com/img/logo-small.png" alt="satinflame design" title="go to homepage" class="visible-xs visible-sm">
+            </a>
+
+                <div class="navbar-buttons">
+                    <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
+                      <span class="sr-only">Toggle Navigation</span>
+                        <span class="fas fa-bars" aria-hidden="true"></span>
+                    </button>
+                </div>
+            </div>
+            
+
+            <div class="navbar-collapse collapse" id="navigation">
+                <ul class="nav navbar-nav navbar-right">
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/">Home</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/categories/portfolio/">Projects</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/categories/blog/">Blog</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/about/">About</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/contact/">Contact</a>
+                    
+                  </li>
+                  
+                </ul>
+            </div>
+            
+
+           
+            
+
+        </div>
+    </div>
+    
+
+</div>
+
+
+
+
+        </header>
+
+        <div id="heading-breadcrumbs"  
+class="mine" >
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                
+                                    
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        <div id="content">
+            <div class="container">
+
+                <div class="row">
+
+                    
+
+                    <article class="col-md-9" id="blog-post">
+                    <header class="blog-banner">
+
+                                     <div class="topbanner">
+                                      
+                                          <img src="https://www.satinflame.com/img/posts/responsive-images/rwd-images.png" class="img-responsive" alt="">
+                                      
+                                          
+                                         
+                                          
+
+
+<div class="tag-container"> 
+ <div class="panel">
+    
+    <div class="panel-body">
+       <ul class="tag-cloud" id="tags">
+  
+    <li><a href="/tags/oucampus"><i class="fa fa-tags"></i> oucampus</a> </li>
+  
+    <li><a href="/tags/images"><i class="fa fa-tags"></i> images</a> </li>
+  
+    <li><a href="/tags/rwd"><i class="fa fa-tags"></i> rwd</a> </li>
+  
+</ul>
+       
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+                                          </div>   
+                                            
+                <h1>Using Image Sets to Create Responsive Images in OU Campus</h1>
+                       
+                                    
+                        <p class="text-muted text-uppercase mb-small text-right">
+                           
+
+   By
+    
+        
+        
+        <a href="https://www.satinflame.com/authors/jeanine/" rel="author">Jeanine</a>
+        
+     |
+
+                        
+                        
+                        2020-08-26 </p>
+</header>
+                       
+                        <div id="post-content">
+                          
+                                        
+                                        
+                                         <p class="lead"> Responsive images allow you to deliver an optimally sized image to each device—preventing unnecessarily large downloads and potentially speeding up your webpage. In this article, discover how responsive images work and how they can leverage Image Size Sets and snippets in OU Campus.
+                                          </p>
+                                          
+                          
+
+<p>It&rsquo;s no secret: these past years have seen ever-increasing sizes of images to feature on your school&rsquo;s homepage. Though some designs are now implementing smaller images (and thankfully taking a step back from large carousels), these pages can still pack a punch to your visitors&rsquo; bandwidth. With over 30% of users likely visiting from mobile devices, it would be ideal that a 480px-wide mobile device only downloads a 480px-wide image instead of the 1200px-wide image that is typically designed for a desktop monitor.</p>
+
+<h2 id="how-responsive-images-work">How responsive images work</h2>
+
+<p>Let&rsquo;s take a look at page speed for a site loading a large hero image.</p>
+
+<figure style="text-align: center">
+<img src="/img/posts/responsive-images/network-xl-hl.png" alt="image of network tab desktop loading images">
+<figcaption>Load time on desktop: the large hero image (explore-xxl.jpg) takes 1.65 seconds to load.</figcaption>
+</figure>
+
+<p>With a regular image tag, visitors will need to download the largest image regardless of which device they&rsquo;re using. (Check image download speeds on your site by using Chrome&rsquo;s Inspect Element &gt; Network tab filtered by Img.) Large hero images are typically 300kb-1mb!</p>
+
+<p>Instead, if provided a <picture> tag using alternative sizes, the webpage can deliver the most appropriate image for each device. For example: a 1200px-wide image (316kb) for desktop or a 480px-wide image (46kb) for mobile.</p>
+
+<figure style="text-align: center">
+<img src="/img/posts/responsive-images/network-sm-hl.png" alt="image of network tab desktop loading images">
+<figcaption>Load time on mobile: the responsive small hero image (explore-sm.jpg) takes 232 ms (0.23 seconds) to load.</figcaption>
+</figure>
+
+<p>Delivering the optimized image can shave off seconds on page load time. Considering that &ldquo;<a href="https://omniupdate.com/blog/posts/2018/powerful-seo-for-higher-ed-websites.html">forty percent of web users abandon a website if it takes more than three seconds to load</a>,&rdquo; the time saved could also potentially increase conversions and lower bounce rates!</p>
+
+<h2 id="testing-responsive-images-for-your-next-project">Testing responsive images for your next project</h2>
+
+<p>Now you know <em>why</em> they&rsquo;re great; next, let&rsquo;s go through <em>how</em> they are set up!</p>
+
+<p>First, let&rsquo;s look at the typical HTML for a <code>&lt;picture&gt;</code> element:</p>
+<div class="highlight"><div style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#939390">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#939390">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#939390">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#939390">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#939390">5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#939390">6
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#111">&lt;</span><span style="color:#f92672">picture</span><span style="color:#111">&gt;</span>
+  <span style="color:#111">&lt;</span><span style="color:#f92672">source</span> <span style="color:#75af00">srcset</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;image-xl.jpg&#34;</span> <span style="color:#75af00">media</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;(min-width: 992px)&#34;</span> <span style="color:#111">/&gt;</span>
+  <span style="color:#111">&lt;</span><span style="color:#f92672">source</span> <span style="color:#75af00">srcset</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;image-lg.jpg&#34;</span> <span style="color:#75af00">media</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;(min-width: 768px)&#34;</span> <span style="color:#111">/&gt;</span>
+  <span style="color:#111">&lt;</span><span style="color:#f92672">source</span> <span style="color:#75af00">srcset</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;image-md.jpg&#34;</span> <span style="color:#75af00">media</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;(min-width: 480px)&#34;</span> <span style="color:#111">/&gt;</span>
+  <span style="color:#111">&lt;</span><span style="color:#f92672">img</span> <span style="color:#75af00">src</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;image-sm.jpg&#34;</span> <span style="color:#75af00">alt</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;the small image defaults for mobile and older devices&#34;</span> <span style="color:#75af00">width</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;400&#34;</span> <span style="color:#75af00">height</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;380&#34;</span> <span style="color:#111">/&gt;</span>
+<span style="color:#111">&lt;/</span><span style="color:#f92672">picture</span><span style="color:#111">&gt;</span></code></pre></td></tr></table>
+</div>
+</div>
+<h3 id="the-fallback-img">The fallback: <code>&lt;img&gt;</code></h3>
+
+<p>In the above example, only one of the four images will load—depending on the screen size of the user&rsquo;s device. It&rsquo;s important to note that the <code>&lt;img&gt;</code> element is still present (last) in the list of images. Since this example is designed to be mobile-first, the <code>&lt;img&gt;</code> will be shown on mobile devices. It also supports older browsers, including Internet Explorer 11, that don&rsquo;t support the <code>&lt;picture&gt;</code> element. (Yes, it might be a bit blurry, but IE users aren&rsquo;t looking for optimal experiences, are they?)</p>
+
+<p>Another important reason for including the <code>&lt;img&gt;</code> tag is that it can convey the alt tag description as well as the width and height of the image. Image widths and heights might seem arbitrary, but they&rsquo;re becoming quite important again as we try to address issues of <a href="https://web.dev/cls/">cumulative layout shift (CLS)</a>. The unexpected jumpiness of loading elements on your page may contribute to overall CLS. By ensuring your image has its height and width set, the browser has an idea of how much layout space to reserve for each image. This reserved space helps prevent delayed movement of content or unintended clicks.</p>
+
+<h3 id="choosing-alternative-sizes">Choosing alternative sizes</h3>
+
+<p>Though the <code>&lt;img&gt;</code> loads for the smallest device, as device screens get larger, the <picture> element will automatically choose the image that meets the minimum width set in the media query.</p>
+
+<p>For your project, first, determine the optimal sizes for your responsive <code>&lt;picture&gt;</code> tag. I would recommend using an <a href="https://placeholder.com/">image placeholder API</a> that shows image dimensions to better understand when each image is loaded.</p>
+
+<iframe height="442" style="width: 100%;" scrolling="no" title="Layered Banner with Offset Overlay" src="https://codepen.io/virtual/embed/XWXPVMR?height=442&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/virtual/pen/XWXPVMR'>Layered Banner with Offset Overlay</a> by Jeanine
+  (<a href='https://codepen.io/virtual'>@virtual</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+<p>In the example above, click the zoom factor (1x, 0.5x, and 0.25x) to simulate different devices. Test out your code by resizing your browser window.</p>
+
+<h2 id="how-to-create-responsive-picture-elements-in-ou-campus">How to create responsive <code>&lt;picture&gt;</code> elements in OU Campus</h2>
+
+<p>With the recent addition of Image Size Sets within OU Campus, the ability to create a group of dynamically sized images is easier than ever!</p>
+
+<ol>
+<li>Review and set up <a href="https://vimeo.com/353812283">image set sizes in OU Campus</a> using consistent extension naming (referencing the example below.)</li>
+<li>Set up a directory to use your Image Set in access settings, and upload and publish the images in this new directory. (Publishing prior to editing a pcf ensure images are available.)</li>
+<li><a href="https://github.com/virtual/ou-picture-tag/tree/master/_resources/xsl/_shared">Update XSL</a> in snippets.xsl and functions.xsl.</li>
+<li><a href="https://github.com/virtual/ou-picture-tag/blob/master/snippets/ou-build-picture.html">Implement the Build Picture snippet</a> in and Editable Region.</li>
+<li>Confirm the media queries work for your images by resizing your browser window.</li>
+</ol>
+
+<h3 id="image-size-setup">Image size setup</h3>
+
+<p>This example uses the following image size set with &ldquo;crop&rdquo; setting (note: you can use different resolutions):</p>
+
+<table>
+<thead>
+<tr>
+<th>Size</th>
+<th>Suffix</th>
+<th>Width</th>
+<th>Height</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Small</td>
+<td><code>-sm</code></td>
+<td>480</td>
+<td>300</td>
+</tr>
+
+<tr>
+<td>Medium</td>
+<td><code>-md</code></td>
+<td>768</td>
+<td>480</td>
+</tr>
+
+<tr>
+<td>Large</td>
+<td><code>-lg</code></td>
+<td>800</td>
+<td>1200</td>
+</tr>
+
+<tr>
+<td>XL</td>
+<td><code>-xl</code></td>
+<td>1200</td>
+<td>1200</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="snippet-usage">Snippet usage</h3>
+
+<p>Insert an image into the snippet using the <code>-sm</code> version of a set of images:</p>
+<div class="highlight"><div style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#939390">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#111">&lt;</span><span style="color:#f92672">img</span> <span style="color:#75af00">src</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;/_resources/images/hero/students-under-trees-sm.jpg&#34;</span> <span style="color:#75af00">alt</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;students under trees&#34;</span> <span style="color:#75af00">width</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;480&#34;</span> <span style="color:#75af00">height</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;300&#34;</span><span style="color:#111">&gt;</span></code></pre></td></tr></table>
+</div>
+</div>
+<p>Using the code provided this example, the picture is set up using Bootstrap&rsquo;s viewports (<code>992px</code>, <code>768px</code>, <code>480px</code>) and outputs the following HTML:</p>
+<div class="highlight"><div style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#939390">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#939390">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#939390">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#939390">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#939390">5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#939390">6
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#111">&lt;</span><span style="color:#f92672">picture</span><span style="color:#111">&gt;</span>
+  <span style="color:#111">&lt;</span><span style="color:#f92672">source</span> <span style="color:#75af00">srcset</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;/_resources/images/hero/students-under-trees-xl.jpg&#34;</span> <span style="color:#75af00">media</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;(min-width: 992px)&#34;</span><span style="color:#111">&gt;</span>
+  <span style="color:#111">&lt;</span><span style="color:#f92672">source</span> <span style="color:#75af00">srcset</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;/_resources/images/hero/students-under-trees-lg.jpg&#34;</span> <span style="color:#75af00">media</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;(min-width: 768px)&#34;</span><span style="color:#111">&gt;</span>
+  <span style="color:#111">&lt;</span><span style="color:#f92672">source</span> <span style="color:#75af00">srcset</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;/_resources/images/hero/students-under-trees-md.jpg&#34;</span> <span style="color:#75af00">media</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;(min-width: 480px)&#34;</span><span style="color:#111">&gt;</span>
+  <span style="color:#111">&lt;</span><span style="color:#f92672">img</span> <span style="color:#75af00">src</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;/_resources/images/hero/students-under-trees-sm.jpg&#34;</span> <span style="color:#75af00">alt</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;students under trees&#34;</span> <span style="color:#75af00">width</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;480&#34;</span> <span style="color:#75af00">height</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;300&#34;</span><span style="color:#111">&gt;</span>
+<span style="color:#111">&lt;/</span><span style="color:#f92672">picture</span><span style="color:#111">&gt;</span></code></pre></td></tr></table>
+</div>
+</div>
+<p>Interested in using image sets to create responsive images using the <code>&lt;picture&gt;</code> tag in your OU Campus site? <a href="https://github.com/virtual/ou-picture-tag">View my complete code for setting up responsive images in OU Campus</a>! If you&rsquo;re not a web developer, <a href="/contact">contact me for assistance with implementing snippets or other OU Campus updates</a>.</p>
+
+<p>&nbsp;</p>
+
+<p class="text-center"><a class="btn btn-template-main" href="https://github.com/virtual/ou-picture-tag"><span class="fab fa-github" aria-hidden="true"><span class="sr-only">GitHub</span></span> View this project on GitHub</a></p>
+
+
+                          
+
+                          <div class="nav-links">
+                          
+                          <div class="nav-previous"><a rel="prev" href="https://www.satinflame.com/blog/2020/05/creating-flexible-contact-boxes-in-ou-campus/"><span class="nav-title">Creating Flexible Contact Snippets in OU Campus</span><span class="nav-arrow">
+                            <span class="fas fa-arrow-left" aria-hidden="true"></span>
+                          </span></a></div>
+
+
+
+                        </div>
+                      </div>
+                           
+                        
+                      
+     
+                    </article>
+                    
+
+                    
+
+                    
+
+                    <div class="col-md-3">
+
+                        
+
+                        <div class="sidebar">
+  <div class="profile">
+    <a href="/contact"><img src="/img/jeanine-helo-300x300.jpg"
+        alt="Jeanine Schoessler standing in front of a helicopter" height="300" width="300" /></a>
+  </div>
+
+  <h2>Recent projects</h2>
+  <p>Developing out web page designs and features; creating new snippets and components for managing contact boxes,
+    schema, featured lists, and more; and migrating OU Campus web pages to new templates. </p>
+
+  <h2>Learning</h2>
+  <ul>
+    <li><a rel="noopener" href="https://www.udemy.com/course/microservices-with-node-js-and-react/">Microservices with Node JS and React</a></li>
+    <li><a rel="noopener" href="https://www.freecodecamp.org/learn/scientific-computing-with-python/python-for-everybody/">Python for Everybody</a></li>
+  </ul>
+
+  <h2>Follow me</h2>
+  <a class="twitter-timeline" data-height="400" data-tweet-limit="1" data-dnt="true" data-link-color="#E81C4F"
+    href="https://twitter.com/satinflame?ref_src=twsrc%5Etfw">Tweets by satinflame</a>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  
+
+</div>
+
+                       
+
+
+                        
+
+                    </div>
+                    
+
+                    
+
+                </div>
+                
+ 
+            </div>
+            
+          
+            
+         
+        </div>
+        
+
+         <div class="topnav cf">
+    <div class="container">
+    <p class="tagline">Web development for OU Campus & higher education</p>
+    <div class="icons">
+        <ul class="list-unstyled list-inline">
+            <li><a title="Get started with your project" href="/contact"><span class="fas fa-envelope"><span class="sr-only">Email</span></span></a></li>
+            <li><a title="View Jeanine Schoessler's profile on LinkedIn" href="https://www.linkedin.com/in/satinflame/"><span class="fab fa-linkedin"><span class="sr-only">LinkedIn</span></span></a></li>
+            <li><a title="Find me on Twitter" href="https://twitter.com/satinflame"><span class="fab fa-twitter"><span class="sr-only">Twitter</span></span></a></li>
+            <li><a title="Find me on GitHub" href="https://github.com/virtual"><span class="fab fa-github"><span class="sr-only">GitHub</span></span></a></li>
+        </ul>
+    </div>
+    </div>
+</div>
+    
+
+<div class="padded-logos">
+  <div class="container clearfix">
+    <div class="row">
+      <div class="col-sm-12">
+        <p><a href="https://omniupdate.com/partners/partners-list.html">Official Partner—OmniUpdate </a></p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+<footer id="copyright">
+    <div class="container">
+        <div class="col-md-12">
+            
+            <p>&copy; 2014-2020 satinflame design  &nbsp;
+              <a href="https://www.satinflame.com/index.xml"><span class="fa fa-rss"></span> <span class="sr-only">Blog RSS</span></a></p>
+            
+             
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+    </div>
+    
+
+    
+<script src="https://www.satinflame.com//js/jquery-3.4.1.min.js?v=2"></script>
+<script src="https://www.satinflame.com//js/bootstrap.min.js?v=2"></script>  
+<script src="https://www.satinflame.com/js/front.js?v=2"></script>
+
+
+<script src="https://www.satinflame.com/js/owl.carousel.min.js?v=2"></script>
+
+<script src="https://www.satinflame.com/js/fontloader.js?v=2"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.js"></script>
+
+
+
+  </body>
+</html>

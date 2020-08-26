@@ -1,15 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>rwd on satinflame design</title>
+    <title>Rwd on satinflame design</title>
     <link>https://www.satinflame.com/tags/rwd/</link>
-    <description>Recent content in rwd on satinflame design</description>
+    <description>Recent content in Rwd on satinflame design</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Nov 2019 09:27:44 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2020 03:18:22 -0600</lastBuildDate>
     
 	<atom:link href="https://www.satinflame.com/tags/rwd/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Using Image Sets to Create Responsive Images in OU Campus</title>
+      <link>https://www.satinflame.com/blog/2020/08/creating-responsive-images-in-ou-campus/</link>
+      <pubDate>Wed, 26 Aug 2020 03:18:22 -0600</pubDate>
+      
+      <guid>https://www.satinflame.com/blog/2020/08/creating-responsive-images-in-ou-campus/</guid>
+      <description>It&amp;rsquo;s no secret: these past years have seen ever-increasing sizes of images to feature on your school&amp;rsquo;s homepage. Though some designs are now implementing smaller images (and thankfully taking a step back from large carousels), these pages can still pack a punch to your visitors&amp;rsquo; bandwidth. With over 30% of users likely visiting from mobile devices, it would be ideal that a 480px-wide mobile device only downloads a 480px-wide image instead of the 1200px-wide image that is typically designed for a desktop monitor.</description>
+    </item>
     
     <item>
       <title>Top 5 Ways to Use Videos for College Recruitment</title>
@@ -19,10 +28,10 @@
       <guid>https://www.satinflame.com/blog/2019/11/top-5-ways-to-use-videos-for-college-recruitment/</guid>
       <description>By Heidi King, OmniUpdate Guest Post 
 It’s no secret that Google is the world’s largest search engine, but few people realize that YouTube is in second place. Consider these statistics:
-  About 1.3 billion people use the platform.
-  YouTube is bigger than Bing, Yahoo!, Ask, and AOL combined.
-  The site gets over 30 million visitors daily.
-  YouTube on mobile reaches more 18–49-year-olds than any cable network in the U.</description>
+ About 1.3 billion people use the platform.
+ YouTube is bigger than Bing, Yahoo!, Ask, and AOL combined.
+ The site gets over 30 million visitors daily.
+ YouTube on mobile reaches more 18–49-year-olds than any cable network in the U.</description>
     </item>
     
     <item>
@@ -70,7 +79,8 @@ Unlike other designs I’ve implemented, Naropa University’s wasn’t quite r
       <pubDate>Sun, 10 Jan 2016 15:02:57 -0600</pubDate>
       
       <guid>https://www.satinflame.com/blog/2016/01/elizabeth-city-state-university-web-redesign/</guid>
-      <description>ECSU Secondary Page     ECSU Homepage     ECSU Admissions     ECSU History Page   In 2015, I worked with Vayakone Sphabmixay from the Sax Agency implementing their redesign for Elizabeth City State University in North Carolina. There were many creative design pieces that presented fun challenges for implementing in a responsive environment.</description>
+      <description>ECSU Secondary Page      ECSU Homepage      ECSU Admissions      ECSU History Page    
+In 2015, I worked with Vayakone Sphabmixay from the Sax Agency implementing their redesign for Elizabeth City State University in North Carolina. There were many creative design pieces that presented fun challenges for implementing in a responsive environment.</description>
     </item>
     
     <item>
