@@ -64,16 +64,16 @@ keywords = ["uses"]
   - Typescript React/Redux Snippets
   - Useful React Snippets
   - Vetur
-  - vscode-icions
+  - vscode-icons
   - WakaTime
 
 
 
 ## 💻 Favorite programs
 
-- Adobe Photoshop
-- Dropbox
 - Figma
+- Dropbox
+- Adobe Photoshop
 - Microsoft Outlook
 - Snipping Tool 
 - WinSCP
