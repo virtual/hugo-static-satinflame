@@ -148,7 +148,7 @@ As you can see from the example above, there is some important information in th
 ~[com[<COMPONENT-ID> <COMPONENT-INSTANCE-ID> <COMPONENT-VERSION>{ ... }]]~
 ```
 
-Unfortunately, you **cannot do a Find/Replace on component code** at this time. This means searching for `"~[com[2460 "` would not show any results. Nor would you be able to change any text within a component using Find/Replace. 
+Note: As of version 11.1, you can now Find/Replace content within a component instance on a page. 
 
 
 ## Previewing Content
@@ -195,4 +195,4 @@ Web Content Asset | <span class="far fa-check"><span class="sr-only">yes</span><
 
 When creating a snippet or component for your next OU Campus feature, consider where your feature will be placed (editable region or asset) and how it will be used (will users need access to surrounding links and styles?) I hope this article helped showcase features and limitations of both uses. It is important to note that OmniUpdate strives to continually evolve the OU Campus CMS and features. Please reach out if you have any questions or suggestions related to my examples.
 
-<small>Updated November 8, 2019</small>
+<small>Updated October 23, 2020</small>
