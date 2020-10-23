@@ -702,7 +702,7 @@ table tr:first-child {
     width: 47%;
   }
 
-  .card-content {
+  .card-image + .card-content {
     width: 50%;
     float: left;
   }
