@@ -10,6 +10,9 @@ id = "contact"
 - Browse through my current <a href="https://github.com/virtual"><span class="fab fa-fw fa-github" aria-hidden="true"></span>Github</a> or <a href="https://codepen.io/virtual/"><span class="fab fa-fw fa-codepen" aria-hidden="true"></span>Codepen</a> projects
 
 
-Send me a quick message to learn more about updating your site, or visit <a href="/categories/portfolio/">my portfolio</a> to see my completed projects!
+<!-- Send me a quick message to learn more about updating your site, or visit <a href="/categories/portfolio/">my portfolio</a> to see my completed projects! -->
+<p>&nbsp;</p>
 
-<script type="text/javascript" src="https://form.jotform.us/jsform/21795797055165"></script>
+<div class="alert alert-warning text-center"><p>Thanks for your interest—I am not accepting new clients at this time.</p></div>
+
+<!-- <script type="text/javascript" src="https://form.jotform.us/jsform/21795797055165"></script> -->
