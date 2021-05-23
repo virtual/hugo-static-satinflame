@@ -6,11 +6,7 @@
     <description>Recent content in Sass on satinflame design</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Feb 2019 10:23:38 -0700</lastBuildDate>
-    
-	<atom:link href="https://www.satinflame.com/tags/sass/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 27 Feb 2019 10:23:38 -0700</lastBuildDate><atom:link href="https://www.satinflame.com/tags/sass/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Shoreline Community College Redesign</title>
       <link>https://www.satinflame.com/blog/2019/02/shoreline-redesign/</link>
@@ -47,7 +43,8 @@ Unlike other designs I’ve implemented, Naropa University’s wasn’t quite r
       <pubDate>Sun, 10 Jan 2016 15:02:57 -0600</pubDate>
       
       <guid>https://www.satinflame.com/blog/2016/01/elizabeth-city-state-university-web-redesign/</guid>
-      <description>ECSU Secondary Page     ECSU Homepage     ECSU Admissions     ECSU History Page   In 2015, I worked with Vayakone Sphabmixay from the Sax Agency implementing their redesign for Elizabeth City State University in North Carolina. There were many creative design pieces that presented fun challenges for implementing in a responsive environment.</description>
+      <description>ECSU Secondary Page    ECSU Homepage    ECSU Admissions    ECSU History Page   In 2015, I worked with Vayakone Sphabmixay from the Sax Agency implementing their redesign for Elizabeth City State University in North Carolina. There were many creative design pieces that presented fun challenges for implementing in a responsive environment.
+Historical Year Timeline The timeline is both collapsible and adapts to mobile devices.</description>
     </item>
     
   </channel>

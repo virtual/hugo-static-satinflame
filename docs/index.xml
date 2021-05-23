@@ -6,11 +6,7 @@
     <description>Recent content on satinflame design</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Oct 2020 09:44:31 -0600</lastBuildDate>
-    
-	<atom:link href="https://www.satinflame.com/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 23 Oct 2020 09:44:31 -0600</lastBuildDate><atom:link href="https://www.satinflame.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>HighEdWeb20 Golden Nuggets</title>
       <link>https://www.satinflame.com/blog/2020/10/high-ed-web-2020-golden-nuggets/</link>
@@ -28,7 +24,7 @@ We dove into the first day with a quick welcome and a round of lightning talks. 
       <pubDate>Wed, 26 Aug 2020 03:18:22 -0600</pubDate>
       
       <guid>https://www.satinflame.com/blog/2020/08/creating-responsive-images-in-ou-campus/</guid>
-      <description>It&amp;rsquo;s no secret: these past years have seen ever-increasing sizes of images to feature on your school&amp;rsquo;s homepage. Though some designs are now implementing smaller images (and thankfully taking a step back from large carousels), these pages can still pack a punch to your visitors&amp;rsquo; bandwidth. With over 30% of users likely visiting from mobile devices, it would be ideal that a 480px-wide mobile device only downloads a 480px-wide image instead of the 1200px-wide image that is typically designed for a desktop monitor.</description>
+      <description>It&amp;rsquo;s no secret: these past years have seen ever-increasing sizes of images to feature on your school&amp;rsquo;s homepage. Though some designs are now implementing smaller images (and thankfully taking a step back from large carousels), these pages can still pack a punch to your visitors&#39; bandwidth. With over 30% of users likely visiting from mobile devices, it would be ideal that a 480px-wide mobile device only downloads a 480px-wide image instead of the 1200px-wide image that is typically designed for a desktop monitor.</description>
     </item>
     
     <item>
@@ -72,7 +68,7 @@ It’s no secret that Google is the world’s largest search engine, but few peo
       
       <guid>https://www.satinflame.com/blog/2019/09/knight-university-case-study/</guid>
       <description>It was time for a redesign of Knight University, and while working through Designlab&amp;rsquo;s curriculum, I focused on creating a fresh web design with a focus on user needs. Knight University is for my experimental code/designs and is not a real university.
-Before &amp;amp; after screenshots   The previous design for Knight University with an overly blue and less exciting design     The new design for Knight University     The open megamenu for the new design for Knight University   Case study Word file View an accessible version of the case study above</description>
+Before &amp;amp; after screenshots  The previous design for Knight University with an overly blue and less exciting design    The new design for Knight University    The open megamenu for the new design for Knight University   Case study Word file View an accessible version of the case study above</description>
     </item>
     
     <item>
@@ -119,10 +115,10 @@ On your page, include the Highcharts library file as well as your customized JS�
       <pubDate>Fri, 13 Apr 2018 15:13:50 -0600</pubDate>
       
       <guid>https://www.satinflame.com/blog/2018/04/apps-and-tiny-tools/</guid>
-      <description>Game of Life The &#34;Game of Life&#34; is a small game based on a formula that determines whether a square is &#34;alive&#34; or &#34;dead&#34; based on its number of neighbors. React
-    Recipe Collector A collection of delicous recipes--browse or add your own. The first five recipes are protected so they can&#39;t be deleted or modified.
+      <description>Game of LifeThe &#34;Game of Life&#34; is a small game based on a formula that determines whether a square is &#34;alive&#34; or &#34;dead&#34; based on its number of neighbors. React
+Recipe CollectorA collection of delicous recipes--browse or add your own. The first five recipes are protected so they can&#39;t be deleted or modified.
 ReactMongoDb
-    Escape from Toy Factory A lot of fun putting together this JavaScript challenge--and it still has a little way to go!</description>
+Escape from Toy FactoryA lot of fun putting together this JavaScript challenge--and it still has a little way to go!</description>
     </item>
     
     <item>
@@ -242,7 +238,8 @@ Unlike other designs I’ve implemented, Naropa University’s wasn’t quite r
       <pubDate>Sun, 10 Jan 2016 15:02:57 -0600</pubDate>
       
       <guid>https://www.satinflame.com/blog/2016/01/elizabeth-city-state-university-web-redesign/</guid>
-      <description>ECSU Secondary Page     ECSU Homepage     ECSU Admissions     ECSU History Page   In 2015, I worked with Vayakone Sphabmixay from the Sax Agency implementing their redesign for Elizabeth City State University in North Carolina. There were many creative design pieces that presented fun challenges for implementing in a responsive environment.</description>
+      <description>ECSU Secondary Page    ECSU Homepage    ECSU Admissions    ECSU History Page   In 2015, I worked with Vayakone Sphabmixay from the Sax Agency implementing their redesign for Elizabeth City State University in North Carolina. There were many creative design pieces that presented fun challenges for implementing in a responsive environment.
+Historical Year Timeline The timeline is both collapsible and adapts to mobile devices.</description>
     </item>
     
     <item>
@@ -310,7 +307,7 @@ Thanks for your interest—I am not accepting new clients at this time.
       
       <guid>https://www.satinflame.com/stock-photos/</guid>
       <description>Stock Photos Photos I’ve taken that can be used freely in any lawful use:
- in digital format on websites, blog posts, social media, advertisements, film and television productions, web and mobile applications in printed materials such as magazines, newspapers, books, brochures, flyers, product packaging for decorative use in your home, office or any public place personal use or commercial use    mountains in Montana      Sikorksy UH-60      chocolate cake      Glacier National Park sun shining through treetops      patio set in Cancun      hummingbird at a feeder    </description>
+ in digital format on websites, blog posts, social media, advertisements, film and television productions, web and mobile applications in printed materials such as magazines, newspapers, books, brochures, flyers, product packaging for decorative use in your home, office or any public place personal use or commercial use   mountains in Montana     Sikorksy UH-60     chocolate cake     Glacier National Park sun shining through treetops     patio set in Cancun     hummingbird at a feeder    </description>
     </item>
     
     <item>

@@ -6,11 +6,7 @@
     <description>Recent content in programming on satinflame design</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Jul 2019 11:20:06 -0600</lastBuildDate>
-    
-	<atom:link href="https://www.satinflame.com/tags/programming/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 08 Jul 2019 11:20:06 -0600</lastBuildDate><atom:link href="https://www.satinflame.com/tags/programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>OU Campus Components vs. Snippets</title>
       <link>https://www.satinflame.com/blog/2019/07/oucampus-components-vs-snippets/</link>
@@ -35,10 +31,10 @@
       <pubDate>Fri, 13 Apr 2018 15:13:50 -0600</pubDate>
       
       <guid>https://www.satinflame.com/blog/2018/04/apps-and-tiny-tools/</guid>
-      <description>Game of Life The &#34;Game of Life&#34; is a small game based on a formula that determines whether a square is &#34;alive&#34; or &#34;dead&#34; based on its number of neighbors. React
-    Recipe Collector A collection of delicous recipes--browse or add your own. The first five recipes are protected so they can&#39;t be deleted or modified.
+      <description>Game of LifeThe &#34;Game of Life&#34; is a small game based on a formula that determines whether a square is &#34;alive&#34; or &#34;dead&#34; based on its number of neighbors. React
+Recipe CollectorA collection of delicous recipes--browse or add your own. The first five recipes are protected so they can&#39;t be deleted or modified.
 ReactMongoDb
-    Escape from Toy Factory A lot of fun putting together this JavaScript challenge--and it still has a little way to go!</description>
+Escape from Toy FactoryA lot of fun putting together this JavaScript challenge--and it still has a little way to go!</description>
     </item>
     
     <item>
@@ -116,7 +112,8 @@ Unlike other designs I’ve implemented, Naropa University’s wasn’t quite r
       <pubDate>Sun, 10 Jan 2016 15:02:57 -0600</pubDate>
       
       <guid>https://www.satinflame.com/blog/2016/01/elizabeth-city-state-university-web-redesign/</guid>
-      <description>ECSU Secondary Page     ECSU Homepage     ECSU Admissions     ECSU History Page   In 2015, I worked with Vayakone Sphabmixay from the Sax Agency implementing their redesign for Elizabeth City State University in North Carolina. There were many creative design pieces that presented fun challenges for implementing in a responsive environment.</description>
+      <description>ECSU Secondary Page    ECSU Homepage    ECSU Admissions    ECSU History Page   In 2015, I worked with Vayakone Sphabmixay from the Sax Agency implementing their redesign for Elizabeth City State University in North Carolina. There were many creative design pieces that presented fun challenges for implementing in a responsive environment.
+Historical Year Timeline The timeline is both collapsible and adapts to mobile devices.</description>
     </item>
     
     <item>
