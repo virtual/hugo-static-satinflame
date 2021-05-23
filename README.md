@@ -2,7 +2,7 @@
 Rebuilt portfolio using gohugo.io
 
 ## Development
-- Install Hugo: `brew install hugo`
+- Install Hugo: `brew install hugo` (Mac) or  `choco install hugo` (Windows)
 - Install [Universal Theme](https://github.com/devcows/hugo-universal-theme): `cd themes`
 - `git clone https://github.com/devcows/hugo-universal-theme`
 
