@@ -23,7 +23,7 @@ When asked about my experience, I have to admit I'm amazed with how enthused I'v
 
 ### Always Be Coding
 
-The primary thing I hear fellow developers suggest is to continue coding. Many note that a code school graduate has a beautiful grid of consecutive productive days on Github, and then their repositories are abandoned, falling off into an abyss of white. If you want to keep honing your skills and shine among your peers, keep developing projects or contributing to other project's you are interested in. This October, Digital Ocean hosted another Hacktoberfest which includes a number of Github repositories specifically tagged to help newbies become proficient at updating others' projects. Keep an eye out for this annual event if you're looking to get started! ** **
+The primary thing I hear fellow developers suggest is to continue coding. Many note that a code school graduate has a beautiful grid of consecutive productive days on GitHub, and then their repositories are abandoned, falling off into an abyss of white. If you want to keep honing your skills and shine among your peers, keep developing projects or contributing to other project's you are interested in. This October, Digital Ocean hosted another Hacktoberfest which includes a number of GitHub repositories specifically tagged to help newbies become proficient at updating others' projects. Keep an eye out for this annual event if you're looking to get started! ** **
 
 I cannot promise that future classes will offer cookies and amazing coffee, but it's impossible not to learn while being surrounded by code and developing projects 40 hours a week! 
 
@@ -39,7 +39,7 @@ I cannot promise that future classes will offer cookies and amazing coffee, but 
 ### Timeline Overview
 
 - Week 1: Review agile concepts, set up class guidelines, expectations and share resources
-- Weeks 2-3: Introduce Github, review JavaScript and practice challenges
+- Weeks 2-3: Introduce GitHub, review JavaScript and practice challenges
 - Week 4: Create a group app using user stories, mockups and MERN with the Spotify API
 - Weeks 5-7: Work on a team project--the [Yellowstone Odyssey](https://github.com/virtual/Buffaloed): set up Trello tasks, work with National Park and Weather API, implement Semantic UI and work hard to understand how the front-end (React components) communicates with the back-end (the server), group presentations
 - Week 8: Review, introduction to relational databases (PostgreSQL), completed freeCodeCamp [Recipe App](https://fcc-recipe.herokuapp.com) and independent study
@@ -49,7 +49,7 @@ I cannot promise that future classes will offer cookies and amazing coffee, but 
 
 Our rough first effort at creating an app with signup and login functionality. Calls the Spotify API and receives an Auth token in order to view a Spotify Playlist with options to play songs. Play counts are saved.
 
-- [View on Github](https://github.com/virtual/happy-songs)
+- [View on GitHub](https://github.com/virtual/happy-songs)
 
 
 ### Project 2: Yellowstone Odyssey
@@ -59,7 +59,7 @@ Using beautiful imagery and interactive quizzes, the app provides a source for l
 Technologies: React, Express, Node, MongoDB, SemanticUI, Weather API, National Park API
 
 - [View Demo](https://yellowstone-odyssey.herokuapp.com/)
-- [View on Github](https://github.com/virtual/Buffaloed)
+- [View on GitHub](https://github.com/virtual/Buffaloed)
 
 <div class="figstack">
 <a data-fancybox="gallery2" href="/img/posts/mtcs/yo-home.png">
@@ -83,8 +83,8 @@ Solving the problem of how much coffee to make! Utilizing React and React Native
 Technologies: React, React Native, Raspberry Pi, Python, Express, Node, PostgreSQL, Nodemailer, Material Design, SVG
 
 - [View Demo](https://coffee-pot-pi.herokuapp.com/)
-- [View React App on Github](https://github.com/bbalconi/coffee-pot)
-- [View React Native App on Github](https://github.com/virtual/coffee-pot-mobile)
+- [View React App on GitHub](https://github.com/bbalconi/coffee-pot)
+- [View React Native App on GitHub](https://github.com/virtual/coffee-pot-mobile)
 
 <div class="figstack">
 <a data-fancybox="gallery3" href="/img/posts/mtcs/coffee-web-home.png">

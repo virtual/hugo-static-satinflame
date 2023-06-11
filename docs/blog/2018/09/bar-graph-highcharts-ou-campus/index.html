@@ -10,7 +10,7 @@
   <meta name="author" content="Jeanine Schoessler" />
   <meta name="theme-color" content="#333333" />
   <meta name="description" content="If you find yourself often updating handfuls of bar chart images, look into this solution to save you time and to help deliver your information more semantically. Using the Highcharts JS library, OU Campus users can now easily modify the bar chart data as needed.">
-  <meta name="generator" content="Hugo 0.83.1" />
+  <meta name="generator" content="Hugo 0.113.0">
   <link rel="canonical" href="https://www.satinflame.com/blog/2018/09/bar-graph-highcharts-ou-campus/">
   <meta property="og:title" content="Adding Bar Graphs using Highcharts in OU Campus" />
   <meta property="og:type" content="website" />
@@ -121,14 +121,6 @@
   </style>
 
  
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-7598678-1', 'auto');
-  ga('send', 'pageview');
-</script> 
 </head>
 
 
@@ -140,7 +132,6 @@
         <ul class="list-unstyled list-inline">
             <li><a title="Get started with your project" href="/contact"><span class="fas fa-envelope"><span class="sr-only">Email</span></span></a></li>
             <li><a title="View Jeanine Schoessler's profile on LinkedIn" href="https://www.linkedin.com/in/satinflame/"><span class="fab fa-linkedin"><span class="sr-only">LinkedIn</span></span></a></li>
-            <li><a title="Find me on Twitter" href="https://twitter.com/satinflame"><span class="fab fa-twitter"><span class="sr-only">Twitter</span></span></a></li>
             <li><a title="Find me on GitHub" href="https://github.com/virtual"><span class="fab fa-github"><span class="sr-only">GitHub</span></span></a></li>
         </ul>
     </div>
@@ -304,27 +295,27 @@ class="mine" >
                                           
                           <p>In this example, the HTML table is transformed using the <a href="https://www.highcharts.com/products/highcharts/">Highcharts library</a>—it is free for non-profits, so <a href="https://shop.highsoft.com/highcharts/">go grab a Highcharts Non-commercial license</a>.</p>
 <p>On your page, include the Highcharts library file as well as your customized JS—specific to this type of bar graph setup. In your file at <code>/_resources/ou/editor/wysiwyg.css</code> or similar, add the following CSS to show the table in edit mode only:</p>
-<div class="highlight"><div style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">8
+<div class="highlight"><div style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">8
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#111">#</span><span style="color:#111">datatable</span><span style="color:#111">.</span><span style="color:#75af00">sr-only</span> <span style="color:#111">{</span>
-    <span style="color:#00a8c8">display</span><span style="color:#111">:</span> <span style="color:#00a8c8">block</span> <span style="color:#75715e">!important</span><span style="color:#111">;</span>
-    <span style="color:#00a8c8">position</span><span style="color:#111">:</span> <span style="color:#00a8c8">relative</span><span style="color:#111">;</span>
-    <span style="color:#00a8c8">height</span><span style="color:#111">:</span> <span style="color:#00a8c8">auto</span><span style="color:#111">;</span>
-    <span style="color:#00a8c8">width</span><span style="color:#111">:</span> <span style="color:#00a8c8">auto</span><span style="color:#111">;</span>
-    <span style="color:#00a8c8">overflow</span><span style="color:#111">:</span> <span style="color:#00a8c8">auto</span><span style="color:#111">;</span>
-    <span style="color:#00a8c8">clip</span><span style="color:#111">:</span> <span style="color:#00a8c8">auto</span><span style="color:#111">;</span>
-<span style="color:#111">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span><span style="color:#111">#</span><span style="color:#111">datatable</span><span style="color:#111">.</span><span style="color:#75af00">sr-only</span> <span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">display</span><span style="color:#111">:</span> <span style="color:#00a8c8">block</span> <span style="color:#75715e">!important</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">position</span><span style="color:#111">:</span> <span style="color:#00a8c8">relative</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">height</span><span style="color:#111">:</span> <span style="color:#00a8c8">auto</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">width</span><span style="color:#111">:</span> <span style="color:#00a8c8">auto</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">overflow</span><span style="color:#111">:</span> <span style="color:#00a8c8">auto</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">clip</span><span style="color:#111">:</span> <span style="color:#00a8c8">auto</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Here&rsquo;s an example of how the Highcharts table looks using page edit view within OU Campus:</p>
 <table>
@@ -410,12 +401,6 @@ class="mine" >
 
   
 
-  <h2>Follow me</h2>
-  <a class="twitter-timeline" data-height="400" data-tweet-limit="1" data-dnt="true" data-link-color="#E81C4F"
-    href="https://twitter.com/satinflame?ref_src=twsrc%5Etfw">Tweets by satinflame</a>
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  
-
 </div>
 
                        
@@ -446,7 +431,6 @@ class="mine" >
         <ul class="list-unstyled list-inline">
             <li><a title="Get started with your project" href="/contact"><span class="fas fa-envelope"><span class="sr-only">Email</span></span></a></li>
             <li><a title="View Jeanine Schoessler's profile on LinkedIn" href="https://www.linkedin.com/in/satinflame/"><span class="fab fa-linkedin"><span class="sr-only">LinkedIn</span></span></a></li>
-            <li><a title="Find me on Twitter" href="https://twitter.com/satinflame"><span class="fab fa-twitter"><span class="sr-only">Twitter</span></span></a></li>
             <li><a title="Find me on GitHub" href="https://github.com/virtual"><span class="fab fa-github"><span class="sr-only">GitHub</span></span></a></li>
         </ul>
     </div>
@@ -454,21 +438,12 @@ class="mine" >
 </div>
     
 
-<div class="padded-logos">
-  <div class="container clearfix">
-    <div class="row">
-      <div class="col-sm-12">
-        <p><a href="https://omniupdate.com/partners/partners-list.html">Official Partner—OmniUpdate </a></p>
-      </div>
-      
-    </div>
-  </div>
-</div>
+
 <footer id="copyright">
     <div class="container">
         <div class="col-md-12">
             
-            <p>&copy; 2014-2021 satinflame design  &nbsp;
+            <p>&copy; 2014-2023 satinflame design  &nbsp;
               <a href="https://www.satinflame.com/index.xml"><span class="fa fa-rss"></span> <span class="sr-only">Blog RSS</span></a></p>
             
              
